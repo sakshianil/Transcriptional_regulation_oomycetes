@@ -29,4 +29,3 @@ To use this repository, clone it to your local machine using:
 ```bash
 git clone https://github.com/your-username/Transcriptional-regulation-in-oomycetes.git
 
-# Transcriptiona_regulation_oomycetes
