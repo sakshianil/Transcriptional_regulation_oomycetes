@@ -19,4 +19,4 @@ Motif discovery is performed using MEME to find common regulatory elements in th
 ![Methodology for motif discovery in closely related oomycetes](../figures/pipeline_2.png)
 
 
-![Methodology for identification of transcription factors in oomycetes](../images/pipeline_3.png)
+![Methodology for identification of transcription factors in oomycetes](../figures/pipeline_3.png)
