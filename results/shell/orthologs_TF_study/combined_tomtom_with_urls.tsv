@@ -1,0 +1,577 @@
+basename	Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation	Motif_URL
+no_char_rmdup_result_1.fasta.txt	CCTCKGAC	MA0504.1	3	0.000178401	0.103294	0.206192	8	CCTCTGAC	TGACCTCTGACCCCT	-	http://jaspar2018.genereg.net/matrix/MA0504.1
+no_char_rmdup_result_1.fasta.txt	CCTCKGAC	MA0131.2	0	0.000855836	0.495529	0.340838	8	CCTCTGAC	CCGCGGACGTTG	-	http://jaspar2018.genereg.net/matrix/MA0131.2
+no_char_rmdup_result_1.fasta.txt											
+no_char_rmdup_result_100.fasta.txt											
+no_char_rmdup_result_108.fasta.txt											
+no_char_rmdup_result_11.fasta.txt	CAGCTCSTSC	MA1100.1	3	0.000433398	0.250937	0.455835	10	CAGCTCGTCC	CGCCAGCTGCTGC	-	http://jaspar2018.genereg.net/matrix/MA1100.1
+no_char_rmdup_result_11.fasta.txt	CTTGG	MA0161.2	2	0.000362457	0.209863	0.419725	5	CTTGG	TACTTGGCAGA	+	http://jaspar2018.genereg.net/matrix/MA0161.2
+no_char_rmdup_result_11.fasta.txt	GTGAC	MA1112.1	0	0.000651658	0.37731	0.19901	5	GTGAC	GTGACCTTTT	-	http://jaspar2018.genereg.net/matrix/MA1112.1
+no_char_rmdup_result_11.fasta.txt											
+no_char_rmdup_result_111.fasta.txt	GTCTCSCSKNCCAC	MA0509.1	0	0.000704396	0.407845	0.815691	14	GTCTCCCCGGCCAC	GTTGCCATGGCAAC	+	http://jaspar2018.genereg.net/matrix/MA0509.1
+no_char_rmdup_result_111.fasta.txt											
+no_char_rmdup_result_112.fasta.txt	GVACCRCG	MA1108.1	0	0.00012193	0.0705974	0.141195	8	GGACCACG	CGACCACGTGCCC	+	http://jaspar2018.genereg.net/matrix/MA1108.1
+no_char_rmdup_result_112.fasta.txt											
+no_char_rmdup_result_113.fasta.txt	GCAGC	MA0048.2	1	0.000422417	0.244579	0.244084	5	GCAGC	CGCAGCTGCG	+	http://jaspar2018.genereg.net/matrix/MA0048.2
+no_char_rmdup_result_113.fasta.txt	GCAGC	MA1100.1	3	0.000633558	0.36683	0.244084	5	GCAGC	GCAGCAGCTGGCG	+	http://jaspar2018.genereg.net/matrix/MA1100.1
+no_char_rmdup_result_113.fasta.txt											
+no_char_rmdup_result_114.fasta.txt	GACKACRAGTGC	MA0622.1	-4	0.000418133	0.242099	0.357136	8	GACTACAAGTGC	ACACGTGC	-	http://jaspar2018.genereg.net/matrix/MA0622.1
+no_char_rmdup_result_114.fasta.txt	GACKACRAGTGC	MA0626.1	-3	0.000729033	0.42211	0.357136	9	GACTACAAGTGC	GACACGTGCC	-	http://jaspar2018.genereg.net/matrix/MA0626.1
+no_char_rmdup_result_114.fasta.txt	GGGKC	MA0155.1	6	0.000195819	0.113379	0.223651	5	GGGGC	TGTCAGGGGGCG	+	http://jaspar2018.genereg.net/matrix/MA0155.1
+no_char_rmdup_result_114.fasta.txt	GGGKC	MA0163.1	0	0.0007868	0.455557	0.402549	5	GGGGC	GGGGCCCAAGGGGG	+	http://jaspar2018.genereg.net/matrix/MA0163.1
+no_char_rmdup_result_114.fasta.txt											
+no_char_rmdup_result_12.fasta.txt	GCTGCAGNWK	MA0521.1	-1	0.000123838	0.0717022	0.0916547	9	GCTGCAGCAG	CTGCAGCTGTT	-	http://jaspar2018.genereg.net/matrix/MA0521.1
+no_char_rmdup_result_12.fasta.txt	GCTGCAGNWK	MA1100.1	0	0.000182676	0.105769	0.0916547	10	GCTGCAGCAG	GCAGCAGCTGGCG	+	http://jaspar2018.genereg.net/matrix/MA1100.1
+no_char_rmdup_result_12.fasta.txt	GCTGCAGNWK	MA0500.1	-1	0.000237697	0.137627	0.0916547	9	GCTGCAGCAG	CTGCAGCTGTC	-	http://jaspar2018.genereg.net/matrix/MA0500.1
+no_char_rmdup_result_12.fasta.txt	GCGCGTCRTC	MA0605.1	-2	0.000681683	0.394694	0.602786	8	GCGCGTCGTC	ACGTCATC	-	http://jaspar2018.genereg.net/matrix/MA0605.1
+no_char_rmdup_result_12.fasta.txt											
+no_char_rmdup_result_123.fasta.txt											
+no_char_rmdup_result_126.fasta.txt											
+no_char_rmdup_result_13.fasta.txt	CGCCACCTT	MA0095.2	2	0.000347922	0.201447	0.290172	9	CGCCACCTT	GCCGCCATCTTG	-	http://jaspar2018.genereg.net/matrix/MA0095.2
+no_char_rmdup_result_13.fasta.txt	CGCCACCTT	MA0685.1	7	0.000696178	0.403087	0.290172	9	CGCCACCTT	TAAGCCACGCCCCCTTT	+	http://jaspar2018.genereg.net/matrix/MA0685.1
+no_char_rmdup_result_13.fasta.txt	CGCCACCTT	MA0740.1	5	0.000758141	0.438964	0.290172	9	CGCCACCTT	GGCCACGCCCCCTT	+	http://jaspar2018.genereg.net/matrix/MA0740.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0643.1	1	6.59751e-06	0.00381996	0.0023228	7	TGACCTT	ATGACCTTGA	-	http://jaspar2018.genereg.net/matrix/MA0643.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA1112.1	1	6.59751e-06	0.00381996	0.0023228	7	TGACCTT	GTGACCTTTT	-	http://jaspar2018.genereg.net/matrix/MA1112.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0141.3	2	8.24688e-06	0.00477494	0.0023228	7	TGACCTT	TATGACCTTGA	-	http://jaspar2018.genereg.net/matrix/MA0141.3
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0592.2	1	8.24688e-06	0.00477494	0.0023228	7	TGACCTT	ATGACCTTGAA	-	http://jaspar2018.genereg.net/matrix/MA0592.2
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0115.1	2	1.8143e-05	0.0105048	0.00391151	7	TGACCTT	GTTGACCTTTGACCTTT	-	http://jaspar2018.genereg.net/matrix/MA0115.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA1111.1	2	2.08312e-05	0.0120612	0.00391151	7	TGACCTT	TTTGACCTTTG	-	http://jaspar2018.genereg.net/matrix/MA1111.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0512.2	0	3.33296e-05	0.0192979	0.00417225	7	TGACCTT	TGACCTTTGACCCC	-	http://jaspar2018.genereg.net/matrix/MA0512.2
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0677.1	0	3.33296e-05	0.0192979	0.00417225	7	TGACCTT	TGACCTTTGACCTC	-	http://jaspar2018.genereg.net/matrix/MA0677.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0855.1	0	3.33296e-05	0.0192979	0.00417225	7	TGACCTT	TGACCTTTGACCCC	-	http://jaspar2018.genereg.net/matrix/MA0855.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0160.1	1	5.37571e-05	0.0311254	0.00594106	7	TGACCTT	GTGACCTT	-	http://jaspar2018.genereg.net/matrix/MA0160.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0856.1	0	5.80062e-05	0.0335856	0.00594106	7	TGACCTT	TGACCTTTGACCCC	-	http://jaspar2018.genereg.net/matrix/MA0856.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0857.1	0	7.25072e-05	0.0419817	0.00680742	7	TGACCTT	TGACCTTTTGACCTTT	-	http://jaspar2018.genereg.net/matrix/MA0857.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0860.1	10	7.97577e-05	0.0461797	0.00691212	7	TGACCTT	TGACCTTTCGTGACCTT	-	http://jaspar2018.genereg.net/matrix/MA0860.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0071.1	0	0.000107511	0.062249	0.00865184	7	TGACCTT	TGACCTTGAT	-	http://jaspar2018.genereg.net/matrix/MA0071.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0729.1	3	0.000124532	0.0721043	0.00935349	7	TGACCTT	CATTGACCTTTTGACCTC	-	http://jaspar2018.genereg.net/matrix/MA0729.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0859.1	1	0.00013547	0.0784372	0.00953907	7	TGACCTT	TTGACCTTTTGACCTT	-	http://jaspar2018.genereg.net/matrix/MA0859.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0730.1	0	0.000184541	0.106849	0.01223	7	TGACCTT	TGACCTTTGCATGACCT	-	http://jaspar2018.genereg.net/matrix/MA0730.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA1148.1	1	0.000240915	0.13949	0.0143429	7	TGACCTT	ATGACCTTTGACCTACAT	-	http://jaspar2018.genereg.net/matrix/MA1148.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0065.2	0	0.000241884	0.140051	0.0143429	7	TGACCTT	TGACCTTTGCCCTAC	-	http://jaspar2018.genereg.net/matrix/MA0065.2
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0858.1	0	0.000257831	0.149284	0.014524	7	TGACCTT	TGACCTTTAGTTGACCT	-	http://jaspar2018.genereg.net/matrix/MA0858.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0728.1	0	0.000273583	0.158404	0.0146775	7	TGACCTT	TGACCTTTTGACCTC	-	http://jaspar2018.genereg.net/matrix/MA0728.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0112.3	10	0.000295628	0.171169	0.0151393	7	TGACCTT	CAGGTCACCGTGACCTT	-	http://jaspar2018.genereg.net/matrix/MA0112.3
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0017.2	4	0.000425366	0.246287	0.0206401	7	TGACCTT	CCCTTGACCTTTG	-	http://jaspar2018.genereg.net/matrix/MA0017.2
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0505.1	2	0.000439683	0.254577	0.0206401	7	TGACCTT	GCTGACCTTGAACTT	-	http://jaspar2018.genereg.net/matrix/MA0505.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA1110.1	4	0.000728631	0.421877	0.0315929	7	TGACCTT	TCAATGACCTA	+	http://jaspar2018.genereg.net/matrix/MA1110.1
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0620.2	10	0.000729088	0.422142	0.0315929	7	TGACCTT	TAAGGTCACGTGACCTTA	+	http://jaspar2018.genereg.net/matrix/MA0620.2
+no_char_rmdup_result_13.fasta.txt	TGACCTT	MA0504.1	0	0.000838024	0.485216	0.0335218	7	TGACCTT	TGACCTCTGACCCCT	-	http://jaspar2018.genereg.net/matrix/MA0504.1
+no_char_rmdup_result_13.fasta.txt	CAATGTCCRTG	MA0131.2	0	0.000423794	0.245377	0.238106	11	CAATGTCCGTG	CAACGTCCGCGG	+	http://jaspar2018.genereg.net/matrix/MA0131.2
+no_char_rmdup_result_13.fasta.txt	CAATGTCCRTG	MA0866.1	2	0.000584119	0.338205	0.238106	11	CAATGTCCGTG	AACAATGGTAGTGTT	+	http://jaspar2018.genereg.net/matrix/MA0866.1
+no_char_rmdup_result_13.fasta.txt	CAATGTCCRTG	MA0869.1	2	0.000616967	0.357224	0.238106	11	CAATGTCCGTG	AACAATTTCAGTGTT	+	http://jaspar2018.genereg.net/matrix/MA0869.1
+no_char_rmdup_result_13.fasta.txt	TGCGCTTCCCGTT	MA1418.1	4	0.000679604	0.393491	0.160208	13	TGCGCTTCCCGTT	CAGTTTCGGTTTCCGTTTCCC	-	http://jaspar2018.genereg.net/matrix/MA1418.1
+no_char_rmdup_result_13.fasta.txt	TGCGCTTCCCGTT	MA0028.2	-2	0.000764917	0.442887	0.160208	10	TGCGCTTCCCGTT	CACTTCCGGT	-	http://jaspar2018.genereg.net/matrix/MA0028.2
+no_char_rmdup_result_13.fasta.txt	TGCGCTTCCCGTT	MA0760.1	-2	0.000813357	0.470934	0.160208	10	TGCGCTTCCCGTT	CACTTCCGGT	-	http://jaspar2018.genereg.net/matrix/MA0760.1
+no_char_rmdup_result_13.fasta.txt											
+no_char_rmdup_result_130.fasta.txt											
+no_char_rmdup_result_131.fasta.txt	GGGTCA	MA0855.1	1	0.000503187	0.291345	0.221056	6	GGGTCA	GGGGTCAAAGGTCA	+	http://jaspar2018.genereg.net/matrix/MA0855.1
+no_char_rmdup_result_131.fasta.txt	GGGTCA	MA0074.1	0	0.000669581	0.387687	0.221056	6	GGGTCA	GGGTCATCGAGTTCA	+	http://jaspar2018.genereg.net/matrix/MA0074.1
+no_char_rmdup_result_131.fasta.txt	GGGTCA	MA0114.3	1	0.000736514	0.426442	0.221056	6	GGGTCA	GGGGTCAAAGTCCAAT	+	http://jaspar2018.genereg.net/matrix/MA0114.3
+no_char_rmdup_result_131.fasta.txt	GGGTCA	MA0014.3	1	0.000856336	0.495818	0.221056	6	GGGTCA	GGGGTCACGCTC	-	http://jaspar2018.genereg.net/matrix/MA0014.3
+no_char_rmdup_result_131.fasta.txt											
+no_char_rmdup_result_14.fasta.txt											
+no_char_rmdup_result_15.fasta.txt	TKCWSRCCAGSBSC	MA1100.1	-4	0.000355354	0.20575	0.4115	10	TTCTGACCAGCGGC	CGCCAGCTGCTGC	-	http://jaspar2018.genereg.net/matrix/MA1100.1
+no_char_rmdup_result_15.fasta.txt	CATTCCTGRAA	MA0137.3	-1	0.000540585	0.312999	0.392188	10	CATTCCTGGAA	TTTCCTGGAAA	-	http://jaspar2018.genereg.net/matrix/MA0137.3
+no_char_rmdup_result_15.fasta.txt	CATTCCTGRAA	MA0731.1	2	0.000783057	0.45339	0.392188	11	CATTCCTGGAA	TGAATTCCTAGAAAGCA	-	http://jaspar2018.genereg.net/matrix/MA0731.1
+no_char_rmdup_result_15.fasta.txt											
+no_char_rmdup_result_16.fasta.txt	TTTGATGTC	MA0523.1	4	0.000367624	0.212854	0.425709	9	TTTGATGTC	TTCCTTTGATCTTT	-	http://jaspar2018.genereg.net/matrix/MA0523.1
+no_char_rmdup_result_16.fasta.txt											
+no_char_rmdup_result_17.fasta.txt											
+no_char_rmdup_result_18.fasta.txt	CAGCRTYTGCG	MA0131.2	0	0.00052282	0.302713	0.571059	11	CAGCATTTGCG	CAACGTCCGCGG	+	http://jaspar2018.genereg.net/matrix/MA0131.2
+no_char_rmdup_result_18.fasta.txt											
+no_char_rmdup_result_19.fasta.txt	AGAAKRYRATCAAGG	MA0852.2	-2	0.000332778	0.192679	0.385357	13	AGAAGATGATCAAGG	AATGTAAACAAGGC	+	http://jaspar2018.genereg.net/matrix/MA0852.2
+no_char_rmdup_result_19.fasta.txt											
+no_char_rmdup_result_2.fasta.txt	CTTCCTC	MA0687.1	2	0.000341929	0.197977	0.395881	7	CTTCCTC	TACTTCCTCTTTTT	-	http://jaspar2018.genereg.net/matrix/MA0687.1
+no_char_rmdup_result_2.fasta.txt											
+no_char_rmdup_result_21.fasta.txt											
+no_char_rmdup_result_23.fasta.txt	CCCCGYTRC	MA0697.1	4	1.03712e-05	0.00600494	0.0119973	9	CCCCGCTGC	GACCCCCCGCTGCGC	+	http://jaspar2018.genereg.net/matrix/MA0697.1
+no_char_rmdup_result_23.fasta.txt	CCCCGYTRC	MA0751.1	4	5.14388e-05	0.0297831	0.0242886	9	CCCCGCTGC	GACCCCCCGCTGTGC	+	http://jaspar2018.genereg.net/matrix/MA0751.1
+no_char_rmdup_result_23.fasta.txt	CCCCGYTRC	MA0696.1	4	6.299e-05	0.0364712	0.0242886	9	CCCCGCTGC	GACCCCCCGCTGTG	+	http://jaspar2018.genereg.net/matrix/MA0696.1
+no_char_rmdup_result_23.fasta.txt	TBMCTCTSWYGCWA	MA0081.1	0	0.000306387	0.177398	0.354796	7	TTCCTCTGACGCAA	TTCCTCT	-	http://jaspar2018.genereg.net/matrix/MA0081.1
+no_char_rmdup_result_23.fasta.txt											
+no_char_rmdup_result_24.fasta.txt	CTCGCG	MA0527.1	2	0.000312573	0.18098	0.36196	6	CTCGCG	CTCTCGCGAGATCTG	+	http://jaspar2018.genereg.net/matrix/MA0527.1
+no_char_rmdup_result_24.fasta.txt											
+no_char_rmdup_result_25.fasta.txt	CAAGWGC	MA0673.1	2	0.000642065	0.371756	0.357144	7	CAAGTGC	TTCAAGTGG	-	http://jaspar2018.genereg.net/matrix/MA0673.1
+no_char_rmdup_result_25.fasta.txt	GCGGGG	MA0736.1	4	0.000293266	0.169801	0.146157	6	GCGGGG	CTTCGCGGGGGGTC	-	http://jaspar2018.genereg.net/matrix/MA0736.1
+no_char_rmdup_result_25.fasta.txt	GCGGGG	MA0697.1	5	0.000325846	0.188665	0.146157	6	GCGGGG	GCGCAGCGGGGGGTC	-	http://jaspar2018.genereg.net/matrix/MA0697.1
+no_char_rmdup_result_25.fasta.txt	GCGGGG	MA0079.3	4	0.000476308	0.275782	0.146157	6	GCGGGG	GGGGGCGGGGC	-	http://jaspar2018.genereg.net/matrix/MA0079.3
+no_char_rmdup_result_25.fasta.txt	GCGGGG	MA0696.1	4	0.00053223	0.308161	0.146157	6	GCGGGG	CACAGCGGGGGGTC	-	http://jaspar2018.genereg.net/matrix/MA0696.1
+no_char_rmdup_result_25.fasta.txt	GCGGGG	MA0751.1	5	0.000726442	0.42061	0.146157	6	GCGGGG	GCACAGCGGGGGGTC	-	http://jaspar2018.genereg.net/matrix/MA0751.1
+no_char_rmdup_result_25.fasta.txt	GCGGGG	MA0516.1	8	0.000861316	0.498702	0.146157	6	GCGGGG	GGGAGGGGGCGGGGC	-	http://jaspar2018.genereg.net/matrix/MA0516.1
+no_char_rmdup_result_25.fasta.txt											
+no_char_rmdup_result_26.fasta.txt	CGKCA	MA0605.1	1	0.000707993	0.409928	0.104158	5	CGTCA	ACGTCATC	-	http://jaspar2018.genereg.net/matrix/MA0605.1
+no_char_rmdup_result_26.fasta.txt											
+no_char_rmdup_result_27.fasta.txt	MWVCNBCCGBKWCTGC	MA1100.1	-3	0.000279857	0.162037	0.324074	13	ATGCGGCCGTGTCTGC	CGCCAGCTGCTGC	-	http://jaspar2018.genereg.net/matrix/MA1100.1
+no_char_rmdup_result_27.fasta.txt	GTCATT	MA1110.1	3	0.000262875	0.152205	0.283551	6	GTCATT	TAGGTCATTGA	-	http://jaspar2018.genereg.net/matrix/MA1110.1
+no_char_rmdup_result_27.fasta.txt											
+no_char_rmdup_result_28.fasta.txt											
+no_char_rmdup_result_29.fasta.txt	ATTGHGYA	MA0836.1	0	5.52816e-05	0.032008	0.0279152	8	ATTGCGTA	ATTGCGCAAT	-	http://jaspar2018.genereg.net/matrix/MA0836.1
+no_char_rmdup_result_29.fasta.txt	ATTGHGYA	MA0838.1	0	6.52815e-05	0.037798	0.0279152	8	ATTGCGTA	ATTGCGCAAT	-	http://jaspar2018.genereg.net/matrix/MA0838.1
+no_char_rmdup_result_29.fasta.txt	ATTGHGYA	MA0466.2	0	8.27959e-05	0.0479388	0.0279152	8	ATTGCGTA	ATTGCGCAAT	-	http://jaspar2018.genereg.net/matrix/MA0466.2
+no_char_rmdup_result_29.fasta.txt	ATTGHGYA	MA0837.1	0	9.6611e-05	0.0559377	0.0279152	8	ATTGCGTA	ATTGCGCAAT	-	http://jaspar2018.genereg.net/matrix/MA0837.1
+no_char_rmdup_result_29.fasta.txt											
+no_char_rmdup_result_3.fasta.txt	CSACVASBTCCAY	MA0039.3	0	0.000769972	0.445814	0.486524	11	CCACCACCTCCAT	CCACACCCTGC	+	http://jaspar2018.genereg.net/matrix/MA0039.3
+no_char_rmdup_result_3.fasta.txt	CSACVASBTCCAY	MA0744.1	0	0.000840436	0.486613	0.486524	13	CCACCACCTCCAT	CCACCTGTTGCAT	-	http://jaspar2018.genereg.net/matrix/MA0744.1
+no_char_rmdup_result_3.fasta.txt											
+no_char_rmdup_result_30.fasta.txt											
+no_char_rmdup_result_31.fasta.txt	YCCYGGASGRCG	MA0737.1	2	0.000325341	0.188373	0.338059	12	CCCCGGAGGACG	GACCCCCCACGAAG	+	http://jaspar2018.genereg.net/matrix/MA0737.1
+no_char_rmdup_result_31.fasta.txt	YCCYGGASGRCG	MA0735.1	3	0.000583867	0.338059	0.338059	12	CCCCGGAGGACG	AGACCCCCCACGAAGC	+	http://jaspar2018.genereg.net/matrix/MA0735.1
+no_char_rmdup_result_31.fasta.txt											
+no_char_rmdup_result_32.fasta.txt											
+no_char_rmdup_result_37.fasta.txt	CTRRC	MA0505.1	1	0.000758155	0.438972	0.877944	5	CTGAC	GCTGACCTTGAACTT	-	http://jaspar2018.genereg.net/matrix/MA0505.1
+no_char_rmdup_result_37.fasta.txt											
+no_char_rmdup_result_4.fasta.txt											
+no_char_rmdup_result_41.fasta.txt	GCTVCRGCAGCYYCK	MA0521.1	-1	0.000124334	0.0719897	0.107139	11	GCTACAGCAGCTCCG	CTGCAGCTGTT	-	http://jaspar2018.genereg.net/matrix/MA0521.1
+no_char_rmdup_result_41.fasta.txt	GCTVCRGCAGCYYCK	MA0500.1	-1	0.000314681	0.182201	0.107139	11	GCTACAGCAGCTCCG	CTGCAGCTGTC	-	http://jaspar2018.genereg.net/matrix/MA0500.1
+no_char_rmdup_result_41.fasta.txt	GCTVCRGCAGCYYCK	MA1100.1	-1	0.00032208	0.186484	0.107139	13	GCTACAGCAGCTCCG	CGCCAGCTGCTGC	-	http://jaspar2018.genereg.net/matrix/MA1100.1
+no_char_rmdup_result_41.fasta.txt	GCTVCRGCAGCYYCK	MA0499.1	-2	0.00037144	0.215064	0.107139	13	GCTACAGCAGCTCCG	TGCAGCTGTCCCT	+	http://jaspar2018.genereg.net/matrix/MA0499.1
+no_char_rmdup_result_41.fasta.txt	GCTVCRGCAGCYYCK	MA0816.1	-2	0.000664672	0.384845	0.153376	10	GCTACAGCAGCTCCG	AGCAGCTGCT	+	http://jaspar2018.genereg.net/matrix/MA0816.1
+no_char_rmdup_result_41.fasta.txt	ABGAABGACGYCW	MA1133.1	-3	0.000133656	0.0773869	0.0756205	10	AGGAAGGACGTCA	AATGACGTCACA	-	http://jaspar2018.genereg.net/matrix/MA1133.1
+no_char_rmdup_result_41.fasta.txt	ABGAABGACGYCW	MA0840.1	-3	0.000188447	0.109111	0.0756205	10	AGGAAGGACGTCA	AATGACGTCACC	+	http://jaspar2018.genereg.net/matrix/MA0840.1
+no_char_rmdup_result_41.fasta.txt	ABGAABGACGYCW	MA1129.1	-4	0.00037541	0.217362	0.0756205	9	AGGAAGGACGTCA	ATGACGTCAT	+	http://jaspar2018.genereg.net/matrix/MA1129.1
+no_char_rmdup_result_41.fasta.txt	ABGAABGACGYCW	MA1136.1	-4	0.00037541	0.217362	0.0756205	9	AGGAAGGACGTCA	ATGACGTCAT	-	http://jaspar2018.genereg.net/matrix/MA1136.1
+no_char_rmdup_result_41.fasta.txt	ABGAABGACGYCW	MA1140.1	-4	0.000487546	0.282289	0.0756205	9	AGGAAGGACGTCA	ATGACGTCAT	+	http://jaspar2018.genereg.net/matrix/MA1140.1
+no_char_rmdup_result_41.fasta.txt	ABGAABGACGYCW	MA1143.1	-4	0.000629607	0.364542	0.0796588	9	AGGAAGGACGTCA	ATGACGTAAC	+	http://jaspar2018.genereg.net/matrix/MA1143.1
+no_char_rmdup_result_41.fasta.txt	ABGAABGACGYCW	MA1127.1	-4	0.000722774	0.418486	0.0823018	9	AGGAAGGACGTCA	ATGACGTCATC	-	http://jaspar2018.genereg.net/matrix/MA1127.1
+no_char_rmdup_result_41.fasta.txt											
+no_char_rmdup_result_42.fasta.txt											
+no_char_rmdup_result_45.fasta.txt											
+no_char_rmdup_result_46.fasta.txt	CYTCCT	MA0528.1	13	0.000655844	0.379734	0.759468	6	CCTCCT	TCCTCCTCCCCCTCCTCCTCC	-	http://jaspar2018.genereg.net/matrix/MA0528.1
+no_char_rmdup_result_46.fasta.txt	MWDRGCTRCSGCAGC	MA0659.1	1	0.000333537	0.193118	0.226446	15	AAAAGCTACCGCAGC	AAATTGCTGAGTCAGCATATT	+	http://jaspar2018.genereg.net/matrix/MA0659.1
+no_char_rmdup_result_46.fasta.txt	MWDRGCTRCSGCAGC	MA0496.2	0	0.000851833	0.493211	0.226446	15	AAAAGCTACCGCAGC	ATTTGCTGACTCAGCAATT	-	http://jaspar2018.genereg.net/matrix/MA0496.2
+no_char_rmdup_result_46.fasta.txt	CCGCTK	MA0080.4	5	0.000774043	0.448171	0.783491	6	CCGCTT	TACTTCCGCTTTTT	-	http://jaspar2018.genereg.net/matrix/MA0080.4
+no_char_rmdup_result_46.fasta.txt											
+no_char_rmdup_result_47.fasta.txt	CAWTAACRGMAMRGCC	MA0616.1	-3	0.000313376	0.181445	0.349353	13	CAATAACGGCAAAGCC	TAACGACACGTGC	+	http://jaspar2018.genereg.net/matrix/MA0616.1
+no_char_rmdup_result_47.fasta.txt	CAWTAACRGMAMRGCC	MA0742.1	-1	0.000603374	0.349353	0.349353	15	CAATAACGGCAAAGCC	AATAAGGGCGTGGTC	-	http://jaspar2018.genereg.net/matrix/MA0742.1
+no_char_rmdup_result_47.fasta.txt											
+no_char_rmdup_result_5.fasta.txt											
+no_char_rmdup_result_51.fasta.txt	CCCCGC	MA0736.1	4	0.000280313	0.162301	0.14432	6	CCCCGC	GACCCCCCGCGAAG	+	http://jaspar2018.genereg.net/matrix/MA0736.1
+no_char_rmdup_result_51.fasta.txt	CCCCGC	MA0697.1	4	0.000311454	0.180332	0.14432	6	CCCCGC	GACCCCCCGCTGCGC	+	http://jaspar2018.genereg.net/matrix/MA0697.1
+no_char_rmdup_result_51.fasta.txt	CCCCGC	MA0079.3	1	0.000467619	0.270752	0.14432	6	CCCCGC	GCCCCGCCCCC	+	http://jaspar2018.genereg.net/matrix/MA0079.3
+no_char_rmdup_result_51.fasta.txt	CCCCGC	MA0696.1	4	0.000519638	0.300871	0.14432	6	CCCCGC	GACCCCCCGCTGTG	+	http://jaspar2018.genereg.net/matrix/MA0696.1
+no_char_rmdup_result_51.fasta.txt	CCCCGC	MA0751.1	4	0.000712175	0.412349	0.14432	6	CCCCGC	GACCCCCCGCTGTGC	+	http://jaspar2018.genereg.net/matrix/MA0751.1
+no_char_rmdup_result_51.fasta.txt	CCCCGC	MA0516.1	1	0.000846198	0.489949	0.14432	6	CCCCGC	GCCCCGCCCCCTCCC	+	http://jaspar2018.genereg.net/matrix/MA0516.1
+no_char_rmdup_result_51.fasta.txt											
+no_char_rmdup_result_54.fasta.txt	KDYAGCGCGTGSCT	MA0632.1	-3	4.07561e-05	0.0235978	0.016822	10	GATAGCGCGTGCCT	GGCACGTGCC	+	http://jaspar2018.genereg.net/matrix/MA0632.1
+no_char_rmdup_result_54.fasta.txt	KDYAGCGCGTGSCT	MA1099.1	-3	4.49855e-05	0.0260466	0.016822	10	GATAGCGCGTGCCT	GACGCGTGCC	-	http://jaspar2018.genereg.net/matrix/MA1099.1
+no_char_rmdup_result_54.fasta.txt	KDYAGCGCGTGSCT	MA0825.1	-3	0.000121738	0.0704863	0.0259079	10	GATAGCGCGTGCCT	ACCACGTGCC	+	http://jaspar2018.genereg.net/matrix/MA0825.1
+no_char_rmdup_result_54.fasta.txt	KDYAGCGCGTGSCT	MA0822.1	-2	0.000137948	0.0798718	0.0259079	12	GATAGCGCGTGCCT	TGGCACGTGCCA	+	http://jaspar2018.genereg.net/matrix/MA0822.1
+no_char_rmdup_result_54.fasta.txt	KDYAGCGCGTGSCT	MA0821.1	-2	0.00016166	0.0936014	0.0259079	12	GATAGCGCGTGCCT	CGGCACGTGCCA	+	http://jaspar2018.genereg.net/matrix/MA0821.1
+no_char_rmdup_result_54.fasta.txt	KDYAGCGCGTGSCT	MA0058.3	-3	0.000327488	0.189616	0.0367385	10	GATAGCGCGTGCCT	ACCACGTGCT	+	http://jaspar2018.genereg.net/matrix/MA0058.3
+no_char_rmdup_result_54.fasta.txt	KDYAGCGCGTGSCT	MA0464.2	-3	0.000383941	0.222302	0.0388427	10	GATAGCGCGTGCCT	ATCACGTGAC	+	http://jaspar2018.genereg.net/matrix/MA0464.2
+no_char_rmdup_result_54.fasta.txt	KDYAGCGCGTGSCT	MA0823.1	-3	0.000415493	0.240571	0.0388427	10	GATAGCGCGTGCCT	GGCACGTGTC	-	http://jaspar2018.genereg.net/matrix/MA0823.1
+no_char_rmdup_result_54.fasta.txt	KDYAGCGCGTGSCT	MA0649.1	-3	0.0007202	0.416996	0.05771	10	GATAGCGCGTGCCT	GACACGTGCC	+	http://jaspar2018.genereg.net/matrix/MA0649.1
+no_char_rmdup_result_54.fasta.txt	AGBGWCKCGRCRGA	MA0161.2	-3	0.000122225	0.0707684	0.141537	11	AGCGACTCGGCAGA	TACTTGGCAGA	+	http://jaspar2018.genereg.net/matrix/MA0161.2
+no_char_rmdup_result_54.fasta.txt	AGATGKTRAA	MA0802.1	0	0.000798296	0.462213	0.720977	10	AGATGTTAAA	AGGTGTGAAA	+	http://jaspar2018.genereg.net/matrix/MA0802.1
+no_char_rmdup_result_54.fasta.txt	GYYAGSAVCWGCRG	MA0048.2	-3	3.39436e-05	0.0196534	0.0390949	10	GCTAGCAACTGCGG	CGCAGCTGCG	-	http://jaspar2018.genereg.net/matrix/MA0048.2
+no_char_rmdup_result_54.fasta.txt	GYYAGSAVCWGCRG	MA0522.2	-3	0.000105621	0.0611544	0.0546212	10	GCTAGCAACTGCGG	AACACCTGCT	+	http://jaspar2018.genereg.net/matrix/MA0522.2
+no_char_rmdup_result_54.fasta.txt	GYYAGSAVCWGCRG	MA0500.1	-3	0.000246585	0.142773	0.0710016	11	GCTAGCAACTGCGG	GACAGCTGCAG	+	http://jaspar2018.genereg.net/matrix/MA0500.1
+no_char_rmdup_result_54.fasta.txt	GYYAGSAVCWGCRG	MA0521.1	-3	0.000748216	0.433217	0.172353	11	GCTAGCAACTGCGG	AACAGCTGCAG	+	http://jaspar2018.genereg.net/matrix/MA0521.1
+no_char_rmdup_result_54.fasta.txt	TTGKYGTGGC	MA1107.1	2	9.2681e-05	0.0536623	0.078841	10	TTGGCGTGGC	GGTGGGTGTGGCC	-	http://jaspar2018.genereg.net/matrix/MA1107.1
+no_char_rmdup_result_54.fasta.txt	TTGKYGTGGC	MA0493.1	0	0.000137626	0.0796854	0.078841	10	TTGGCGTGGC	TGGGTGTGGCC	-	http://jaspar2018.genereg.net/matrix/MA0493.1
+no_char_rmdup_result_54.fasta.txt	TTGKYGTGGC	MA0746.1	1	0.000268204	0.15529	0.10243	10	TTGGCGTGGC	GGGGGCGTGGC	-	http://jaspar2018.genereg.net/matrix/MA0746.1
+no_char_rmdup_result_54.fasta.txt	TTGKYGTGGC	MA0747.1	2	0.000500227	0.289631	0.139267	10	TTGGCGTGGC	AGTGGGCGTGGC	-	http://jaspar2018.genereg.net/matrix/MA0747.1
+no_char_rmdup_result_54.fasta.txt	TTGKYGTGGC	MA0740.1	3	0.000727215	0.421057	0.139267	10	TTGGCGTGGC	AAGGGGGCGTGGCC	-	http://jaspar2018.genereg.net/matrix/MA0740.1
+no_char_rmdup_result_54.fasta.txt	TTGKYGTGGC	MA0741.1	1	0.000729317	0.422275	0.139267	10	TTGGCGTGGC	GGGGGCGTGGC	-	http://jaspar2018.genereg.net/matrix/MA0741.1
+no_char_rmdup_result_54.fasta.txt											
+no_char_rmdup_result_55.fasta.txt											
+no_char_rmdup_result_56.fasta.txt											
+no_char_rmdup_result_58.fasta.txt											
+no_char_rmdup_result_59.fasta.txt	CSGTTA	MA0776.1	1	2.96308e-05	0.0171562	0.0343125	6	CCGTTA	ACCGTTAACGGT	-	http://jaspar2018.genereg.net/matrix/MA0776.1
+no_char_rmdup_result_59.fasta.txt											
+no_char_rmdup_result_6.fasta.txt											
+no_char_rmdup_result_60.fasta.txt											
+no_char_rmdup_result_61.fasta.txt	CMCVMTSWRGAY	MA1155.1	4	0.000730898	0.42319	0.84638	11	CACACTCTGGAT	TGCACACACTGAAAA	+	http://jaspar2018.genereg.net/matrix/MA1155.1
+no_char_rmdup_result_61.fasta.txt											
+no_char_rmdup_result_63.fasta.txt	CTGCDGCTSVYGCG	MA1100.1	1	5.15271e-05	0.0298342	0.056165	12	CTGCAGCTGGTGCG	GCAGCAGCTGGCG	+	http://jaspar2018.genereg.net/matrix/MA1100.1
+no_char_rmdup_result_63.fasta.txt	CTGCDGCTSVYGCG	MA0521.1	0	9.71054e-05	0.056224	0.056165	11	CTGCAGCTGGTGCG	CTGCAGCTGTT	-	http://jaspar2018.genereg.net/matrix/MA0521.1
+no_char_rmdup_result_63.fasta.txt	CTGCDGCTSVYGCG	MA0500.1	0	0.000234856	0.135982	0.0679195	11	CTGCAGCTGGTGCG	CTGCAGCTGTC	-	http://jaspar2018.genereg.net/matrix/MA0500.1
+no_char_rmdup_result_63.fasta.txt	YSACCAC	MA0734.1	1	0.000170882	0.0989409	0.116953	7	CCACCAC	GCGACCACACTG	+	http://jaspar2018.genereg.net/matrix/MA0734.1
+no_char_rmdup_result_63.fasta.txt	YSACCAC	MA1108.1	0	0.000397969	0.230424	0.116953	7	CCACCAC	CGACCACGTGCCC	+	http://jaspar2018.genereg.net/matrix/MA1108.1
+no_char_rmdup_result_63.fasta.txt	YSACCAC	MA0694.1	1	0.000403983	0.233906	0.116953	7	CCACCAC	GCGACCACCGAA	+	http://jaspar2018.genereg.net/matrix/MA0694.1
+no_char_rmdup_result_63.fasta.txt	YSACCAC	MA0695.1	1	0.000403983	0.233906	0.116953	7	CCACCAC	GCGACCACCGAA	+	http://jaspar2018.genereg.net/matrix/MA0695.1
+no_char_rmdup_result_63.fasta.txt											
+no_char_rmdup_result_65.fasta.txt	CGTM	MA1131.1	5	0.000119519	0.0692014	0.0658287	4	CGTC	GATGACGTCAT	+	http://jaspar2018.genereg.net/matrix/MA1131.1
+no_char_rmdup_result_65.fasta.txt	CGTM	MA1140.1	4	0.000354726	0.205386	0.0658287	4	CGTC	ATGACGTCAT	+	http://jaspar2018.genereg.net/matrix/MA1140.1
+no_char_rmdup_result_65.fasta.txt	CGTM	MA0609.1	3	0.000354726	0.205386	0.0658287	4	CGTC	TTACGTCATA	-	http://jaspar2018.genereg.net/matrix/MA0609.1
+no_char_rmdup_result_65.fasta.txt	CGTM	MA1129.1	4	0.000354726	0.205386	0.0658287	4	CGTC	ATGACGTCAT	-	http://jaspar2018.genereg.net/matrix/MA1129.1
+no_char_rmdup_result_65.fasta.txt	CGTM	MA1136.1	4	0.000354726	0.205386	0.0658287	4	CGTC	ATGACGTCAT	-	http://jaspar2018.genereg.net/matrix/MA1136.1
+no_char_rmdup_result_65.fasta.txt	CGTM	MA1127.1	5	0.000405391	0.234721	0.0658287	4	CGTC	GATGACGTCAT	+	http://jaspar2018.genereg.net/matrix/MA1127.1
+no_char_rmdup_result_65.fasta.txt	CGTM	MA1145.1	7	0.000608024	0.352046	0.0719656	4	CGTC	GCGATGACGTCATCA	-	http://jaspar2018.genereg.net/matrix/MA1145.1
+no_char_rmdup_result_65.fasta.txt	CGTM	MA0604.1	2	0.000719846	0.416791	0.0719656	4	CGTC	TACGTCAT	-	http://jaspar2018.genereg.net/matrix/MA0604.1
+no_char_rmdup_result_65.fasta.txt	CGTM	MA0840.1	5	0.000823055	0.476549	0.0719656	4	CGTC	AATGACGTCACC	+	http://jaspar2018.genereg.net/matrix/MA0840.1
+no_char_rmdup_result_65.fasta.txt	CGTM	MA1133.1	5	0.000823055	0.476549	0.0719656	4	CGTC	AATGACGTCACA	-	http://jaspar2018.genereg.net/matrix/MA1133.1
+no_char_rmdup_result_65.fasta.txt	TGCAG	MA0867.1	7	0.000382005	0.221181	0.221181	5	TGCAG	GAACAATTGCAGTGTT	+	http://jaspar2018.genereg.net/matrix/MA0867.1
+no_char_rmdup_result_65.fasta.txt	TGCAG	MA0868.1	7	0.000382005	0.221181	0.221181	5	TGCAG	AACAATGTGCAGTGTT	+	http://jaspar2018.genereg.net/matrix/MA0868.1
+no_char_rmdup_result_65.fasta.txt											
+no_char_rmdup_result_67.fasta.txt	GCGCGTG	MA1099.1	1	0.000331366	0.191861	0.134064	7	GCGCGTG	GACGCGTGCC	-	http://jaspar2018.genereg.net/matrix/MA1099.1
+no_char_rmdup_result_67.fasta.txt	GCGCGTG	MA0006.1	-1	0.000603134	0.349214	0.134064	6	GCGCGTG	TGCGTG	+	http://jaspar2018.genereg.net/matrix/MA0006.1
+no_char_rmdup_result_67.fasta.txt	AWTTTC	MA0606.1	0	0.000321457	0.186124	0.372248	6	ATTTTC	ATTTTCCATT	+	http://jaspar2018.genereg.net/matrix/MA0606.1
+no_char_rmdup_result_67.fasta.txt											
+no_char_rmdup_result_68.fasta.txt	GCGTCKRCWSCTGS	MA0824.1	-5	0.000271464	0.157178	0.312393	9	GCGTCTACACCTGG	TACACCTGTC	+	http://jaspar2018.genereg.net/matrix/MA0824.1
+no_char_rmdup_result_68.fasta.txt											
+no_char_rmdup_result_69.fasta.txt	GTCRCTMTC	MA0014.3	3	0.000379272	0.219598	0.439197	9	GTCACTCTC	GGGGTCACGCTC	-	http://jaspar2018.genereg.net/matrix/MA0014.3
+no_char_rmdup_result_69.fasta.txt											
+no_char_rmdup_result_7.fasta.txt											
+no_char_rmdup_result_70.fasta.txt	CGTCGTCAAA	MA0908.1	-1	0.000620493	0.359265	0.32326	9	CGTCGTCAAA	GTCGTAAAAA	+	http://jaspar2018.genereg.net/matrix/MA0908.1
+no_char_rmdup_result_70.fasta.txt	CGTCGTCAAA	MA0873.1	0	0.000823301	0.476692	0.32326	10	CGTCGTCAAA	AGTCGTAAAAA	+	http://jaspar2018.genereg.net/matrix/MA0873.1
+no_char_rmdup_result_70.fasta.txt											
+no_char_rmdup_result_71.fasta.txt	TCTTCCYGGC	MA0471.1	0	0.00079284	0.459054	0.605386	10	TCTTCCTGGC	CCTTCCCGCCC	-	http://jaspar2018.genereg.net/matrix/MA0471.1
+no_char_rmdup_result_71.fasta.txt											
+no_char_rmdup_result_75.fasta.txt											
+no_char_rmdup_result_78.fasta.txt											
+no_char_rmdup_result_81.fasta.txt	CCCCGC	MA0736.1	4	0.000277576	0.160716	0.142539	6	CCCCGC	GACCCCCCGCGAAG	+	http://jaspar2018.genereg.net/matrix/MA0736.1
+no_char_rmdup_result_81.fasta.txt	CCCCGC	MA0697.1	4	0.00037334	0.216164	0.142539	6	CCCCGC	GACCCCCCGCTGCGC	+	http://jaspar2018.genereg.net/matrix/MA0697.1
+no_char_rmdup_result_81.fasta.txt	CCCCGC	MA0079.3	1	0.000462522	0.2678	0.142539	6	CCCCGC	GCCCCGCCCCC	+	http://jaspar2018.genereg.net/matrix/MA0079.3
+no_char_rmdup_result_81.fasta.txt	CCCCGC	MA0696.1	4	0.000573953	0.332319	0.142539	6	CCCCGC	GACCCCCCGCTGTG	+	http://jaspar2018.genereg.net/matrix/MA0696.1
+no_char_rmdup_result_81.fasta.txt	CCCCGC	MA0751.1	4	0.000770752	0.446265	0.142539	6	CCCCGC	GACCCCCCGCTGTGC	+	http://jaspar2018.genereg.net/matrix/MA0751.1
+no_char_rmdup_result_81.fasta.txt	CCCCGC	MA0516.1	1	0.000837147	0.484708	0.142539	6	CCCCGC	GCCCCGCCCCCTCCC	+	http://jaspar2018.genereg.net/matrix/MA0516.1
+no_char_rmdup_result_81.fasta.txt											
+no_char_rmdup_result_82.fasta.txt											
+no_char_rmdup_result_83.fasta.txt	GSBKGGWGSTG	MA1100.1	1	0.000448942	0.259937	0.519875	11	GCCTGGTGCTG	CGCCAGCTGCTGC	-	http://jaspar2018.genereg.net/matrix/MA1100.1
+no_char_rmdup_result_83.fasta.txt	SMMCTYGCKYCSSC	MA0163.1	1	0.00055867	0.32347	0.64694	13	GCACTCGCGCCCCC	CCCCCTTGGGCCCC	-	http://jaspar2018.genereg.net/matrix/MA0163.1
+no_char_rmdup_result_83.fasta.txt											
+no_char_rmdup_result_84.fasta.txt											
+no_char_rmdup_result_86.fasta.txt											
+no_char_rmdup_result_88.fasta.txt	CKYSTCAMHSSCYKC	MA0528.1	2	0.000850357	0.492357	0.984713	15	CTCCTCAACCCCTTC	TCCTCCTCCCCCTCCTCCTCC	-	http://jaspar2018.genereg.net/matrix/MA0528.1
+no_char_rmdup_result_88.fasta.txt	AGCG	MA0014.3	1	0.000782673	0.453167	0.906335	4	AGCG	GAGCGTGACCCC	+	http://jaspar2018.genereg.net/matrix/MA0014.3
+no_char_rmdup_result_88.fasta.txt											
+no_char_rmdup_result_9.fasta.txt	AMTTWATTAA	MA0702.1	-2	7.89883e-06	0.00457342	0.00418802	8	ACTTAATTAA	TTAATTAA	-	http://jaspar2018.genereg.net/matrix/MA0702.1
+no_char_rmdup_result_9.fasta.txt	AMTTWATTAA	MA0703.1	-2	7.89883e-06	0.00457342	0.00418802	8	ACTTAATTAA	TTAATTAA	-	http://jaspar2018.genereg.net/matrix/MA0703.1
+no_char_rmdup_result_9.fasta.txt	AMTTWATTAA	MA0135.1	1	2.74241e-05	0.0158786	0.0058162	10	ACTTAATTAA	AAATTAATTAATC	+	http://jaspar2018.genereg.net/matrix/MA0135.1
+no_char_rmdup_result_9.fasta.txt	AMTTWATTAA	MA0704.1	-2	3.58402e-05	0.0207515	0.00605716	8	ACTTAATTAA	TTAATTAA	+	http://jaspar2018.genereg.net/matrix/MA0704.1
+no_char_rmdup_result_9.fasta.txt	AMTTWATTAA	MA0601.1	1	7.4166e-05	0.0429421	0.00983086	10	ACTTAATTAA	ATATTAATTAA	+	http://jaspar2018.genereg.net/matrix/MA0601.1
+no_char_rmdup_result_9.fasta.txt	AMTTWATTAA	MA0910.1	1	0.000145098	0.0840115	0.017096	10	ACTTAATTAA	TAATTAATTAATGGCTA	+	http://jaspar2018.genereg.net/matrix/MA0910.1
+no_char_rmdup_result_9.fasta.txt	AMTTWATTAA	MA0853.1	3	0.00024161	0.139892	0.0242084	10	ACTTAATTAA	GGTAATTAATTAATGCG	-	http://jaspar2018.genereg.net/matrix/MA0853.1
+no_char_rmdup_result_9.fasta.txt	AMTTWATTAA	MA0721.1	-2	0.000251218	0.145455	0.0242084	8	ACTTAATTAA	CTAATTAA	+	http://jaspar2018.genereg.net/matrix/MA0721.1
+no_char_rmdup_result_9.fasta.txt	AMTTWATTAA	MA0621.1	0	0.000491357	0.284495	0.0372173	10	ACTTAATTAA	AATTAATTAGT	+	http://jaspar2018.genereg.net/matrix/MA0621.1
+no_char_rmdup_result_9.fasta.txt	AMTTWATTAA	MA0628.1	-1	0.000589827	0.34151	0.0372933	9	ACTTAATTAA	ATTAATTAAT	+	http://jaspar2018.genereg.net/matrix/MA0628.1
+no_char_rmdup_result_9.fasta.txt	AMTTWATTAA	MA0716.1	-2	0.000675534	0.391134	0.0372933	8	ACTTAATTAA	CTAATTAA	+	http://jaspar2018.genereg.net/matrix/MA0716.1
+no_char_rmdup_result_9.fasta.txt	AMTTWATTAA	MA0630.1	-2	0.000675534	0.391134	0.0372933	8	ACTTAATTAA	CCAATTAA	-	http://jaspar2018.genereg.net/matrix/MA0630.1
+no_char_rmdup_result_9.fasta.txt	AMTTWATTAA	MA0854.1	3	0.000702836	0.406942	0.0372933	10	ACTTAATTAA	GGTGATTAATTAATTCG	-	http://jaspar2018.genereg.net/matrix/MA0854.1
+no_char_rmdup_result_9.fasta.txt	AMTTWATTAA	MA0874.1	2	0.000849416	0.491812	0.0380876	10	ACTTAATTAA	TCCATTAATTAATGGAC	-	http://jaspar2018.genereg.net/matrix/MA0874.1
+no_char_rmdup_result_9.fasta.txt	CRAAACCGAAC	MA1420.1	1	9.29501e-06	0.00538181	0.00918023	11	CAAAACCGAAC	CCGAAACCGAAACT	+	http://jaspar2018.genereg.net/matrix/MA1420.1
+no_char_rmdup_result_9.fasta.txt	CRAAACCGAAC	MA0652.1	1	2.56035e-05	0.0148244	0.00918023	11	CAAAACCGAAC	TCGAAACCGAAACT	+	http://jaspar2018.genereg.net/matrix/MA0652.1
+no_char_rmdup_result_9.fasta.txt	CRAAACCGAAC	MA1419.1	1	2.8306e-05	0.0163892	0.00918023	11	CAAAACCGAAC	CCGAAACCGAAACTA	+	http://jaspar2018.genereg.net/matrix/MA1419.1
+no_char_rmdup_result_9.fasta.txt	CRAAACCGAAC	MA0653.1	2	3.1744e-05	0.0183798	0.00918023	11	CAAAACCGAAC	AACGAAACCGAAACT	+	http://jaspar2018.genereg.net/matrix/MA0653.1
+no_char_rmdup_result_9.fasta.txt	CRAAACCGAAC	MA1418.1	7	0.000854936	0.495008	0.168543	11	CAAAACCGAAC	GGGAAACGGAAACCGAAACTG	+	http://jaspar2018.genereg.net/matrix/MA1418.1
+no_char_rmdup_result_9.fasta.txt											
+no_char_rmdup_result_90.fasta.txt											
+no_char_rmdup_result_92.fasta.txt											
+no_char_rmdup_result_95.fasta.txt	SYMNNHGTTSGTCY	MA0091.1	1	0.000473873	0.274372	0.548745	11	GCAGATGTTCGTCT	AACAGATGGTCG	-	http://jaspar2018.genereg.net/matrix/MA0091.1
+no_char_rmdup_result_95.fasta.txt											
+no_char_rmdup_result_99.fasta.txt	CWMCWG	MA0745.1	1	0.000775864	0.449225	0.279577	6	CACCAG	ACACCTGTT	-	http://jaspar2018.genereg.net/matrix/MA0745.1
+no_char_rmdup_result_99.fasta.txt											
+result_17.fasta.txt											
+result_82.fasta.txt											
+rmdup_result_17.fasta.txt											
+rmdup_result_82.fasta.txt											
+no_char_rmdup_result_1.fasta.txt	2-CGGCAGCCCCGCTGC	MA0697.1	-2	0.000825458	0.47794	0.95588	13	CGGCAGCCCCGCTGC	GACCCCCCGCTGCGC	+	http://jaspar2018.genereg.net/matrix/MA0697.1
+no_char_rmdup_result_1.fasta.txt											
+no_char_rmdup_result_100.fasta.txt											
+no_char_rmdup_result_102.fasta.txt	2-AGRWGGAAVAS	MA0152.1	-3	0.000645915	0.373985	0.74797	7	AGGTGGAAGAC	TGGAAAA	-	http://jaspar2018.genereg.net/matrix/MA0152.1
+no_char_rmdup_result_102.fasta.txt											
+no_char_rmdup_result_104.fasta.txt	3-CCAGCTGCAC	MA1100.1	2	0.000227613	0.131788	0.262384	10	CCAGCTGCAC	CGCCAGCTGCTGC	-	http://jaspar2018.genereg.net/matrix/MA1100.1
+no_char_rmdup_result_104.fasta.txt	3-CCAGCTGCAC	MA0103.3	1	0.000800997	0.463777	0.307787	10	CCAGCTGCAC	CCCACCTGCGC	+	http://jaspar2018.genereg.net/matrix/MA0103.3
+no_char_rmdup_result_104.fasta.txt	3-CCAGCTGCAC	MA0521.1	1	0.000800997	0.463777	0.307787	10	CCAGCTGCAC	AACAGCTGCAG	+	http://jaspar2018.genereg.net/matrix/MA0521.1
+no_char_rmdup_result_104.fasta.txt	5-CGTGTCGTAR	MA0616.1	3	7.01548e-05	0.0406196	0.0812392	10	CGTGTCGTAG	GCACGTGTCGTTA	-	http://jaspar2018.genereg.net/matrix/MA0616.1
+no_char_rmdup_result_104.fasta.txt											
+no_char_rmdup_result_105.fasta.txt	1-TCTGGGCAA	MA0144.2	2	0.000563604	0.326327	0.392623	9	TCTGGGCAA	CTTCTGGGAAA	+	http://jaspar2018.genereg.net/matrix/MA0144.2
+no_char_rmdup_result_105.fasta.txt											
+no_char_rmdup_result_108.fasta.txt	2-GCAATGCGTGGAY	MA0006.1	-4	0.000154582	0.0895032	0.178663	6	GCAATGCGTGGAT	TGCGTG	+	http://jaspar2018.genereg.net/matrix/MA0006.1
+no_char_rmdup_result_108.fasta.txt	5-AGCGCCATCT	MA0864.1	5	0.000749745	0.434102	0.279397	10	AGCGCCATCT	AAAATGGCGCCATTTT	-	http://jaspar2018.genereg.net/matrix/MA0864.1
+no_char_rmdup_result_108.fasta.txt											
+no_char_rmdup_result_11.fasta.txt											
+no_char_rmdup_result_110.fasta.txt	3-CGWCACGCCS	MA0741.1	-1	0.000545612	0.315909	0.293968	9	CGTCACGCCC	GCCACGCCCCC	+	http://jaspar2018.genereg.net/matrix/MA0741.1
+no_char_rmdup_result_110.fasta.txt											
+no_char_rmdup_result_111.fasta.txt	4-ADGCTCACGR	MA0112.3	0	0.000260798	0.151002	0.302004	10	AGGCTCACGA	AAGGTCACGGTGACCTG	+	http://jaspar2018.genereg.net/matrix/MA0112.3
+no_char_rmdup_result_111.fasta.txt											
+no_char_rmdup_result_112.fasta.txt	5-ACCACGCGT	MA0626.1	0	0.000805547	0.466412	0.300758	9	ACCACGCGT	GGCACGTGTC	+	http://jaspar2018.genereg.net/matrix/MA0626.1
+no_char_rmdup_result_112.fasta.txt											
+no_char_rmdup_result_113.fasta.txt	3-ACGAGGGKAC	MA1102.1	1	0.000848082	0.49104	0.838536	10	ACGAGGGGAC	CACCAGGGGGCACC	+	http://jaspar2018.genereg.net/matrix/MA1102.1
+no_char_rmdup_result_113.fasta.txt	4-AACGCKGA	MA0598.2	0	0.000399807	0.231489	0.176673	8	AACGCGGA	AACCCGGAAGTA	+	http://jaspar2018.genereg.net/matrix/MA0598.2
+no_char_rmdup_result_113.fasta.txt	4-AACGCKGA	MA0641.1	0	0.000399807	0.231489	0.176673	8	AACGCGGA	AACCCGGAAGTG	+	http://jaspar2018.genereg.net/matrix/MA0641.1
+no_char_rmdup_result_113.fasta.txt	4-AACGCKGA	MA0473.2	0	0.000457702	0.265009	0.176673	8	AACGCGGA	AACCCGGAAGTG	+	http://jaspar2018.genereg.net/matrix/MA0473.2
+no_char_rmdup_result_113.fasta.txt	4-AACGCKGA	MA0640.1	0	0.000764115	0.442423	0.221211	8	AACGCGGA	AACCCGGAAGTAA	+	http://jaspar2018.genereg.net/matrix/MA0640.1
+no_char_rmdup_result_113.fasta.txt											
+no_char_rmdup_result_114.fasta.txt	1-CACCTGMG	MA0103.3	2	0.000196227	0.113615	0.218741	8	CACCTGAG	CCCACCTGCGC	+	http://jaspar2018.genereg.net/matrix/MA0103.3
+no_char_rmdup_result_114.fasta.txt											
+no_char_rmdup_result_117.fasta.txt	1-KGGCAATTATCTT	MA0885.1	-2	0.000310401	0.179722	0.353889	8	GGGCAATTATCTT	GCAATTAA	+	http://jaspar2018.genereg.net/matrix/MA0885.1
+no_char_rmdup_result_117.fasta.txt											
+no_char_rmdup_result_118.fasta.txt	2-RGAGAAAGCGAGY	MA0508.2	-1	9.4116e-05	0.0544932	0.108986	10	AGAGAAAGCGAGT	GTGAAAGTGA	-	http://jaspar2018.genereg.net/matrix/MA0508.2
+no_char_rmdup_result_118.fasta.txt	4-TGGTGCGAAATTST	MA0670.1	-1	0.000554525	0.32107	0.260879	10	TGGTGCGAAATTGT	GGTGCCAAGT	+	http://jaspar2018.genereg.net/matrix/MA0670.1
+no_char_rmdup_result_118.fasta.txt	4-TGGTGCGAAATTST	MA0802.1	0	0.000586533	0.339603	0.260879	10	TGGTGCGAAATTGT	AGGTGTGAAA	+	http://jaspar2018.genereg.net/matrix/MA0802.1
+no_char_rmdup_result_118.fasta.txt	4-TGGTGCGAAATTST	MA0800.1	1	0.000679063	0.393177	0.260879	12	TGGTGCGAAATTGT	AAGGTGTGAAAAT	+	http://jaspar2018.genereg.net/matrix/MA0800.1
+no_char_rmdup_result_118.fasta.txt											
+no_char_rmdup_result_12.fasta.txt											
+no_char_rmdup_result_123.fasta.txt	2-CGGCAGCCCCGCTGC	MA0697.1	-2	0.00080972	0.468828	0.937656	13	CGGCAGCCCCGCTGC	GACCCCCCGCTGCGC	+	http://jaspar2018.genereg.net/matrix/MA0697.1
+no_char_rmdup_result_123.fasta.txt	3-CGCMGCGTG	MA0104.4	0	0.000731084	0.423298	0.278967	9	CGCCGCGTG	GGCCACGTGGCC	+	http://jaspar2018.genereg.net/matrix/MA0104.4
+no_char_rmdup_result_123.fasta.txt	3-CGCMGCGTG	MA0147.3	0	0.00079022	0.457537	0.278967	9	CGCCGCGTG	GGCCACGTGCCC	+	http://jaspar2018.genereg.net/matrix/MA0147.3
+no_char_rmdup_result_123.fasta.txt	4-AATGGCAAM	MA0625.1	0	0.000370684	0.214626	0.319041	9	AATGGCAAA	AATGGAAAAT	-	http://jaspar2018.genereg.net/matrix/MA0625.1
+no_char_rmdup_result_123.fasta.txt	4-AATGGCAAM	MA0624.1	0	0.000567326	0.328482	0.319041	9	AATGGCAAA	AATGGAAAAT	-	http://jaspar2018.genereg.net/matrix/MA0624.1
+no_char_rmdup_result_123.fasta.txt	4-AATGGCAAM	MA0606.1	0	0.000833379	0.482527	0.319041	9	AATGGCAAA	AATGGAAAAT	-	http://jaspar2018.genereg.net/matrix/MA0606.1
+no_char_rmdup_result_123.fasta.txt											
+no_char_rmdup_result_126.fasta.txt	1-CCGWGAAGGCA	MA0813.1	2	0.000677132	0.392059	0.265105	11	CCGTGAAGGCA	TGCCCTGAGGGCA	+	http://jaspar2018.genereg.net/matrix/MA0813.1
+no_char_rmdup_result_126.fasta.txt	1-CCGWGAAGGCA	MA0731.1	6	0.000793351	0.45935	0.265105	11	CCGTGAAGGCA	TGAATTCCTAGAAAGCA	-	http://jaspar2018.genereg.net/matrix/MA0731.1
+no_char_rmdup_result_126.fasta.txt											
+no_char_rmdup_result_13.fasta.txt											
+no_char_rmdup_result_130.fasta.txt	1-GACTCWGGHAT	MA0501.1	2	0.000108782	0.0629849	0.103121	11	GACTCAGGCAT	ATGACTCAGCAATTT	+	http://jaspar2018.genereg.net/matrix/MA0501.1
+no_char_rmdup_result_130.fasta.txt	1-GACTCWGGHAT	MA1101.1	3	0.0001786	0.103409	0.103121	11	GACTCAGGCAT	GATGACTCAGCAAT	+	http://jaspar2018.genereg.net/matrix/MA1101.1
+no_char_rmdup_result_130.fasta.txt	1-GACTCWGGHAT	MA0496.2	7	0.000669393	0.387578	0.257666	11	GACTCAGGCAT	ATTTGCTGACTCAGCAATT	-	http://jaspar2018.genereg.net/matrix/MA0496.2
+no_char_rmdup_result_130.fasta.txt	2-GCAGCCCCGCTGCAC	MA0697.1	0	0.000170015	0.0984386	0.196877	15	GCAGCCCCGCTGCAC	GACCCCCCGCTGCGC	+	http://jaspar2018.genereg.net/matrix/MA0697.1
+no_char_rmdup_result_130.fasta.txt	5-CTTCCTCTGACGC	MA0081.1	-1	0.000413064	0.239164	0.478328	7	CTTCCTCTGACGC	TTCCTCT	-	http://jaspar2018.genereg.net/matrix/MA0081.1
+no_char_rmdup_result_130.fasta.txt											
+no_char_rmdup_result_131.fasta.txt	1-TCATGTAACC	MA0093.2	1	0.000418543	0.242337	0.338454	10	TCATGTAACC	GCCACGTGACC	+	http://jaspar2018.genereg.net/matrix/MA0093.2
+no_char_rmdup_result_131.fasta.txt	3-GCACTTGAAGATGTC	MA0673.1	0	0.00015234	0.0882049	0.17641	9	GCACTTGAAGATGTC	CCACTTGAA	+	http://jaspar2018.genereg.net/matrix/MA0673.1
+no_char_rmdup_result_131.fasta.txt	4-CGAGATTAA	MA0682.1	-1	0.000428428	0.24806	0.49612	8	CGAGATTAA	GGGATTAA	-	http://jaspar2018.genereg.net/matrix/MA0682.1
+no_char_rmdup_result_131.fasta.txt											
+no_char_rmdup_result_14.fasta.txt	3-CCCCACCAAG	MA0737.1	4	3.9607e-05	0.0229325	0.0458565	10	CCCCACCAAG	GACCCCCCACGAAG	+	http://jaspar2018.genereg.net/matrix/MA0737.1
+no_char_rmdup_result_14.fasta.txt	3-CCCCACCAAG	MA0735.1	5	0.000130993	0.0758452	0.0758314	10	CCCCACCAAG	AGACCCCCCACGAAGC	+	http://jaspar2018.genereg.net/matrix/MA0735.1
+no_char_rmdup_result_14.fasta.txt	3-CCCCACCAAG	MA0736.1	4	0.00062607	0.362494	0.241619	10	CCCCACCAAG	GACCCCCCGCGAAG	+	http://jaspar2018.genereg.net/matrix/MA0736.1
+no_char_rmdup_result_14.fasta.txt											
+no_char_rmdup_result_15.fasta.txt	2-ATTTACCA	MA0606.1	0	0.000671643	0.388881	0.777763	8	ATTTACCA	ATTTTCCATT	+	http://jaspar2018.genereg.net/matrix/MA0606.1
+no_char_rmdup_result_15.fasta.txt											
+no_char_rmdup_result_16.fasta.txt											
+no_char_rmdup_result_17.fasta.txt	1-GGAGGGTGTAACGG	MA0777.1	-1	0.000305445	0.176853	0.353705	13	GGAGGGTGTAACGG	GACCGTTTAACGGTT	-	http://jaspar2018.genereg.net/matrix/MA0777.1
+no_char_rmdup_result_17.fasta.txt	3-TCTCCCACCT	MA0803.1	-2	0.000223179	0.129221	0.0916055	8	TCTCCCACCT	TCACACCT	-	http://jaspar2018.genereg.net/matrix/MA0803.1
+no_char_rmdup_result_17.fasta.txt	3-TCTCCCACCT	MA0805.1	-2	0.000253307	0.146665	0.0916055	8	TCTCCCACCT	TCACACCT	-	http://jaspar2018.genereg.net/matrix/MA0805.1
+no_char_rmdup_result_17.fasta.txt	3-TCTCCCACCT	MA0802.1	0	0.000313873	0.181732	0.0916055	10	TCTCCCACCT	TTTCACACCT	-	http://jaspar2018.genereg.net/matrix/MA0802.1
+no_char_rmdup_result_17.fasta.txt	3-TCTCCCACCT	MA0801.1	-2	0.00035908	0.207907	0.0916055	8	TCTCCCACCT	TCACACCT	-	http://jaspar2018.genereg.net/matrix/MA0801.1
+no_char_rmdup_result_17.fasta.txt	3-TCTCCCACCT	MA0807.1	-2	0.000398024	0.230456	0.0916055	8	TCTCCCACCT	TCACACCT	-	http://jaspar2018.genereg.net/matrix/MA0807.1
+no_char_rmdup_result_17.fasta.txt	3-TCTCCCACCT	MA0806.1	-2	0.000481396	0.278728	0.0923281	8	TCTCCCACCT	TCACACCT	-	http://jaspar2018.genereg.net/matrix/MA0806.1
+no_char_rmdup_result_17.fasta.txt	3-TCTCCCACCT	MA0688.1	0	0.000608574	0.352364	0.100046	10	TCTCCCACCT	TTTCACACCTT	-	http://jaspar2018.genereg.net/matrix/MA0688.1
+no_char_rmdup_result_17.fasta.txt											
+no_char_rmdup_result_18.fasta.txt	1-CATSGCGCT	MA0138.2	9	0.000390152	0.225898	0.451796	9	CATGGCGCT	GGCGCTGTCCATGGTGCTGAA	-	http://jaspar2018.genereg.net/matrix/MA0138.2
+no_char_rmdup_result_18.fasta.txt											
+no_char_rmdup_result_19.fasta.txt	5-CCGCCTTGATCGCCT	MA0163.1	0	0.00057906	0.335276	0.670552	14	CCGCCTTGATCGCCT	CCCCCTTGGGCCCC	-	http://jaspar2018.genereg.net/matrix/MA0163.1
+no_char_rmdup_result_19.fasta.txt											
+no_char_rmdup_result_2.fasta.txt											
+no_char_rmdup_result_20.fasta.txt											
+no_char_rmdup_result_21.fasta.txt											
+no_char_rmdup_result_23.fasta.txt	1-CCCGCTGCA	MA0697.1	5	0.000459784	0.266215	0.53243	9	CCCGCTGCA	GACCCCCCGCTGCGC	+	http://jaspar2018.genereg.net/matrix/MA0697.1
+no_char_rmdup_result_23.fasta.txt											
+no_char_rmdup_result_24.fasta.txt											
+no_char_rmdup_result_25.fasta.txt											
+no_char_rmdup_result_26.fasta.txt											
+no_char_rmdup_result_27.fasta.txt											
+no_char_rmdup_result_28.fasta.txt	1-CAAAAAKGACGCC	MA0469.2	-1	3.71067e-05	0.0214848	0.0429245	12	CAAAAAGGACGCC	AAAAATGGCGCCATTTTT	+	http://jaspar2018.genereg.net/matrix/MA0469.2
+no_char_rmdup_result_28.fasta.txt	2-CGTCATCCGTTGC	MA0605.1	1	0.000570367	0.330243	0.609263	7	CGTCATCCGTTGC	ACGTCATC	-	http://jaspar2018.genereg.net/matrix/MA0605.1
+no_char_rmdup_result_28.fasta.txt											
+no_char_rmdup_result_29.fasta.txt	1-GAGCRCGAGRTG	MA0059.1	0	0.000792614	0.458924	0.476194	11	GAGCGCGAGATG	GACCACGTGGT	+	http://jaspar2018.genereg.net/matrix/MA0059.1
+no_char_rmdup_result_29.fasta.txt											
+no_char_rmdup_result_3.fasta.txt	5-AACAGCGT	MA0629.1	6	0.000772073	0.44703	0.894061	8	AACAGCGT	TCGCTTTACAGCGTCTT	-	http://jaspar2018.genereg.net/matrix/MA0629.1
+no_char_rmdup_result_3.fasta.txt											
+no_char_rmdup_result_30.fasta.txt	1-ASCTCATWCTGCG	MA0793.1	0	0.000695069	0.402445	0.80489	10	AGCTCATACTGCG	AGCTCATTAT	+	http://jaspar2018.genereg.net/matrix/MA0793.1
+no_char_rmdup_result_30.fasta.txt	2-AACAAGATGC	MA0868.1	0	0.000552098	0.319665	0.63933	10	AACAAGATGC	AACAATGTGCAGTGTT	+	http://jaspar2018.genereg.net/matrix/MA0868.1
+no_char_rmdup_result_30.fasta.txt	4-CCGCCCCAA	MA0758.1	5	0.000313153	0.181316	0.362631	9	CCGCCCCAA	TTTTCCCGCCAAAA	+	http://jaspar2018.genereg.net/matrix/MA0758.1
+no_char_rmdup_result_30.fasta.txt	5-CTSACWCKC	MA1114.1	4	0.000373169	0.216065	0.432129	9	CTGACACTC	CCGCCTGTCACTCACCC	-	http://jaspar2018.genereg.net/matrix/MA1114.1
+no_char_rmdup_result_30.fasta.txt											
+no_char_rmdup_result_31.fasta.txt											
+no_char_rmdup_result_32.fasta.txt	3-AACTTGGC	MA0670.1	-1	0.000769951	0.445802	0.875946	7	AACTTGGC	ACTTGGCACC	-	http://jaspar2018.genereg.net/matrix/MA0670.1
+no_char_rmdup_result_32.fasta.txt	4-GATACATTC	MA0610.1	3	0.000148933	0.086232	0.172464	8	GATACATTC	ATTGATACATT	-	http://jaspar2018.genereg.net/matrix/MA0610.1
+no_char_rmdup_result_32.fasta.txt											
+no_char_rmdup_result_33.fasta.txt	2-GRCMACRCKSAC	MA1107.1	0	0.000193941	0.112292	0.157242	12	GACAACACGCAC	GGCCACACCCACC	+	http://jaspar2018.genereg.net/matrix/MA1107.1
+no_char_rmdup_result_33.fasta.txt	2-GRCMACRCKSAC	MA0493.1	0	0.000272097	0.157544	0.157242	11	GACAACACGCAC	GGCCACACCCA	+	http://jaspar2018.genereg.net/matrix/MA0493.1
+no_char_rmdup_result_33.fasta.txt											
+no_char_rmdup_result_34.fasta.txt											
+no_char_rmdup_result_35.fasta.txt	5-AGGGCGTG	MA0742.1	4	4.4208e-05	0.0255965	0.0505559	8	AGGGCGTG	AATAAGGGCGTGGTC	-	http://jaspar2018.genereg.net/matrix/MA0742.1
+no_char_rmdup_result_35.fasta.txt	5-AGGGCGTG	MA0039.3	2	0.000202689	0.117357	0.115896	8	AGGGCGTG	GCAGGGTGTGG	-	http://jaspar2018.genereg.net/matrix/MA0039.3
+no_char_rmdup_result_35.fasta.txt	5-AGGGCGTG	MA0741.1	1	0.000611759	0.354208	0.169227	8	AGGGCGTG	GGGGGCGTGGC	-	http://jaspar2018.genereg.net/matrix/MA0741.1
+no_char_rmdup_result_35.fasta.txt	5-AGGGCGTG	MA0746.1	1	0.000823854	0.477011	0.169227	8	AGGGCGTG	GGGGGCGTGGC	-	http://jaspar2018.genereg.net/matrix/MA0746.1
+no_char_rmdup_result_35.fasta.txt											
+no_char_rmdup_result_36.fasta.txt	5-MCATCATCC	MA0833.1	4	0.00078138	0.452419	0.51014	9	CCATCATCC	TATTGCATCATCC	-	http://jaspar2018.genereg.net/matrix/MA0833.1
+no_char_rmdup_result_36.fasta.txt											
+no_char_rmdup_result_37.fasta.txt	2-GAATATGGGGATGGA	MA0056.1	-5	0.000467439	0.270647	0.472052	6	GAATATGGGGATGGA	TGGGGA	+	http://jaspar2018.genereg.net/matrix/MA0056.1
+no_char_rmdup_result_37.fasta.txt	2-GAATATGGGGATGGA	MA0752.1	2	0.000815289	0.472052	0.472052	15	GAATATGGGGATGGA	GAGTATTATGGGATGGA	-	http://jaspar2018.genereg.net/matrix/MA0752.1
+no_char_rmdup_result_37.fasta.txt											
+no_char_rmdup_result_38.fasta.txt	4-GKCTCGCHC	MA0014.3	3	0.000266118	0.154082	0.245824	9	GTCTCGCAC	GGGGTCACGCTC	-	http://jaspar2018.genereg.net/matrix/MA0014.3
+no_char_rmdup_result_38.fasta.txt	4-GKCTCGCHC	MA0513.1	2	0.000424567	0.245824	0.245824	9	GTCTCGCAC	CTGTCTGTCACCT	+	http://jaspar2018.genereg.net/matrix/MA0513.1
+no_char_rmdup_result_38.fasta.txt											
+no_char_rmdup_result_4.fasta.txt	1-CTCTTCCGGTACGCT	MA0763.1	0	6.44555e-05	0.0373198	0.0321085	10	CTCTTCCGGTACGCT	CACTTCCGGT	-	http://jaspar2018.genereg.net/matrix/MA0763.1
+no_char_rmdup_result_4.fasta.txt	1-CTCTTCCGGTACGCT	MA0028.2	0	6.99496e-05	0.0405008	0.0321085	10	CTCTTCCGGTACGCT	CACTTCCGGT	-	http://jaspar2018.genereg.net/matrix/MA0028.2
+no_char_rmdup_result_4.fasta.txt	1-CTCTTCCGGTACGCT	MA0760.1	0	0.000101115	0.0585454	0.0321085	10	CTCTTCCGGTACGCT	CACTTCCGGT	-	http://jaspar2018.genereg.net/matrix/MA0760.1
+no_char_rmdup_result_4.fasta.txt	1-CTCTTCCGGTACGCT	MA0475.2	0	0.000139224	0.0806109	0.0321085	10	CTCTTCCGGTACGCT	CACTTCCGGT	-	http://jaspar2018.genereg.net/matrix/MA0475.2
+no_char_rmdup_result_4.fasta.txt	1-CTCTTCCGGTACGCT	MA0474.2	0	0.00016586	0.0960327	0.0321085	10	CTCTTCCGGTACGCT	CACTTCCGGT	-	http://jaspar2018.genereg.net/matrix/MA0474.2
+no_char_rmdup_result_4.fasta.txt	1-CTCTTCCGGTACGCT	MA0156.2	0	0.000175393	0.101553	0.0321085	10	CTCTTCCGGTACGCT	CACTTCCGGT	-	http://jaspar2018.genereg.net/matrix/MA0156.2
+no_char_rmdup_result_4.fasta.txt	1-CTCTTCCGGTACGCT	MA0098.3	0	0.000195485	0.113186	0.0321085	10	CTCTTCCGGTACGCT	CACTTCCGGT	-	http://jaspar2018.genereg.net/matrix/MA0098.3
+no_char_rmdup_result_4.fasta.txt	1-CTCTTCCGGTACGCT	MA0759.1	0	0.000292088	0.169119	0.0419785	10	CTCTTCCGGTACGCT	TACTTCCGGT	-	http://jaspar2018.genereg.net/matrix/MA0759.1
+no_char_rmdup_result_4.fasta.txt	1-CTCTTCCGGTACGCT	MA0765.1	0	0.000336662	0.194928	0.0430086	10	CTCTTCCGGTACGCT	CACTTCCGGT	-	http://jaspar2018.genereg.net/matrix/MA0765.1
+no_char_rmdup_result_4.fasta.txt	1-CTCTTCCGGTACGCT	MA0761.1	0	0.000405217	0.23462	0.0465897	10	CTCTTCCGGTACGCT	TACTTCCGGT	-	http://jaspar2018.genereg.net/matrix/MA0761.1
+no_char_rmdup_result_4.fasta.txt	1-CTCTTCCGGTACGCT	MA0645.1	0	0.000674043	0.390271	0.0704527	10	CTCTTCCGGTACGCT	CACTTCCGCT	-	http://jaspar2018.genereg.net/matrix/MA0645.1
+no_char_rmdup_result_4.fasta.txt	1-CTCTTCCGGTACGCT	MA0764.1	0	0.000747002	0.432514	0.071572	10	CTCTTCCGGTACGCT	TACTTCCGGT	-	http://jaspar2018.genereg.net/matrix/MA0764.1
+no_char_rmdup_result_4.fasta.txt	3-CCAYRTGG	MA0104.4	2	3.77373e-05	0.0218499	0.0208454	8	CCACGTGG	GGCCACGTGGCC	+	http://jaspar2018.genereg.net/matrix/MA0104.4
+no_char_rmdup_result_4.fasta.txt	3-CCAYRTGG	MA0059.1	2	0.000177948	0.103032	0.0334151	8	CCACGTGG	GACCACGTGGT	+	http://jaspar2018.genereg.net/matrix/MA0059.1
+no_char_rmdup_result_4.fasta.txt	3-CCAYRTGG	MA0668.1	1	0.000233866	0.135408	0.0334151	8	CCACGTGG	GCCATATGGT	+	http://jaspar2018.genereg.net/matrix/MA0668.1
+no_char_rmdup_result_4.fasta.txt	3-CCAYRTGG	MA0623.1	1	0.000259252	0.150107	0.0334151	8	CCACGTGG	ACCATATGGT	+	http://jaspar2018.genereg.net/matrix/MA0623.1
+no_char_rmdup_result_4.fasta.txt	3-CCAYRTGG	MA0678.1	1	0.000302465	0.175127	0.0334151	8	CCACGTGG	ACCATATGGT	+	http://jaspar2018.genereg.net/matrix/MA0678.1
+no_char_rmdup_result_4.fasta.txt	3-CCAYRTGG	MA0633.1	1	0.00055654	0.322237	0.0410484	8	CCACGTGG	ACCATATGTT	+	http://jaspar2018.genereg.net/matrix/MA0633.1
+no_char_rmdup_result_4.fasta.txt	3-CCAYRTGG	MA0608.1	1	0.000623568	0.361046	0.0410484	8	CCACGTGG	GCCACGTGT	+	http://jaspar2018.genereg.net/matrix/MA0608.1
+no_char_rmdup_result_4.fasta.txt	3-CCAYRTGG	MA0827.1	1	0.00063711	0.368887	0.0410484	8	CCACGTGG	ACCATATGTT	+	http://jaspar2018.genereg.net/matrix/MA0827.1
+no_char_rmdup_result_4.fasta.txt	3-CCAYRTGG	MA1108.1	3	0.000668806	0.387239	0.0410484	8	CCACGTGG	CGACCACGTGCCC	+	http://jaspar2018.genereg.net/matrix/MA1108.1
+no_char_rmdup_result_4.fasta.txt	4-CGCCATGGCG	MA0509.1	2	0.000124051	0.0718258	0.0714387	10	CGCCATGGCG	GTTGCCATGGCAAC	+	http://jaspar2018.genereg.net/matrix/MA0509.1
+no_char_rmdup_result_4.fasta.txt											
+no_char_rmdup_result_41.fasta.txt	2-AGCTGCTGGW	MA1100.1	4	2.00184e-05	0.0115906	0.0231368	9	AGCTGCTGGT	CGCCAGCTGCTGC	-	http://jaspar2018.genereg.net/matrix/MA1100.1
+no_char_rmdup_result_41.fasta.txt	2-AGCTGCTGGW	MA0521.1	3	0.000521068	0.301698	0.238193	8	AGCTGCTGGT	AACAGCTGCAG	+	http://jaspar2018.genereg.net/matrix/MA0521.1
+no_char_rmdup_result_41.fasta.txt	2-AGCTGCTGGW	MA0816.1	0	0.000703874	0.407543	0.238193	10	AGCTGCTGGT	AGCAGCTGCT	-	http://jaspar2018.genereg.net/matrix/MA0816.1
+no_char_rmdup_result_41.fasta.txt											
+no_char_rmdup_result_42.fasta.txt	2-RTYKCGACKTGY	MA0749.1	2	0.000618084	0.357871	0.715741	11	ATCTCGACTTGT	CTATCGCGACATA	+	http://jaspar2018.genereg.net/matrix/MA0749.1
+no_char_rmdup_result_42.fasta.txt											
+no_char_rmdup_result_43.fasta.txt	1-CACRGTCAT	MA0592.2	2	0.000145376	0.084173	0.103454	9	CACGGTCAT	TTCAAGGTCAT	+	http://jaspar2018.genereg.net/matrix/MA0592.2
+no_char_rmdup_result_43.fasta.txt	1-CACRGTCAT	MA0141.3	1	0.000265673	0.153825	0.103454	9	CACGGTCAT	TCAAGGTCATA	+	http://jaspar2018.genereg.net/matrix/MA0141.3
+no_char_rmdup_result_43.fasta.txt	1-CACRGTCAT	MA0643.1	1	0.000268064	0.155209	0.103454	9	CACGGTCAT	TCAAGGTCAT	+	http://jaspar2018.genereg.net/matrix/MA0643.1
+no_char_rmdup_result_43.fasta.txt	3-AGACGGCA	MA0863.1	5	0.00055318	0.320291	0.588117	8	AGACGGCA	TTTGCACACGGCAC	+	http://jaspar2018.genereg.net/matrix/MA0863.1
+no_char_rmdup_result_43.fasta.txt	4-ASAGCACC	MA0138.2	13	0.000746927	0.432471	0.864942	8	ACAGCACC	TTCAGCACCATGGACAGCGCC	+	http://jaspar2018.genereg.net/matrix/MA0138.2
+no_char_rmdup_result_43.fasta.txt											
+no_char_rmdup_result_45.fasta.txt	4-GCCAAGAA	MA0161.2	3	9.70709e-05	0.0562041	0.112408	8	GCCAAGAA	TCTGCCAAGTA	-	http://jaspar2018.genereg.net/matrix/MA0161.2
+no_char_rmdup_result_45.fasta.txt											
+no_char_rmdup_result_46.fasta.txt											
+no_char_rmdup_result_47.fasta.txt	1-ACTCCCTCC	MA0039.3	2	0.000421744	0.24419	0.48838	9	ACTCCCTCC	CCACACCCTGC	+	http://jaspar2018.genereg.net/matrix/MA0039.3
+no_char_rmdup_result_47.fasta.txt	3-CCAAACGCGAAA	MA0772.1	0	0.000736212	0.426267	0.852534	12	CCAAACGCGAAA	ACGAAAGCGAAAGT	+	http://jaspar2018.genereg.net/matrix/MA0772.1
+no_char_rmdup_result_47.fasta.txt											
+no_char_rmdup_result_48.fasta.txt	4-GGACCACCTGGTACA	MA0820.1	-2	3.15925e-05	0.018292	0.0332241	10	GGACCACCTGGTACA	ACCACCTGTT	+	http://jaspar2018.genereg.net/matrix/MA0820.1
+no_char_rmdup_result_48.fasta.txt	4-GGACCACCTGGTACA	MA0059.1	-1	5.98159e-05	0.0346334	0.0332241	11	GGACCACCTGGTACA	GAGCACGTGGT	+	http://jaspar2018.genereg.net/matrix/MA0059.1
+no_char_rmdup_result_48.fasta.txt	4-GGACCACCTGGTACA	MA0743.1	-1	0.000146941	0.0850791	0.0544115	14	GGACCACCTGGTACA	AACCACCTGTTGCTC	-	http://jaspar2018.genereg.net/matrix/MA0743.1
+no_char_rmdup_result_48.fasta.txt	4-GGACCACCTGGTACA	MA0744.1	-3	0.000324832	0.188078	0.0902123	12	GGACCACCTGGTACA	CCACCTGTTGCAT	-	http://jaspar2018.genereg.net/matrix/MA0744.1
+no_char_rmdup_result_48.fasta.txt	4-GGACCACCTGGTACA	MA0091.1	0	0.000739157	0.427972	0.136853	12	GGACCACCTGGTACA	CGACCATCTGTT	+	http://jaspar2018.genereg.net/matrix/MA0091.1
+no_char_rmdup_result_48.fasta.txt											
+no_char_rmdup_result_49.fasta.txt	1-AATTGMCC	MA1117.1	1	0.000857993	0.496778	0.832907	8	AATTGCCC	GAATTCCCCGG	+	http://jaspar2018.genereg.net/matrix/MA1117.1
+no_char_rmdup_result_49.fasta.txt	3-AAAAGTCAG	MA0676.1	0	7.51977e-05	0.0435395	0.0868951	9	AAAAGTCAG	AAAAGTCAA	+	http://jaspar2018.genereg.net/matrix/MA0676.1
+no_char_rmdup_result_49.fasta.txt											
+no_char_rmdup_result_5.fasta.txt	4-GCGAGCACCAT	MA0695.1	0	0.000359279	0.208023	0.307346	11	GCGAGCACCAT	GCGACCACCGAA	+	http://jaspar2018.genereg.net/matrix/MA0695.1
+no_char_rmdup_result_5.fasta.txt	4-GCGAGCACCAT	MA0694.1	0	0.000530822	0.307346	0.307346	11	GCGAGCACCAT	GCGACCACCGAA	+	http://jaspar2018.genereg.net/matrix/MA0694.1
+no_char_rmdup_result_5.fasta.txt											
+no_char_rmdup_result_50.fasta.txt											
+no_char_rmdup_result_51.fasta.txt											
+no_char_rmdup_result_54.fasta.txt	2-YGTGGCGGGCAG	MA0597.1	-3	0.00043638	0.252664	0.328057	9	CGTGGCGGGCAG	TGCGGGCAG	-	http://jaspar2018.genereg.net/matrix/MA0597.1
+no_char_rmdup_result_54.fasta.txt	2-YGTGGCGGGCAG	MA0865.1	0	0.000567681	0.328687	0.328057	12	CGTGGCGGGCAG	TTTGGCGGGAAA	-	http://jaspar2018.genereg.net/matrix/MA0865.1
+no_char_rmdup_result_54.fasta.txt											
+no_char_rmdup_result_55.fasta.txt	2-GAAGCCCATGGTGAC	MA0112.3	-1	0.000415769	0.240731	0.245384	14	GAAGCCCATGGTGAC	CAGGTCACCGTGACCTT	-	http://jaspar2018.genereg.net/matrix/MA0112.3
+no_char_rmdup_result_55.fasta.txt	2-GAAGCCCATGGTGAC	MA0066.1	0	0.000498326	0.288531	0.245384	15	GAAGCCCATGGTGAC	GTAGGTCACGGTGACCTACT	+	http://jaspar2018.genereg.net/matrix/MA0066.1
+no_char_rmdup_result_55.fasta.txt	3-ATYTARAT	MA0619.1	0	0.000485867	0.281317	0.281317	8	ATTTAAAT	ATTTGAATT	+	http://jaspar2018.genereg.net/matrix/MA0619.1
+no_char_rmdup_result_55.fasta.txt											
+no_char_rmdup_result_56.fasta.txt	1-GCGCTGGCTC	MA0506.1	1	0.000656202	0.379941	0.759882	10	GCGCTGGCTC	TGCGCAGGCGC	-	http://jaspar2018.genereg.net/matrix/MA0506.1
+no_char_rmdup_result_56.fasta.txt	2-AGGGGAGGA	MA0528.1	9	0.000311803	0.180534	0.361068	9	AGGGGAGGA	GGAGGAGGAGGGGGAGGAGGA	+	http://jaspar2018.genereg.net/matrix/MA0528.1
+no_char_rmdup_result_56.fasta.txt	3-AAAGTGAGAGC	MA0051.1	2	0.000178577	0.103396	0.206792	11	AAAGTGAGAGC	GGAAAGCGAAACCAAAAC	+	http://jaspar2018.genereg.net/matrix/MA0051.1
+no_char_rmdup_result_56.fasta.txt	3-AAAGTGAGAGC	MA0050.2	6	0.000430949	0.24952	0.24952	11	AAAGTGAGAGC	AAAGTGAAAGTGAAAGTAAAA	-	http://jaspar2018.genereg.net/matrix/MA0050.2
+no_char_rmdup_result_56.fasta.txt											
+no_char_rmdup_result_58.fasta.txt	1-CCCGCTGC	MA0697.1	5	3.93751e-05	0.0227982	0.0455964	8	CCCGCTGC	GACCCCCCGCTGCGC	+	http://jaspar2018.genereg.net/matrix/MA0697.1
+no_char_rmdup_result_58.fasta.txt	1-CCCGCTGC	MA0696.1	5	0.000194008	0.112331	0.0855843	8	CCCGCTGC	GACCCCCCGCTGTG	+	http://jaspar2018.genereg.net/matrix/MA0696.1
+no_char_rmdup_result_58.fasta.txt	1-CCCGCTGC	MA0751.1	5	0.000221721	0.128376	0.0855843	8	CCCGCTGC	GACCCCCCGCTGTGC	+	http://jaspar2018.genereg.net/matrix/MA0751.1
+no_char_rmdup_result_58.fasta.txt	1-CCCGCTGC	MA1100.1	2	0.000728306	0.421689	0.210845	8	CCCGCTGC	CGCCAGCTGCTGC	-	http://jaspar2018.genereg.net/matrix/MA1100.1
+no_char_rmdup_result_58.fasta.txt	4-CGCTTRAG	MA0069.1	4	0.000609974	0.353175	0.70635	8	CGCTTGAG	TTCACGCATGAGTT	+	http://jaspar2018.genereg.net/matrix/MA0069.1
+no_char_rmdup_result_58.fasta.txt	5-GAMGAGGAKT	MA0467.1	-1	0.000705032	0.408213	0.816427	9	GACGAGGAGT	AAGAGGATTAG	+	http://jaspar2018.genereg.net/matrix/MA0467.1
+no_char_rmdup_result_58.fasta.txt											
+no_char_rmdup_result_59.fasta.txt	3-CGCCWGCAGCKYC	MA1100.1	0	1.96379e-05	0.0113703	0.0227407	13	CGCCAGCAGCGTC	CGCCAGCTGCTGC	-	http://jaspar2018.genereg.net/matrix/MA1100.1
+no_char_rmdup_result_59.fasta.txt											
+no_char_rmdup_result_6.fasta.txt	3-AGAACGTCTTCG	MA0605.1	-3	0.000718976	0.416287	0.570877	8	AGAACGTCTTCG	ACGTCATC	-	http://jaspar2018.genereg.net/matrix/MA0605.1
+no_char_rmdup_result_6.fasta.txt											
+no_char_rmdup_result_60.fasta.txt											
+no_char_rmdup_result_61.fasta.txt	4-CTTGAYGGGGA	MA0056.1	-5	0.000432288	0.250295	0.500589	6	CTTGACGGGGA	TGGGGA	+	http://jaspar2018.genereg.net/matrix/MA0056.1
+no_char_rmdup_result_61.fasta.txt											
+no_char_rmdup_result_62.fasta.txt	4-AAGAAGGYGAAH	MA0772.1	0	0.000788873	0.456757	0.913515	12	AAGAAGGCGAAT	ACGAAAGCGAAAGT	+	http://jaspar2018.genereg.net/matrix/MA0772.1
+no_char_rmdup_result_62.fasta.txt											
+no_char_rmdup_result_63.fasta.txt											
+no_char_rmdup_result_65.fasta.txt	1-GGTTACGT	MA0043.2	0	0.000228145	0.132096	0.19284	8	GGTTACGT	GGTTACGTAATG	-	http://jaspar2018.genereg.net/matrix/MA0043.2
+no_char_rmdup_result_65.fasta.txt	1-GGTTACGT	MA0843.1	0	0.000347329	0.201104	0.19284	8	GGTTACGT	TGTTACGTAATA	-	http://jaspar2018.genereg.net/matrix/MA0843.1
+no_char_rmdup_result_65.fasta.txt	1-GGTTACGT	MA0030.1	3	0.000650724	0.376769	0.198142	8	GGTTACGT	ATTGTTTACGTTTG	-	http://jaspar2018.genereg.net/matrix/MA0030.1
+no_char_rmdup_result_65.fasta.txt	1-GGTTACGT	MA0639.1	0	0.00082363	0.476882	0.198142	8	GGTTACGT	TATTACGTAACA	+	http://jaspar2018.genereg.net/matrix/MA0639.1
+no_char_rmdup_result_65.fasta.txt	5-CCACGCAG	MA0472.2	4	0.000220562	0.127705	0.205281	7	CCACGCAG	ACGCCCACGCA	+	http://jaspar2018.genereg.net/matrix/MA0472.2
+no_char_rmdup_result_65.fasta.txt	5-CCACGCAG	MA0006.1	-1	0.000354917	0.205497	0.205281	6	CCACGCAG	CACGCA	-	http://jaspar2018.genereg.net/matrix/MA0006.1
+no_char_rmdup_result_65.fasta.txt											
+no_char_rmdup_result_66.fasta.txt	5-ACCCGTGGCTCGCTT	MA0608.1	0	0.000410293	0.23756	0.47512	9	ACCCGTGGCTCGCTT	ACACGTGGC	-	http://jaspar2018.genereg.net/matrix/MA0608.1
+no_char_rmdup_result_66.fasta.txt											
+no_char_rmdup_result_67.fasta.txt	2-GAAGAAGCYGAASAA	MA0080.4	-1	0.000239032	0.1384	0.276799	14	GAAGAAGCCGAACAA	AAAAAGCGGAAGTA	+	http://jaspar2018.genereg.net/matrix/MA0080.4
+no_char_rmdup_result_67.fasta.txt											
+no_char_rmdup_result_68.fasta.txt	2-AGCTGCTSCRTC	MA1100.1	4	0.000213904	0.12385	0.247656	9	AGCTGCTCCGTC	CGCCAGCTGCTGC	-	http://jaspar2018.genereg.net/matrix/MA1100.1
+no_char_rmdup_result_68.fasta.txt											
+no_char_rmdup_result_69.fasta.txt											
+no_char_rmdup_result_7.fasta.txt	5-GAGSGARAS	MA0471.1	2	0.000477268	0.276338	0.552676	9	GAGGGAGAG	GGGCGGGAAGG	+	http://jaspar2018.genereg.net/matrix/MA0471.1
+no_char_rmdup_result_7.fasta.txt											
+no_char_rmdup_result_70.fasta.txt											
+no_char_rmdup_result_71.fasta.txt											
+no_char_rmdup_result_73.fasta.txt											
+no_char_rmdup_result_75.fasta.txt											
+no_char_rmdup_result_76.fasta.txt	2-GTCCATRATGGTC	MA0138.2	6	0.000359207	0.207981	0.36179	13	GTCCATGATGGTC	GGCGCTGTCCATGGTGCTGAA	-	http://jaspar2018.genereg.net/matrix/MA0138.2
+no_char_rmdup_result_76.fasta.txt	2-GTCCATRATGGTC	MA0113.3	2	0.000624853	0.36179	0.36179	13	GTCCATGATGGTC	GGGTACATAATGTTCCC	+	http://jaspar2018.genereg.net/matrix/MA0113.3
+no_char_rmdup_result_76.fasta.txt	3-CAAGCGMYTCRTCCA	MA0897.1	1	0.000215509	0.12478	0.142006	15	CAAGCGATTCATCCA	ACAAGCAATTAAAGAAT	+	http://jaspar2018.genereg.net/matrix/MA0897.1
+no_char_rmdup_result_76.fasta.txt	3-CAAGCGMYTCRTCCA	MA0896.1	1	0.000245261	0.142006	0.142006	15	CAAGCGATTCATCCA	ACAAGCAATTAATGAAT	+	http://jaspar2018.genereg.net/matrix/MA0896.1
+no_char_rmdup_result_76.fasta.txt	3-CAAGCGMYTCRTCCA	MA0898.1	1	0.000523209	0.302938	0.201959	15	CAAGCGATTCATCCA	ACAAGCAATTAAAGAAT	+	http://jaspar2018.genereg.net/matrix/MA0898.1
+no_char_rmdup_result_76.fasta.txt	5-ACSACACSYAW	MA0493.1	1	0.000164018	0.0949664	0.189933	10	ACGACACCCAA	GGCCACACCCA	+	http://jaspar2018.genereg.net/matrix/MA0493.1
+no_char_rmdup_result_76.fasta.txt											
+no_char_rmdup_result_78.fasta.txt	3-CRCCTGAGTCWKTA	MA0814.1	0	0.000344653	0.199554	0.211399	11	CGCCTGAGTCATTA	AGCCTCAGGCA	+	http://jaspar2018.genereg.net/matrix/MA0814.1
+no_char_rmdup_result_78.fasta.txt	3-CRCCTGAGTCWKTA	MA0812.1	0	0.000656026	0.379839	0.211399	11	CGCCTGAGTCATTA	TGCCTGAGGCT	-	http://jaspar2018.genereg.net/matrix/MA0812.1
+no_char_rmdup_result_78.fasta.txt	3-CRCCTGAGTCWKTA	MA0003.3	0	0.000706308	0.408952	0.211399	11	CGCCTGAGTCATTA	CGCCTCAGGCA	+	http://jaspar2018.genereg.net/matrix/MA0003.3
+no_char_rmdup_result_78.fasta.txt											
+no_char_rmdup_result_8.fasta.txt											
+no_char_rmdup_result_80.fasta.txt	4-AGTGACGGGTCACTC	MA0844.1	0	0.000406688	0.235473	0.435676	14	AGTGACGGGTCACTC	GATGACGTGGCATT	-	http://jaspar2018.genereg.net/matrix/MA0844.1
+no_char_rmdup_result_80.fasta.txt	4-AGTGACGGGTCACTC	MA0638.1	1	0.00076692	0.444047	0.435676	13	AGTGACGGGTCACTC	TGATGACGTGGCAC	-	http://jaspar2018.genereg.net/matrix/MA0638.1
+no_char_rmdup_result_80.fasta.txt											
+no_char_rmdup_result_81.fasta.txt	1-CCCGCTGCA	MA0697.1	5	0.000643185	0.372404	0.744808	9	CCCGCTGCA	GACCCCCCGCTGCGC	+	http://jaspar2018.genereg.net/matrix/MA0697.1
+no_char_rmdup_result_81.fasta.txt	5-AAGAAGCTTA	MA0467.1	0	0.000365727	0.211756	0.423512	10	AAGAAGCTTA	AAGAGGATTAG	+	http://jaspar2018.genereg.net/matrix/MA0467.1
+no_char_rmdup_result_81.fasta.txt											
+no_char_rmdup_result_82.fasta.txt											
+no_char_rmdup_result_83.fasta.txt	1-GCTGGTGGYGGYK	MA0073.1	2	0.000665275	0.385194	0.712971	13	GCTGGTGGTGGTT	GGGGGGGGGGTGGTTTGGGG	-	http://jaspar2018.genereg.net/matrix/MA0073.1
+no_char_rmdup_result_83.fasta.txt	4-CAGCWCCASGCG	MA1100.1	1	0.000331554	0.19197	0.383939	12	CAGCTCCACGCG	GCAGCAGCTGGCG	+	http://jaspar2018.genereg.net/matrix/MA1100.1
+no_char_rmdup_result_83.fasta.txt											
+no_char_rmdup_result_84.fasta.txt	4-ATTATGGCTTGG	MA0752.1	4	0.00023206	0.134362	0.268725	12	ATTATGGCTTGG	GAGTATTATGGGATGGA	-	http://jaspar2018.genereg.net/matrix/MA0752.1
+no_char_rmdup_result_84.fasta.txt											
+no_char_rmdup_result_86.fasta.txt	1-CGSAGCWG	MA0048.2	0	1.90078e-05	0.0110055	0.0206809	8	CGGAGCTG	CGCAGCTGCG	+	http://jaspar2018.genereg.net/matrix/MA0048.2
+no_char_rmdup_result_86.fasta.txt	1-CGSAGCWG	MA0500.1	1	0.000353722	0.204805	0.135919	8	CGGAGCTG	CTGCAGCTGTC	-	http://jaspar2018.genereg.net/matrix/MA0500.1
+no_char_rmdup_result_86.fasta.txt	2-GAACGTTGT	MA0771.1	0	0.000643904	0.37282	0.325545	9	GAACGTTGT	GAACGTTCTAGAA	-	http://jaspar2018.genereg.net/matrix/MA0771.1
+no_char_rmdup_result_86.fasta.txt	2-GAACGTTGT	MA0770.1	0	0.000760045	0.440066	0.325545	9	GAACGTTGT	GAACGTTCTAGAA	-	http://jaspar2018.genereg.net/matrix/MA0770.1
+no_char_rmdup_result_86.fasta.txt	2-GAACGTTGT	MA0486.2	0	0.000843535	0.488407	0.325545	9	GAACGTTGT	GAACGTTCTAGAA	-	http://jaspar2018.genereg.net/matrix/MA0486.2
+no_char_rmdup_result_86.fasta.txt	3-GTGMTGAA	MA0138.2	13	0.000134127	0.0776596	0.155319	8	GTGCTGAA	GGCGCTGTCCATGGTGCTGAA	-	http://jaspar2018.genereg.net/matrix/MA0138.2
+no_char_rmdup_result_86.fasta.txt											
+no_char_rmdup_result_87.fasta.txt											
+no_char_rmdup_result_88.fasta.txt	5-AMACGCRACGC	MA0006.1	-1	0.000767383	0.444315	0.88863	6	ACACGCGACGC	CACGCA	-	http://jaspar2018.genereg.net/matrix/MA0006.1
+no_char_rmdup_result_88.fasta.txt											
+no_char_rmdup_result_9.fasta.txt	3-CTTWATTAATTA	MA0621.1	0	0.000203485	0.117818	0.0524072	11	CTTTATTAATTA	ACTAATTAATT	-	http://jaspar2018.genereg.net/matrix/MA0621.1
+no_char_rmdup_result_9.fasta.txt	3-CTTWATTAATTA	MA0910.1	5	0.000225839	0.130761	0.0524072	12	CTTTATTAATTA	TAGCCATTAATTAATTA	-	http://jaspar2018.genereg.net/matrix/MA0910.1
+no_char_rmdup_result_9.fasta.txt	3-CTTWATTAATTA	MA0135.1	1	0.000341894	0.197957	0.0524072	12	CTTTATTAATTA	GATTAATTAATTT	-	http://jaspar2018.genereg.net/matrix/MA0135.1
+no_char_rmdup_result_9.fasta.txt	3-CTTWATTAATTA	MA0601.1	-1	0.000353491	0.204671	0.0524072	11	CTTTATTAATTA	TTAATTAATAT	-	http://jaspar2018.genereg.net/matrix/MA0601.1
+no_char_rmdup_result_9.fasta.txt	3-CTTWATTAATTA	MA0683.1	3	0.000358669	0.207669	0.0524072	12	CTTTATTAATTA	ATGCATAATTAATGAG	+	http://jaspar2018.genereg.net/matrix/MA0683.1
+no_char_rmdup_result_9.fasta.txt	3-CTTWATTAATTA	MA0703.1	-1	0.000377525	0.218587	0.0524072	8	CTTTATTAATTA	TTAATTAA	-	http://jaspar2018.genereg.net/matrix/MA0703.1
+no_char_rmdup_result_9.fasta.txt	3-CTTWATTAATTA	MA0791.1	3	0.000420641	0.243551	0.0524072	12	CTTTATTAATTA	ATGCATAATTAATGAG	+	http://jaspar2018.genereg.net/matrix/MA0791.1
+no_char_rmdup_result_9.fasta.txt	3-CTTWATTAATTA	MA0702.1	-1	0.000447634	0.25918	0.0524072	8	CTTTATTAATTA	TTAATTAA	-	http://jaspar2018.genereg.net/matrix/MA0702.1
+no_char_rmdup_result_9.fasta.txt	3-CTTWATTAATTA	MA0853.1	3	0.000625977	0.362441	0.0563512	12	CTTTATTAATTA	CGCATTAATTAATTACC	+	http://jaspar2018.genereg.net/matrix/MA0853.1
+no_char_rmdup_result_9.fasta.txt											
+no_char_rmdup_result_90.fasta.txt	2-AAGCTTCC	MA0164.1	1	0.00058131	0.336578	0.673157	6	AAGCTTCC	CAAGCTT	+	http://jaspar2018.genereg.net/matrix/MA0164.1
+no_char_rmdup_result_90.fasta.txt											
+no_char_rmdup_result_91.fasta.txt	1-CATGCCVCGMSGCC	MA0079.3	-3	3.93247e-05	0.022769	0.0327407	11	CATGCCCCGCCGCC	GCCCCGCCCCC	+	http://jaspar2018.genereg.net/matrix/MA0079.3
+no_char_rmdup_result_91.fasta.txt	1-CATGCCVCGMSGCC	MA0741.1	-3	5.73539e-05	0.0332079	0.0327407	11	CATGCCCCGCCGCC	GCCACGCCCCC	+	http://jaspar2018.genereg.net/matrix/MA0741.1
+no_char_rmdup_result_91.fasta.txt	1-CATGCCVCGMSGCC	MA0657.1	-1	0.000163773	0.0948248	0.0478115	13	CATGCCCCGCCGCC	ATGCCACGCCCCTTTTTG	+	http://jaspar2018.genereg.net/matrix/MA0657.1
+no_char_rmdup_result_91.fasta.txt	1-CATGCCVCGMSGCC	MA0685.1	0	0.000167509	0.0969875	0.0478115	14	CATGCCCCGCCGCC	TAAGCCACGCCCCCTTT	+	http://jaspar2018.genereg.net/matrix/MA0685.1
+no_char_rmdup_result_91.fasta.txt	1-CATGCCVCGMSGCC	MA0746.1	-3	0.00022586	0.130773	0.0515734	11	CATGCCCCGCCGCC	GCCACGCCCCC	+	http://jaspar2018.genereg.net/matrix/MA0746.1
+no_char_rmdup_result_91.fasta.txt	1-CATGCCVCGMSGCC	MA0839.1	-1	0.000618308	0.358	0.0967892	13	CATGCCCCGCCGCC	ATGCCACGTCATCA	+	http://jaspar2018.genereg.net/matrix/MA0839.1
+no_char_rmdup_result_91.fasta.txt	1-CATGCCVCGMSGCC	MA0740.1	-2	0.000618308	0.358	0.0967892	12	CATGCCCCGCCGCC	GGCCACGCCCCCTT	+	http://jaspar2018.genereg.net/matrix/MA0740.1
+no_char_rmdup_result_91.fasta.txt	1-CATGCCVCGMSGCC	MA0747.1	-3	0.000773379	0.447787	0.0967892	11	CATGCCCCGCCGCC	GCCACGCCCACT	+	http://jaspar2018.genereg.net/matrix/MA0747.1
+no_char_rmdup_result_91.fasta.txt	1-CATGCCVCGMSGCC	MA0516.1	-3	0.000851423	0.492974	0.0967892	11	CATGCCCCGCCGCC	GCCCCGCCCCCTCCC	+	http://jaspar2018.genereg.net/matrix/MA0516.1
+no_char_rmdup_result_91.fasta.txt	3-ACCACGMG	MA0058.3	0	0.000586414	0.339534	0.322221	8	ACCACGCG	ACCACGTGCT	+	http://jaspar2018.genereg.net/matrix/MA0058.3
+no_char_rmdup_result_91.fasta.txt	4-ACCSGYACGTG	MA0473.2	1	0.000499732	0.289345	0.258589	11	ACCCGTACGTG	AACCCGGAAGTG	+	http://jaspar2018.genereg.net/matrix/MA0473.2
+no_char_rmdup_result_91.fasta.txt	4-ACCSGYACGTG	MA0641.1	1	0.000673185	0.389774	0.258589	11	ACCCGTACGTG	AACCCGGAAGTG	+	http://jaspar2018.genereg.net/matrix/MA0641.1
+no_char_rmdup_result_91.fasta.txt	5-AGGACGCCGTG	MA0112.3	1	0.000645605	0.373805	0.468898	11	AGGACGCCGTG	CAGGTCACCGTGACCTT	-	http://jaspar2018.genereg.net/matrix/MA0112.3
+no_char_rmdup_result_91.fasta.txt											
+no_char_rmdup_result_92.fasta.txt	1-CCACTTGC	MA0147.3	2	0.000291324	0.168677	0.139959	8	CCACTTGC	GGCCACGTGCCC	+	http://jaspar2018.genereg.net/matrix/MA0147.3
+no_char_rmdup_result_92.fasta.txt	1-CCACTTGC	MA0058.3	1	0.000339591	0.196623	0.139959	8	CCACTTGC	ACCACGTGCT	+	http://jaspar2018.genereg.net/matrix/MA0058.3
+no_char_rmdup_result_92.fasta.txt	1-CCACTTGC	MA1108.1	3	0.00046163	0.267284	0.139959	8	CCACTTGC	CGACCACGTGCCC	+	http://jaspar2018.genereg.net/matrix/MA1108.1
+no_char_rmdup_result_92.fasta.txt	1-CCACTTGC	MA0825.1	1	0.000852997	0.493885	0.139959	8	CCACTTGC	ACCACGTGCC	+	http://jaspar2018.genereg.net/matrix/MA0825.1
+no_char_rmdup_result_92.fasta.txt											
+no_char_rmdup_result_94.fasta.txt	2-GTCYCCCAY	MA0748.1	0	0.000631957	0.365903	0.731806	9	GTCCCCCAC	GTCCGCCATTA	+	http://jaspar2018.genereg.net/matrix/MA0748.1
+no_char_rmdup_result_94.fasta.txt											
+no_char_rmdup_result_95.fasta.txt											
+no_char_rmdup_result_99.fasta.txt											
+result_17.fasta.txt	2-ACCCTCCCCCA	MA0753.1	-2	0.000196919	0.114016	0.227594	9	ACCCTCCCCCA	CCCCCCCCAC	+	http://jaspar2018.genereg.net/matrix/MA0753.1
+result_17.fasta.txt	2-ACCCTCCCCCA	MA0079.3	1	0.000441591	0.255681	0.255191	10	ACCCTCCCCCA	GCCCCGCCCCC	+	http://jaspar2018.genereg.net/matrix/MA0079.3
+result_17.fasta.txt											
+result_82.fasta.txt											
+rmdup_result_17.fasta.txt	1-GGAGGGTGTAACGG	MA0777.1	-1	0.000305445	0.176853	0.353705	13	GGAGGGTGTAACGG	GACCGTTTAACGGTT	-	http://jaspar2018.genereg.net/matrix/MA0777.1
+rmdup_result_17.fasta.txt	3-TCTCCCACCT	MA0803.1	-2	0.000223179	0.129221	0.0916055	8	TCTCCCACCT	TCACACCT	-	http://jaspar2018.genereg.net/matrix/MA0803.1
+rmdup_result_17.fasta.txt	3-TCTCCCACCT	MA0805.1	-2	0.000253307	0.146665	0.0916055	8	TCTCCCACCT	TCACACCT	-	http://jaspar2018.genereg.net/matrix/MA0805.1
+rmdup_result_17.fasta.txt	3-TCTCCCACCT	MA0802.1	0	0.000313873	0.181732	0.0916055	10	TCTCCCACCT	TTTCACACCT	-	http://jaspar2018.genereg.net/matrix/MA0802.1
+rmdup_result_17.fasta.txt	3-TCTCCCACCT	MA0801.1	-2	0.00035908	0.207907	0.0916055	8	TCTCCCACCT	TCACACCT	-	http://jaspar2018.genereg.net/matrix/MA0801.1
+rmdup_result_17.fasta.txt	3-TCTCCCACCT	MA0807.1	-2	0.000398024	0.230456	0.0916055	8	TCTCCCACCT	TCACACCT	-	http://jaspar2018.genereg.net/matrix/MA0807.1
+rmdup_result_17.fasta.txt	3-TCTCCCACCT	MA0806.1	-2	0.000481396	0.278728	0.0923281	8	TCTCCCACCT	TCACACCT	-	http://jaspar2018.genereg.net/matrix/MA0806.1
+rmdup_result_17.fasta.txt	3-TCTCCCACCT	MA0688.1	0	0.000608574	0.352364	0.100046	10	TCTCCCACCT	TTTCACACCTT	-	http://jaspar2018.genereg.net/matrix/MA0688.1
+rmdup_result_17.fasta.txt											
+rmdup_result_82.fasta.txt											
