@@ -1,0 +1,41 @@
+Fusarium oxysporum f. sp. lycopersici
+Piriformospora indica 
+Phytophthora agathidicida
+Plasmopara viticola
+Blumeria graminis
+Blumeria graminis f. sp. hordei
+Blumeria graminis f. sp. tritici
+Cladosporium fulvum
+Colletotrichum graminicola
+Colletotrichum orbiculare
+Fusarium graminearum
+Fusarium oxysporum
+Fusarium oxysporum Fo5176
+Fusarium oxysporum f. sp. lycopersici
+Hemileia vastatrix cytoplasmic
+Hyaloperonospora arabidopsidis
+Hyaloperonospora parasitica
+Verticillium dahliae
+Laccaria bicolor
+Leptosphaeria maculans
+Magnaporthe oryzae
+Melampsora lini
+Parastagonospora nodorum
+Penicillium expansum
+Phakopsora pachyrhizi
+Phytophthora cactorum
+Phytophthora infestans
+Phytophthora parasitica
+Phytophthora sojae
+Puccinia graminis f. sp. tritici
+Puccinia striiformis f. sp. tritici
+Pyrenophora tritici-repentis
+Rhizophagus intraradices
+Rhynchosporium commune
+Saprolegnia parasitica
+Sclerotinia sclerotiorum
+Sporisorium reilianum
+Uromyces viciae-fabae
+Ustilago hordei
+Ustilago maydis
+Zymoseptoria tritici
