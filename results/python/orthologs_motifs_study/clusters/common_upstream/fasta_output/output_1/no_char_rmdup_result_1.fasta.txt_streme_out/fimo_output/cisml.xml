@@ -1,0 +1,2378 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<!-- Document definition -->
+<!-- http://zlab.bu.edu/~phaverty/SupplementalData/CisML/cisml.dtd -->
+<!DOCTYPE cis-element-search[
+<!ELEMENT cis-element-search (program-name, parameters, (pattern | multi-pattern-scan)*)>
+<!ELEMENT program-name (#PCDATA)>
+<!ELEMENT parameters (
+  pattern-file, 
+  sequence-file, 
+  background-seq-file?,
+  pattern-pvalue-cutoff?,
+  sequence-pvalue-cutoff?,
+  site-pvalue-cutoff?,
+  sequence-filtering,
+  ANY*
+ )>
+<!ELEMENT command-line (#PCDATA)>
+<!ELEMENT pattern-file (#PCDATA)>
+<!ELEMENT sequence-file (#PCDATA)>
+<!ELEMENT background-seq-file (#PCDATA)>
+<!ELEMENT pattern-pvalue-cutoff (#PCDATA)>
+<!ELEMENT sequence-pvalue-cutoff (#PCDATA)>
+<!ELEMENT site-pvalue-cutoff (#PCDATA)>
+<!ELEMENT sequence-filtering EMPTY>
+<!ELEMENT multi-pattern-scan (pattern+, ANY*)>
+<!ELEMENT pattern (scanned-sequence+, ANY*)>
+<!ELEMENT scanned-sequence (matched-element*, ANY*)>
+<!ELEMENT matched-element (sequence)>
+<!ELEMENT sequence (#PCDATA)>
+<!ATTLIST cis-element-search
+xmlns:xsi CDATA #IMPLIED
+xmlns:mem CDATA #IMPLIED
+xsi:schemaLocation CDATA #IMPLIED
+>
+<!ATTLIST sequence-filtering
+on-off CDATA #REQUIRED
+type CDATA #IMPLIED
+>
+<!ATTLIST multi-pattern-scan
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+>
+<!ATTLIST pattern
+accession CDATA #REQUIRED
+name CDATA #REQUIRED
+pvalue CDATA #IMPLIED
+score CDATA #IMPLIED
+db CDATA #IMPLIED
+lsid CDATA #IMPLIED
+>
+<!ATTLIST scanned-sequence
+accession CDATA #REQUIRED
+name CDATA #REQUIRED
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+length CDATA #IMPLIED
+db CDATA #IMPLIED
+lsid CDATA #IMPLIED
+>
+<!ATTLIST matched-element
+start CDATA #REQUIRED
+stop CDATA #REQUIRED
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+clusterid CDATA #IMPLIED
+>
+
+]>
+<cis-element-search
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://zlab.bu.edu/schema/cisml cisml.xsd"
+  xmlns="http://zlab.bu.edu/schema/cisml"
+  xmlns:mem="http://noble.gs.washington.edu/meme"
+>
+<program-name>fimo</program-name>
+<parameters>
+<command-line>fimo -oc /Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/python/orthologs_study/old_clusters_fasta/no_char_rmdup_result_1.fasta.txt_streme_out/fimo_output --norc --parse-genomic-coord /Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/meme/orthologs_study/streme_400_output_files/streme.txt /Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/python/orthologs_study/old_clusters_fasta/no_char_rmdup_result_1.fasta.txt.fasta</command-line>
+<pattern-file>/Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/meme/orthologs_study/streme_400_output_files/streme.txt</pattern-file>
+<sequence-file>/Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/python/orthologs_study/old_clusters_fasta/no_char_rmdup_result_1.fasta.txt.fasta</sequence-file>
+<site-pvalue-cutoff>0.0001</site-pvalue-cutoff>
+<sequence-filtering on-off="off"/>
+</parameters>
+<pattern accession="1-CAGCGGGGCTGCCGT" name="STREME-1">
+<scanned-sequence accession="CEG38416(Scaffold_322" name="CEG38416(Scaffold_322">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05734(supercont1.9" name="PITG_05734(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_261391(PHYSOscaffold_4" name="PHYSODRAFT_261391(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336089(PHYSOscaffold_7" name="PHYSODRAFT_336089(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG36842(Scaffold_253" name="CEG36842(Scaffold_253">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_346008(PHYSOscaffold_4" name="PHYSODRAFT_346008(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG44404(Scaffold_1211" name="CEG44404(Scaffold_1211">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05741(supercont1.9" name="PITG_05741(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG39388(Scaffold_430" name="CEG39388(Scaffold_430">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05079(supercont1.7" name="PITG_05079(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PITG_10769(supercont1.20" name="PITG_10769(supercont1.20">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+<matched-element start="8748425" stop="8748439" score="-11.08" pvalue="2.01e-05">
+<sequence>CAGCAGCGGTGCAGT</sequence>
+<mem:qvalue>0.0679</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_418945(PHYSOscaffold_29" name="PHYSODRAFT_418945(PHYSOscaffold_29">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_412719(PHYSOscaffold_1" name="PHYSODRAFT_412719(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG43263(Scaffold_658" name="CEG43263(Scaffold_658">
+</scanned-sequence>
+<scanned-sequence accession="PITG_07597(supercont1.11" name="PITG_07597(supercont1.11">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323518(PHYSOscaffold_1" name="PHYSODRAFT_323518(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341252(PHYSOscaffold_13" name="PHYSODRAFT_341252(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336739(PHYSOscaffold_7" name="PHYSODRAFT_336739(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_499377(PHYSOscaffold_4" name="PHYSODRAFT_499377(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_530395(PHYSOscaffold_13" name="PHYSODRAFT_530395(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_471752(PHYSOscaffold_1" name="PHYSODRAFT_471752(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_286243(PHYSOscaffold_5" name="PHYSODRAFT_286243(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341256(PHYSOscaffold_13" name="PHYSODRAFT_341256(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05409(supercont1.7" name="PITG_05409(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_556486(PHYSOscaffold_2" name="PHYSODRAFT_556486(PHYSOscaffold_2">
+</scanned-sequence>
+<scanned-sequence accession="CEG48014(Scaffold_2904" name="CEG48014(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_564225(PHYSOscaffold_9" name="PHYSODRAFT_564225(PHYSOscaffold_9">
+</scanned-sequence>
+<scanned-sequence accession="CEG40804(Scaffold_525" name="CEG40804(Scaffold_525">
+</scanned-sequence>
+<scanned-sequence accession="PITG_20744(supercont1.163" name="PITG_20744(supercont1.163">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_509192(PHYSOscaffold_5" name="PHYSODRAFT_509192(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="2-CTGACGGA" name="STREME-2">
+<scanned-sequence accession="CEG38416(Scaffold_322" name="CEG38416(Scaffold_322">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05734(supercont1.9" name="PITG_05734(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_261391(PHYSOscaffold_4" name="PHYSODRAFT_261391(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336089(PHYSOscaffold_7" name="PHYSODRAFT_336089(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG36842(Scaffold_253" name="CEG36842(Scaffold_253">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_346008(PHYSOscaffold_4" name="PHYSODRAFT_346008(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG44404(Scaffold_1211" name="CEG44404(Scaffold_1211">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05741(supercont1.9" name="PITG_05741(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG39388(Scaffold_430" name="CEG39388(Scaffold_430">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05079(supercont1.7" name="PITG_05079(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PITG_10769(supercont1.20" name="PITG_10769(supercont1.20">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_418945(PHYSOscaffold_29" name="PHYSODRAFT_418945(PHYSOscaffold_29">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_412719(PHYSOscaffold_1" name="PHYSODRAFT_412719(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG43263(Scaffold_658" name="CEG43263(Scaffold_658">
+</scanned-sequence>
+<scanned-sequence accession="PITG_07597(supercont1.11" name="PITG_07597(supercont1.11">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323518(PHYSOscaffold_1" name="PHYSODRAFT_323518(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341252(PHYSOscaffold_13" name="PHYSODRAFT_341252(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336739(PHYSOscaffold_7" name="PHYSODRAFT_336739(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_499377(PHYSOscaffold_4" name="PHYSODRAFT_499377(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_530395(PHYSOscaffold_13" name="PHYSODRAFT_530395(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_471752(PHYSOscaffold_1" name="PHYSODRAFT_471752(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_286243(PHYSOscaffold_5" name="PHYSODRAFT_286243(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341256(PHYSOscaffold_13" name="PHYSODRAFT_341256(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05409(supercont1.7" name="PITG_05409(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_556486(PHYSOscaffold_2" name="PHYSODRAFT_556486(PHYSOscaffold_2">
+</scanned-sequence>
+<scanned-sequence accession="CEG48014(Scaffold_2904" name="CEG48014(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_564225(PHYSOscaffold_9" name="PHYSODRAFT_564225(PHYSOscaffold_9">
+</scanned-sequence>
+<scanned-sequence accession="CEG40804(Scaffold_525" name="CEG40804(Scaffold_525">
+</scanned-sequence>
+<scanned-sequence accession="PITG_20744(supercont1.163" name="PITG_20744(supercont1.163">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_509192(PHYSOscaffold_5" name="PHYSODRAFT_509192(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="3-CTCTGACGCAAAG" name="STREME-3">
+<scanned-sequence accession="CEG38416(Scaffold_322" name="CEG38416(Scaffold_322">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05734(supercont1.9" name="PITG_05734(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_261391(PHYSOscaffold_4" name="PHYSODRAFT_261391(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336089(PHYSOscaffold_7" name="PHYSODRAFT_336089(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG36842(Scaffold_253" name="CEG36842(Scaffold_253">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_346008(PHYSOscaffold_4" name="PHYSODRAFT_346008(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG44404(Scaffold_1211" name="CEG44404(Scaffold_1211">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05741(supercont1.9" name="PITG_05741(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG39388(Scaffold_430" name="CEG39388(Scaffold_430">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05079(supercont1.7" name="PITG_05079(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PITG_10769(supercont1.20" name="PITG_10769(supercont1.20">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_418945(PHYSOscaffold_29" name="PHYSODRAFT_418945(PHYSOscaffold_29">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_412719(PHYSOscaffold_1" name="PHYSODRAFT_412719(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG43263(Scaffold_658" name="CEG43263(Scaffold_658">
+</scanned-sequence>
+<scanned-sequence accession="PITG_07597(supercont1.11" name="PITG_07597(supercont1.11">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323518(PHYSOscaffold_1" name="PHYSODRAFT_323518(PHYSOscaffold_1">
+<matched-element start="11443016" stop="11443028" score="22.6341" pvalue="5.79e-08">
+<sequence>CTCTAACGCAAAG</sequence>
+<mem:qvalue>4.85e-05</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341252(PHYSOscaffold_13" name="PHYSODRAFT_341252(PHYSOscaffold_13">
+<matched-element start="1547006" stop="1547018" score="24.939" pvalue="1.31e-08">
+<sequence>CTCTGACGCAAAG</sequence>
+<mem:qvalue>1.78e-05</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336739(PHYSOscaffold_7" name="PHYSODRAFT_336739(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+<matched-element start="12232905" stop="12232917" score="24.939" pvalue="1.31e-08">
+<sequence>CTCTGACGCAAAG</sequence>
+<mem:qvalue>1.78e-05</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_499377(PHYSOscaffold_4" name="PHYSODRAFT_499377(PHYSOscaffold_4">
+<matched-element start="4182834" stop="4182846" score="22.0488" pvalue="6.82e-08">
+<sequence>CTCTGACGCACAG</sequence>
+<mem:qvalue>4.85e-05</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_530395(PHYSOscaffold_13" name="PHYSODRAFT_530395(PHYSOscaffold_13">
+<matched-element start="1612094" stop="1612106" score="20.6707" pvalue="8.36e-08">
+<sequence>CTCTGACGCTAAA</sequence>
+<mem:qvalue>4.85e-05</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_471752(PHYSOscaffold_1" name="PHYSODRAFT_471752(PHYSOscaffold_1">
+<matched-element start="11050290" stop="11050302" score="24.939" pvalue="1.31e-08">
+<sequence>CTCTGACGCAAAG</sequence>
+<mem:qvalue>1.78e-05</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_286243(PHYSOscaffold_5" name="PHYSODRAFT_286243(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+<matched-element start="2094408" stop="2094420" score="20.6707" pvalue="8.36e-08">
+<sequence>CTCTGACGCTAAA</sequence>
+<mem:qvalue>4.85e-05</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341256(PHYSOscaffold_13" name="PHYSODRAFT_341256(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05409(supercont1.7" name="PITG_05409(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_556486(PHYSOscaffold_2" name="PHYSODRAFT_556486(PHYSOscaffold_2">
+</scanned-sequence>
+<scanned-sequence accession="CEG48014(Scaffold_2904" name="CEG48014(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_564225(PHYSOscaffold_9" name="PHYSODRAFT_564225(PHYSOscaffold_9">
+</scanned-sequence>
+<scanned-sequence accession="CEG40804(Scaffold_525" name="CEG40804(Scaffold_525">
+</scanned-sequence>
+<scanned-sequence accession="PITG_20744(supercont1.163" name="PITG_20744(supercont1.163">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_509192(PHYSOscaffold_5" name="PHYSODRAFT_509192(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="4-GGTGGTAAATTAC" name="STREME-4">
+<scanned-sequence accession="CEG38416(Scaffold_322" name="CEG38416(Scaffold_322">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05734(supercont1.9" name="PITG_05734(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_261391(PHYSOscaffold_4" name="PHYSODRAFT_261391(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336089(PHYSOscaffold_7" name="PHYSODRAFT_336089(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG36842(Scaffold_253" name="CEG36842(Scaffold_253">
+<matched-element start="301653" stop="301665" score="-2.73469" pvalue="9.6e-05">
+<sequence>AATCATAAATTAC</sequence>
+<mem:qvalue>0.393</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_346008(PHYSOscaffold_4" name="PHYSODRAFT_346008(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG44404(Scaffold_1211" name="CEG44404(Scaffold_1211">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05741(supercont1.9" name="PITG_05741(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG39388(Scaffold_430" name="CEG39388(Scaffold_430">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05079(supercont1.7" name="PITG_05079(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PITG_10769(supercont1.20" name="PITG_10769(supercont1.20">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_418945(PHYSOscaffold_29" name="PHYSODRAFT_418945(PHYSOscaffold_29">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_412719(PHYSOscaffold_1" name="PHYSODRAFT_412719(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG43263(Scaffold_658" name="CEG43263(Scaffold_658">
+</scanned-sequence>
+<scanned-sequence accession="PITG_07597(supercont1.11" name="PITG_07597(supercont1.11">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323518(PHYSOscaffold_1" name="PHYSODRAFT_323518(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341252(PHYSOscaffold_13" name="PHYSODRAFT_341252(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336739(PHYSOscaffold_7" name="PHYSODRAFT_336739(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_499377(PHYSOscaffold_4" name="PHYSODRAFT_499377(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_530395(PHYSOscaffold_13" name="PHYSODRAFT_530395(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_471752(PHYSOscaffold_1" name="PHYSODRAFT_471752(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_286243(PHYSOscaffold_5" name="PHYSODRAFT_286243(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341256(PHYSOscaffold_13" name="PHYSODRAFT_341256(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05409(supercont1.7" name="PITG_05409(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_556486(PHYSOscaffold_2" name="PHYSODRAFT_556486(PHYSOscaffold_2">
+</scanned-sequence>
+<scanned-sequence accession="CEG48014(Scaffold_2904" name="CEG48014(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_564225(PHYSOscaffold_9" name="PHYSODRAFT_564225(PHYSOscaffold_9">
+</scanned-sequence>
+<scanned-sequence accession="CEG40804(Scaffold_525" name="CEG40804(Scaffold_525">
+</scanned-sequence>
+<scanned-sequence accession="PITG_20744(supercont1.163" name="PITG_20744(supercont1.163">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_509192(PHYSOscaffold_5" name="PHYSODRAFT_509192(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="5-AGCGCGTG" name="STREME-5">
+<scanned-sequence accession="CEG38416(Scaffold_322" name="CEG38416(Scaffold_322">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05734(supercont1.9" name="PITG_05734(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_261391(PHYSOscaffold_4" name="PHYSODRAFT_261391(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336089(PHYSOscaffold_7" name="PHYSODRAFT_336089(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG36842(Scaffold_253" name="CEG36842(Scaffold_253">
+<matched-element start="301667" stop="301674" score="11.9146" pvalue="4.23e-05">
+<sequence>AGCACGTG</sequence>
+<mem:qvalue>0.0849</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_346008(PHYSOscaffold_4" name="PHYSODRAFT_346008(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG44404(Scaffold_1211" name="CEG44404(Scaffold_1211">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05741(supercont1.9" name="PITG_05741(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG39388(Scaffold_430" name="CEG39388(Scaffold_430">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05079(supercont1.7" name="PITG_05079(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PITG_10769(supercont1.20" name="PITG_10769(supercont1.20">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_418945(PHYSOscaffold_29" name="PHYSODRAFT_418945(PHYSOscaffold_29">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_412719(PHYSOscaffold_1" name="PHYSODRAFT_412719(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG43263(Scaffold_658" name="CEG43263(Scaffold_658">
+</scanned-sequence>
+<scanned-sequence accession="PITG_07597(supercont1.11" name="PITG_07597(supercont1.11">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323518(PHYSOscaffold_1" name="PHYSODRAFT_323518(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341252(PHYSOscaffold_13" name="PHYSODRAFT_341252(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336739(PHYSOscaffold_7" name="PHYSODRAFT_336739(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_499377(PHYSOscaffold_4" name="PHYSODRAFT_499377(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_530395(PHYSOscaffold_13" name="PHYSODRAFT_530395(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_471752(PHYSOscaffold_1" name="PHYSODRAFT_471752(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_286243(PHYSOscaffold_5" name="PHYSODRAFT_286243(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341256(PHYSOscaffold_13" name="PHYSODRAFT_341256(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+<matched-element start="924055" stop="924062" score="11.9146" pvalue="4.23e-05">
+<sequence>AGCACGTG</sequence>
+<mem:qvalue>0.0849</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PITG_05409(supercont1.7" name="PITG_05409(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_556486(PHYSOscaffold_2" name="PHYSODRAFT_556486(PHYSOscaffold_2">
+</scanned-sequence>
+<scanned-sequence accession="CEG48014(Scaffold_2904" name="CEG48014(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_564225(PHYSOscaffold_9" name="PHYSODRAFT_564225(PHYSOscaffold_9">
+</scanned-sequence>
+<scanned-sequence accession="CEG40804(Scaffold_525" name="CEG40804(Scaffold_525">
+</scanned-sequence>
+<scanned-sequence accession="PITG_20744(supercont1.163" name="PITG_20744(supercont1.163">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_509192(PHYSOscaffold_5" name="PHYSODRAFT_509192(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="6-AAGCGCAAAGC" name="STREME-6">
+<scanned-sequence accession="CEG38416(Scaffold_322" name="CEG38416(Scaffold_322">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05734(supercont1.9" name="PITG_05734(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_261391(PHYSOscaffold_4" name="PHYSODRAFT_261391(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336089(PHYSOscaffold_7" name="PHYSODRAFT_336089(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG36842(Scaffold_253" name="CEG36842(Scaffold_253">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_346008(PHYSOscaffold_4" name="PHYSODRAFT_346008(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG44404(Scaffold_1211" name="CEG44404(Scaffold_1211">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05741(supercont1.9" name="PITG_05741(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG39388(Scaffold_430" name="CEG39388(Scaffold_430">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05079(supercont1.7" name="PITG_05079(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PITG_10769(supercont1.20" name="PITG_10769(supercont1.20">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_418945(PHYSOscaffold_29" name="PHYSODRAFT_418945(PHYSOscaffold_29">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_412719(PHYSOscaffold_1" name="PHYSODRAFT_412719(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG43263(Scaffold_658" name="CEG43263(Scaffold_658">
+</scanned-sequence>
+<scanned-sequence accession="PITG_07597(supercont1.11" name="PITG_07597(supercont1.11">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+<matched-element start="690215" stop="690225" score="20.1463" pvalue="2.33e-07">
+<sequence>AAGCGCAAAGC</sequence>
+<mem:qvalue>0.00014</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323518(PHYSOscaffold_1" name="PHYSODRAFT_323518(PHYSOscaffold_1">
+<matched-element start="11443019" stop="11443029" score="10.9878" pvalue="2.44e-05">
+<sequence>TAACGCAAAGC</sequence>
+<mem:qvalue>0.0128</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341252(PHYSOscaffold_13" name="PHYSODRAFT_341252(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336739(PHYSOscaffold_7" name="PHYSODRAFT_336739(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+<matched-element start="690215" stop="690225" score="20.1463" pvalue="2.33e-07">
+<sequence>AAGCGCAAAGC</sequence>
+<mem:qvalue>0.00014</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+<matched-element start="690215" stop="690225" score="20.1463" pvalue="2.33e-07">
+<sequence>AAGCGCAAAGC</sequence>
+<mem:qvalue>0.00014</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_499377(PHYSOscaffold_4" name="PHYSODRAFT_499377(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+<matched-element start="690213" stop="690223" score="20.1463" pvalue="2.33e-07">
+<sequence>AAGCGCAAAGC</sequence>
+<mem:qvalue>0.00014</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_530395(PHYSOscaffold_13" name="PHYSODRAFT_530395(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+<matched-element start="690215" stop="690225" score="20.1463" pvalue="2.33e-07">
+<sequence>AAGCGCAAAGC</sequence>
+<mem:qvalue>0.00014</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_471752(PHYSOscaffold_1" name="PHYSODRAFT_471752(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_286243(PHYSOscaffold_5" name="PHYSODRAFT_286243(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+<matched-element start="690210" stop="690220" score="20.1463" pvalue="2.33e-07">
+<sequence>AAGCGCAAAGC</sequence>
+<mem:qvalue>0.00014</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+<matched-element start="690213" stop="690223" score="20.1463" pvalue="2.33e-07">
+<sequence>AAGCGCAAAGC</sequence>
+<mem:qvalue>0.00014</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341256(PHYSOscaffold_13" name="PHYSODRAFT_341256(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05409(supercont1.7" name="PITG_05409(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_556486(PHYSOscaffold_2" name="PHYSODRAFT_556486(PHYSOscaffold_2">
+</scanned-sequence>
+<scanned-sequence accession="CEG48014(Scaffold_2904" name="CEG48014(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_564225(PHYSOscaffold_9" name="PHYSODRAFT_564225(PHYSOscaffold_9">
+</scanned-sequence>
+<scanned-sequence accession="CEG40804(Scaffold_525" name="CEG40804(Scaffold_525">
+</scanned-sequence>
+<scanned-sequence accession="PITG_20744(supercont1.163" name="PITG_20744(supercont1.163">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_509192(PHYSOscaffold_5" name="PHYSODRAFT_509192(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="7-KAAGCTTM" name="STREME-7">
+<scanned-sequence accession="CEG38416(Scaffold_322" name="CEG38416(Scaffold_322">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05734(supercont1.9" name="PITG_05734(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_261391(PHYSOscaffold_4" name="PHYSODRAFT_261391(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336089(PHYSOscaffold_7" name="PHYSODRAFT_336089(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG36842(Scaffold_253" name="CEG36842(Scaffold_253">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_346008(PHYSOscaffold_4" name="PHYSODRAFT_346008(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG44404(Scaffold_1211" name="CEG44404(Scaffold_1211">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05741(supercont1.9" name="PITG_05741(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG39388(Scaffold_430" name="CEG39388(Scaffold_430">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05079(supercont1.7" name="PITG_05079(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PITG_10769(supercont1.20" name="PITG_10769(supercont1.20">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_418945(PHYSOscaffold_29" name="PHYSODRAFT_418945(PHYSOscaffold_29">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_412719(PHYSOscaffold_1" name="PHYSODRAFT_412719(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG43263(Scaffold_658" name="CEG43263(Scaffold_658">
+</scanned-sequence>
+<scanned-sequence accession="PITG_07597(supercont1.11" name="PITG_07597(supercont1.11">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+<matched-element start="690203" stop="690210" score="13.0732" pvalue="3.18e-05">
+<sequence>TAAGCTTC</sequence>
+<mem:qvalue>0.0174</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323518(PHYSOscaffold_1" name="PHYSODRAFT_323518(PHYSOscaffold_1">
+<matched-element start="11443008" stop="11443015" score="13.0732" pvalue="3.18e-05">
+<sequence>TAAGCTTC</sequence>
+<mem:qvalue>0.0174</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341252(PHYSOscaffold_13" name="PHYSODRAFT_341252(PHYSOscaffold_13">
+<matched-element start="1546998" stop="1547005" score="13.0732" pvalue="3.18e-05">
+<sequence>TAAGCTTC</sequence>
+<mem:qvalue>0.0174</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336739(PHYSOscaffold_7" name="PHYSODRAFT_336739(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+<matched-element start="690203" stop="690210" score="13.0732" pvalue="3.18e-05">
+<sequence>TAAGCTTC</sequence>
+<mem:qvalue>0.0174</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+<matched-element start="12232897" stop="12232904" score="13.0732" pvalue="3.18e-05">
+<sequence>TAAGCTTC</sequence>
+<mem:qvalue>0.0174</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+<matched-element start="690203" stop="690210" score="13.0732" pvalue="3.18e-05">
+<sequence>TAAGCTTC</sequence>
+<mem:qvalue>0.0174</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_499377(PHYSOscaffold_4" name="PHYSODRAFT_499377(PHYSOscaffold_4">
+<matched-element start="4182826" stop="4182833" score="13.0732" pvalue="3.18e-05">
+<sequence>TAAGCTTC</sequence>
+<mem:qvalue>0.0174</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_530395(PHYSOscaffold_13" name="PHYSODRAFT_530395(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+<matched-element start="690203" stop="690210" score="13.0732" pvalue="3.18e-05">
+<sequence>TAAGCTTC</sequence>
+<mem:qvalue>0.0174</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_471752(PHYSOscaffold_1" name="PHYSODRAFT_471752(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_286243(PHYSOscaffold_5" name="PHYSODRAFT_286243(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341256(PHYSOscaffold_13" name="PHYSODRAFT_341256(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05409(supercont1.7" name="PITG_05409(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_556486(PHYSOscaffold_2" name="PHYSODRAFT_556486(PHYSOscaffold_2">
+</scanned-sequence>
+<scanned-sequence accession="CEG48014(Scaffold_2904" name="CEG48014(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_564225(PHYSOscaffold_9" name="PHYSODRAFT_564225(PHYSOscaffold_9">
+</scanned-sequence>
+<scanned-sequence accession="CEG40804(Scaffold_525" name="CEG40804(Scaffold_525">
+</scanned-sequence>
+<scanned-sequence accession="PITG_20744(supercont1.163" name="PITG_20744(supercont1.163">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_509192(PHYSOscaffold_5" name="PHYSODRAFT_509192(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="8-AGATGAGCAAATA" name="STREME-8">
+<scanned-sequence accession="CEG38416(Scaffold_322" name="CEG38416(Scaffold_322">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05734(supercont1.9" name="PITG_05734(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_261391(PHYSOscaffold_4" name="PHYSODRAFT_261391(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336089(PHYSOscaffold_7" name="PHYSODRAFT_336089(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG36842(Scaffold_253" name="CEG36842(Scaffold_253">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_346008(PHYSOscaffold_4" name="PHYSODRAFT_346008(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG44404(Scaffold_1211" name="CEG44404(Scaffold_1211">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05741(supercont1.9" name="PITG_05741(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG39388(Scaffold_430" name="CEG39388(Scaffold_430">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05079(supercont1.7" name="PITG_05079(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PITG_10769(supercont1.20" name="PITG_10769(supercont1.20">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+<matched-element start="1870132" stop="1870144" score="7.09184" pvalue="3e-05">
+<sequence>AGTTGATCAAGTA</sequence>
+<mem:qvalue>0.123</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_418945(PHYSOscaffold_29" name="PHYSODRAFT_418945(PHYSOscaffold_29">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_412719(PHYSOscaffold_1" name="PHYSODRAFT_412719(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG43263(Scaffold_658" name="CEG43263(Scaffold_658">
+</scanned-sequence>
+<scanned-sequence accession="PITG_07597(supercont1.11" name="PITG_07597(supercont1.11">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323518(PHYSOscaffold_1" name="PHYSODRAFT_323518(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341252(PHYSOscaffold_13" name="PHYSODRAFT_341252(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336739(PHYSOscaffold_7" name="PHYSODRAFT_336739(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_499377(PHYSOscaffold_4" name="PHYSODRAFT_499377(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_530395(PHYSOscaffold_13" name="PHYSODRAFT_530395(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_471752(PHYSOscaffold_1" name="PHYSODRAFT_471752(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_286243(PHYSOscaffold_5" name="PHYSODRAFT_286243(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341256(PHYSOscaffold_13" name="PHYSODRAFT_341256(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05409(supercont1.7" name="PITG_05409(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_556486(PHYSOscaffold_2" name="PHYSODRAFT_556486(PHYSOscaffold_2">
+</scanned-sequence>
+<scanned-sequence accession="CEG48014(Scaffold_2904" name="CEG48014(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_564225(PHYSOscaffold_9" name="PHYSODRAFT_564225(PHYSOscaffold_9">
+</scanned-sequence>
+<scanned-sequence accession="CEG40804(Scaffold_525" name="CEG40804(Scaffold_525">
+</scanned-sequence>
+<scanned-sequence accession="PITG_20744(supercont1.163" name="PITG_20744(supercont1.163">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_509192(PHYSOscaffold_5" name="PHYSODRAFT_509192(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="9-CATTCTCCTC" name="STREME-9">
+<scanned-sequence accession="CEG38416(Scaffold_322" name="CEG38416(Scaffold_322">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05734(supercont1.9" name="PITG_05734(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_261391(PHYSOscaffold_4" name="PHYSODRAFT_261391(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336089(PHYSOscaffold_7" name="PHYSODRAFT_336089(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG36842(Scaffold_253" name="CEG36842(Scaffold_253">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_346008(PHYSOscaffold_4" name="PHYSODRAFT_346008(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG44404(Scaffold_1211" name="CEG44404(Scaffold_1211">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05741(supercont1.9" name="PITG_05741(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG39388(Scaffold_430" name="CEG39388(Scaffold_430">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05079(supercont1.7" name="PITG_05079(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PITG_10769(supercont1.20" name="PITG_10769(supercont1.20">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_418945(PHYSOscaffold_29" name="PHYSODRAFT_418945(PHYSOscaffold_29">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_412719(PHYSOscaffold_1" name="PHYSODRAFT_412719(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG43263(Scaffold_658" name="CEG43263(Scaffold_658">
+</scanned-sequence>
+<scanned-sequence accession="PITG_07597(supercont1.11" name="PITG_07597(supercont1.11">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323518(PHYSOscaffold_1" name="PHYSODRAFT_323518(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341252(PHYSOscaffold_13" name="PHYSODRAFT_341252(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336739(PHYSOscaffold_7" name="PHYSODRAFT_336739(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_499377(PHYSOscaffold_4" name="PHYSODRAFT_499377(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_530395(PHYSOscaffold_13" name="PHYSODRAFT_530395(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_471752(PHYSOscaffold_1" name="PHYSODRAFT_471752(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_286243(PHYSOscaffold_5" name="PHYSODRAFT_286243(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341256(PHYSOscaffold_13" name="PHYSODRAFT_341256(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05409(supercont1.7" name="PITG_05409(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_556486(PHYSOscaffold_2" name="PHYSODRAFT_556486(PHYSOscaffold_2">
+</scanned-sequence>
+<scanned-sequence accession="CEG48014(Scaffold_2904" name="CEG48014(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_564225(PHYSOscaffold_9" name="PHYSODRAFT_564225(PHYSOscaffold_9">
+</scanned-sequence>
+<scanned-sequence accession="CEG40804(Scaffold_525" name="CEG40804(Scaffold_525">
+</scanned-sequence>
+<scanned-sequence accession="PITG_20744(supercont1.163" name="PITG_20744(supercont1.163">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+<matched-element start="1740841" stop="1740850" score="8.87805" pvalue="8.74e-05">
+<sequence>CCATCTCCTC</sequence>
+<mem:qvalue>0.161</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_509192(PHYSOscaffold_5" name="PHYSODRAFT_509192(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+<matched-element start="1740847" stop="1740856" score="8.87805" pvalue="8.74e-05">
+<sequence>CCATCTCCTC</sequence>
+<mem:qvalue>0.161</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="10-CATCCGCA" name="STREME-10">
+<scanned-sequence accession="CEG38416(Scaffold_322" name="CEG38416(Scaffold_322">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05734(supercont1.9" name="PITG_05734(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_261391(PHYSOscaffold_4" name="PHYSODRAFT_261391(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336089(PHYSOscaffold_7" name="PHYSODRAFT_336089(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG36842(Scaffold_253" name="CEG36842(Scaffold_253">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_346008(PHYSOscaffold_4" name="PHYSODRAFT_346008(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG44404(Scaffold_1211" name="CEG44404(Scaffold_1211">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05741(supercont1.9" name="PITG_05741(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG39388(Scaffold_430" name="CEG39388(Scaffold_430">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05079(supercont1.7" name="PITG_05079(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PITG_10769(supercont1.20" name="PITG_10769(supercont1.20">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_418945(PHYSOscaffold_29" name="PHYSODRAFT_418945(PHYSOscaffold_29">
+<matched-element start="102003" stop="102010" score="10.6341" pvalue="3.04e-05">
+<sequence>CATCCGCC</sequence>
+<mem:qvalue>0.106</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_412719(PHYSOscaffold_1" name="PHYSODRAFT_412719(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG43263(Scaffold_658" name="CEG43263(Scaffold_658">
+</scanned-sequence>
+<scanned-sequence accession="PITG_07597(supercont1.11" name="PITG_07597(supercont1.11">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323518(PHYSOscaffold_1" name="PHYSODRAFT_323518(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341252(PHYSOscaffold_13" name="PHYSODRAFT_341252(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336739(PHYSOscaffold_7" name="PHYSODRAFT_336739(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_499377(PHYSOscaffold_4" name="PHYSODRAFT_499377(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_530395(PHYSOscaffold_13" name="PHYSODRAFT_530395(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_471752(PHYSOscaffold_1" name="PHYSODRAFT_471752(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_286243(PHYSOscaffold_5" name="PHYSODRAFT_286243(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341256(PHYSOscaffold_13" name="PHYSODRAFT_341256(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05409(supercont1.7" name="PITG_05409(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_556486(PHYSOscaffold_2" name="PHYSODRAFT_556486(PHYSOscaffold_2">
+</scanned-sequence>
+<scanned-sequence accession="CEG48014(Scaffold_2904" name="CEG48014(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_564225(PHYSOscaffold_9" name="PHYSODRAFT_564225(PHYSOscaffold_9">
+</scanned-sequence>
+<scanned-sequence accession="CEG40804(Scaffold_525" name="CEG40804(Scaffold_525">
+</scanned-sequence>
+<scanned-sequence accession="PITG_20744(supercont1.163" name="PITG_20744(supercont1.163">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_509192(PHYSOscaffold_5" name="PHYSODRAFT_509192(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="11-ACTTGGTAGCACTTG" name="STREME-11">
+<scanned-sequence accession="CEG38416(Scaffold_322" name="CEG38416(Scaffold_322">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05734(supercont1.9" name="PITG_05734(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_261391(PHYSOscaffold_4" name="PHYSODRAFT_261391(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+<matched-element start="2068044" stop="2068058" score="22.4944" pvalue="2.42e-08">
+<sequence>ACTTGGTTGCACTCG</sequence>
+<mem:qvalue>2.39e-05</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336089(PHYSOscaffold_7" name="PHYSODRAFT_336089(PHYSOscaffold_7">
+<matched-element start="315692" stop="315706" score="27.191" pvalue="1.68e-09">
+<sequence>ACTTGGTAGCACTCG</sequence>
+<mem:qvalue>3.32e-06</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+<matched-element start="2068046" stop="2068060" score="22.4944" pvalue="2.42e-08">
+<sequence>ACTTGGTTGCACTCG</sequence>
+<mem:qvalue>2.39e-05</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+<matched-element start="2094417" stop="2094431" score="28.3933" pvalue="9.17e-10">
+<sequence>ACTTGGTAGCACTTG</sequence>
+<mem:qvalue>3.32e-06</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="CEG36842(Scaffold_253" name="CEG36842(Scaffold_253">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_346008(PHYSOscaffold_4" name="PHYSODRAFT_346008(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG44404(Scaffold_1211" name="CEG44404(Scaffold_1211">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05741(supercont1.9" name="PITG_05741(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG39388(Scaffold_430" name="CEG39388(Scaffold_430">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05079(supercont1.7" name="PITG_05079(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PITG_10769(supercont1.20" name="PITG_10769(supercont1.20">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_418945(PHYSOscaffold_29" name="PHYSODRAFT_418945(PHYSOscaffold_29">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_412719(PHYSOscaffold_1" name="PHYSODRAFT_412719(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG43263(Scaffold_658" name="CEG43263(Scaffold_658">
+</scanned-sequence>
+<scanned-sequence accession="PITG_07597(supercont1.11" name="PITG_07597(supercont1.11">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323518(PHYSOscaffold_1" name="PHYSODRAFT_323518(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341252(PHYSOscaffold_13" name="PHYSODRAFT_341252(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336739(PHYSOscaffold_7" name="PHYSODRAFT_336739(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_499377(PHYSOscaffold_4" name="PHYSODRAFT_499377(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_530395(PHYSOscaffold_13" name="PHYSODRAFT_530395(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_471752(PHYSOscaffold_1" name="PHYSODRAFT_471752(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_286243(PHYSOscaffold_5" name="PHYSODRAFT_286243(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341256(PHYSOscaffold_13" name="PHYSODRAFT_341256(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05409(supercont1.7" name="PITG_05409(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_556486(PHYSOscaffold_2" name="PHYSODRAFT_556486(PHYSOscaffold_2">
+</scanned-sequence>
+<scanned-sequence accession="CEG48014(Scaffold_2904" name="CEG48014(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_564225(PHYSOscaffold_9" name="PHYSODRAFT_564225(PHYSOscaffold_9">
+</scanned-sequence>
+<scanned-sequence accession="CEG40804(Scaffold_525" name="CEG40804(Scaffold_525">
+</scanned-sequence>
+<scanned-sequence accession="PITG_20744(supercont1.163" name="PITG_20744(supercont1.163">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_509192(PHYSOscaffold_5" name="PHYSODRAFT_509192(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="12-TCTTCGCCAGGA" name="STREME-12">
+<scanned-sequence accession="CEG38416(Scaffold_322" name="CEG38416(Scaffold_322">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05734(supercont1.9" name="PITG_05734(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_261391(PHYSOscaffold_4" name="PHYSODRAFT_261391(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336089(PHYSOscaffold_7" name="PHYSODRAFT_336089(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG36842(Scaffold_253" name="CEG36842(Scaffold_253">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_346008(PHYSOscaffold_4" name="PHYSODRAFT_346008(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG44404(Scaffold_1211" name="CEG44404(Scaffold_1211">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05741(supercont1.9" name="PITG_05741(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG39388(Scaffold_430" name="CEG39388(Scaffold_430">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05079(supercont1.7" name="PITG_05079(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PITG_10769(supercont1.20" name="PITG_10769(supercont1.20">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+<matched-element start="1870087" stop="1870098" score="11.8659" pvalue="2.12e-05">
+<sequence>TTTTAGCCAGGA</sequence>
+<mem:qvalue>0.0281</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_418945(PHYSOscaffold_29" name="PHYSODRAFT_418945(PHYSOscaffold_29">
+<matched-element start="102015" stop="102026" score="16.4146" pvalue="1.56e-06">
+<sequence>TCTTCGCGAGGA</sequence>
+<mem:qvalue>0.00311</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_412719(PHYSOscaffold_1" name="PHYSODRAFT_412719(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG43263(Scaffold_658" name="CEG43263(Scaffold_658">
+</scanned-sequence>
+<scanned-sequence accession="PITG_07597(supercont1.11" name="PITG_07597(supercont1.11">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323518(PHYSOscaffold_1" name="PHYSODRAFT_323518(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341252(PHYSOscaffold_13" name="PHYSODRAFT_341252(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336739(PHYSOscaffold_7" name="PHYSODRAFT_336739(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_499377(PHYSOscaffold_4" name="PHYSODRAFT_499377(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_530395(PHYSOscaffold_13" name="PHYSODRAFT_530395(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_471752(PHYSOscaffold_1" name="PHYSODRAFT_471752(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_286243(PHYSOscaffold_5" name="PHYSODRAFT_286243(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341256(PHYSOscaffold_13" name="PHYSODRAFT_341256(PHYSOscaffold_13">
+<matched-element start="1569964" stop="1569975" score="18.1707" pvalue="4.15e-07">
+<sequence>TCTACGCAAGGA</sequence>
+<mem:qvalue>0.00165</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+<matched-element start="923904" stop="923915" score="10.0488" pvalue="5.25e-05">
+<sequence>TCTTCGTCTGCA</sequence>
+<mem:qvalue>0.0522</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PITG_05409(supercont1.7" name="PITG_05409(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_556486(PHYSOscaffold_2" name="PHYSODRAFT_556486(PHYSOscaffold_2">
+</scanned-sequence>
+<scanned-sequence accession="CEG48014(Scaffold_2904" name="CEG48014(Scaffold_2904">
+<matched-element start="274245" stop="274256" score="8.78049" pvalue="9.36e-05">
+<sequence>TCTGCCCCAGTA</sequence>
+<mem:qvalue>0.0744</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_564225(PHYSOscaffold_9" name="PHYSODRAFT_564225(PHYSOscaffold_9">
+</scanned-sequence>
+<scanned-sequence accession="CEG40804(Scaffold_525" name="CEG40804(Scaffold_525">
+</scanned-sequence>
+<scanned-sequence accession="PITG_20744(supercont1.163" name="PITG_20744(supercont1.163">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_509192(PHYSOscaffold_5" name="PHYSODRAFT_509192(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="13-GGCGTCTCRGCGCAR" name="STREME-13">
+<scanned-sequence accession="CEG38416(Scaffold_322" name="CEG38416(Scaffold_322">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05734(supercont1.9" name="PITG_05734(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_261391(PHYSOscaffold_4" name="PHYSODRAFT_261391(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336089(PHYSOscaffold_7" name="PHYSODRAFT_336089(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG36842(Scaffold_253" name="CEG36842(Scaffold_253">
+<matched-element start="301679" stop="301693" score="2.69663" pvalue="2.93e-05">
+<sequence>GGCGTTTGATCGCCA</sequence>
+<mem:qvalue>0.0956</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_346008(PHYSOscaffold_4" name="PHYSODRAFT_346008(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG44404(Scaffold_1211" name="CEG44404(Scaffold_1211">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05741(supercont1.9" name="PITG_05741(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG39388(Scaffold_430" name="CEG39388(Scaffold_430">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05079(supercont1.7" name="PITG_05079(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PITG_10769(supercont1.20" name="PITG_10769(supercont1.20">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_418945(PHYSOscaffold_29" name="PHYSODRAFT_418945(PHYSOscaffold_29">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_412719(PHYSOscaffold_1" name="PHYSODRAFT_412719(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG43263(Scaffold_658" name="CEG43263(Scaffold_658">
+</scanned-sequence>
+<scanned-sequence accession="PITG_07597(supercont1.11" name="PITG_07597(supercont1.11">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323518(PHYSOscaffold_1" name="PHYSODRAFT_323518(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341252(PHYSOscaffold_13" name="PHYSODRAFT_341252(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336739(PHYSOscaffold_7" name="PHYSODRAFT_336739(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_499377(PHYSOscaffold_4" name="PHYSODRAFT_499377(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_530395(PHYSOscaffold_13" name="PHYSODRAFT_530395(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_471752(PHYSOscaffold_1" name="PHYSODRAFT_471752(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_286243(PHYSOscaffold_5" name="PHYSODRAFT_286243(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341256(PHYSOscaffold_13" name="PHYSODRAFT_341256(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05409(supercont1.7" name="PITG_05409(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_556486(PHYSOscaffold_2" name="PHYSODRAFT_556486(PHYSOscaffold_2">
+</scanned-sequence>
+<scanned-sequence accession="CEG48014(Scaffold_2904" name="CEG48014(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_564225(PHYSOscaffold_9" name="PHYSODRAFT_564225(PHYSOscaffold_9">
+</scanned-sequence>
+<scanned-sequence accession="CEG40804(Scaffold_525" name="CEG40804(Scaffold_525">
+</scanned-sequence>
+<scanned-sequence accession="PITG_20744(supercont1.163" name="PITG_20744(supercont1.163">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_509192(PHYSOscaffold_5" name="PHYSODRAFT_509192(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="14-CCGATGGTCARACAG" name="STREME-14">
+<scanned-sequence accession="CEG38416(Scaffold_322" name="CEG38416(Scaffold_322">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05734(supercont1.9" name="PITG_05734(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_261391(PHYSOscaffold_4" name="PHYSODRAFT_261391(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336089(PHYSOscaffold_7" name="PHYSODRAFT_336089(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="CEG36842(Scaffold_253" name="CEG36842(Scaffold_253">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_346008(PHYSOscaffold_4" name="PHYSODRAFT_346008(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG44404(Scaffold_1211" name="CEG44404(Scaffold_1211">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05741(supercont1.9" name="PITG_05741(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG39388(Scaffold_430" name="CEG39388(Scaffold_430">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05079(supercont1.7" name="PITG_05079(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PITG_10769(supercont1.20" name="PITG_10769(supercont1.20">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_418945(PHYSOscaffold_29" name="PHYSODRAFT_418945(PHYSOscaffold_29">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_412719(PHYSOscaffold_1" name="PHYSODRAFT_412719(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG43263(Scaffold_658" name="CEG43263(Scaffold_658">
+</scanned-sequence>
+<scanned-sequence accession="PITG_07597(supercont1.11" name="PITG_07597(supercont1.11">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323518(PHYSOscaffold_1" name="PHYSODRAFT_323518(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341252(PHYSOscaffold_13" name="PHYSODRAFT_341252(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336739(PHYSOscaffold_7" name="PHYSODRAFT_336739(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_499377(PHYSOscaffold_4" name="PHYSODRAFT_499377(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_530395(PHYSOscaffold_13" name="PHYSODRAFT_530395(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_471752(PHYSOscaffold_1" name="PHYSODRAFT_471752(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_286243(PHYSOscaffold_5" name="PHYSODRAFT_286243(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341256(PHYSOscaffold_13" name="PHYSODRAFT_341256(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05409(supercont1.7" name="PITG_05409(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_556486(PHYSOscaffold_2" name="PHYSODRAFT_556486(PHYSOscaffold_2">
+</scanned-sequence>
+<scanned-sequence accession="CEG48014(Scaffold_2904" name="CEG48014(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_564225(PHYSOscaffold_9" name="PHYSODRAFT_564225(PHYSOscaffold_9">
+</scanned-sequence>
+<scanned-sequence accession="CEG40804(Scaffold_525" name="CEG40804(Scaffold_525">
+</scanned-sequence>
+<scanned-sequence accession="PITG_20744(supercont1.163" name="PITG_20744(supercont1.163">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_509192(PHYSOscaffold_5" name="PHYSODRAFT_509192(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="15-CTGTTTAGAATG" name="STREME-15">
+<scanned-sequence accession="CEG38416(Scaffold_322" name="CEG38416(Scaffold_322">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05734(supercont1.9" name="PITG_05734(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15617(supercont1.42" name="PITG_15617(supercont1.42">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951(Scaffold_323" name="CEG38951(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_261391(PHYSOscaffold_4" name="PHYSODRAFT_261391(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336089(PHYSOscaffold_7" name="PHYSODRAFT_336089(PHYSOscaffold_7">
+<matched-element start="315728" stop="315739" score="19.9694" pvalue="2.99e-07">
+<sequence>CTGTATAGACTG</sequence>
+<mem:qvalue>0.000622</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="CEG38854(Scaffold_323" name="CEG38854(Scaffold_323">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+<matched-element start="2094453" stop="2094464" score="19.9694" pvalue="2.99e-07">
+<sequence>CTGTATAGACTG</sequence>
+<mem:qvalue>0.000622</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="CEG36842(Scaffold_253" name="CEG36842(Scaffold_253">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_346008(PHYSOscaffold_4" name="PHYSODRAFT_346008(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="CEG44404(Scaffold_1211" name="CEG44404(Scaffold_1211">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05741(supercont1.9" name="PITG_05741(supercont1.9">
+</scanned-sequence>
+<scanned-sequence accession="CEG39388(Scaffold_430" name="CEG39388(Scaffold_430">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05079(supercont1.7" name="PITG_05079(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443(Scaffold_42" name="CEG35443(Scaffold_42">
+</scanned-sequence>
+<scanned-sequence accession="PITG_14364(supercont1.34" name="PITG_14364(supercont1.34">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PITG_10769(supercont1.20" name="PITG_10769(supercont1.20">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565(Scaffold_1594" name="CEG45565(Scaffold_1594">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_353615(PHYSOscaffold_1" name="PHYSODRAFT_353615(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_418945(PHYSOscaffold_29" name="PHYSODRAFT_418945(PHYSOscaffold_29">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198(Scaffold_2386" name="CEG47198(Scaffold_2386">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_412719(PHYSOscaffold_1" name="PHYSODRAFT_412719(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="CEG43263(Scaffold_658" name="CEG43263(Scaffold_658">
+</scanned-sequence>
+<scanned-sequence accession="PITG_07597(supercont1.11" name="PITG_07597(supercont1.11">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323518(PHYSOscaffold_1" name="PHYSODRAFT_323518(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341252(PHYSOscaffold_13" name="PHYSODRAFT_341252(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336739(PHYSOscaffold_7" name="PHYSODRAFT_336739(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_323754(PHYSOscaffold_1" name="PHYSODRAFT_323754(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_499377(PHYSOscaffold_4" name="PHYSODRAFT_499377(PHYSOscaffold_4">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_530395(PHYSOscaffold_13" name="PHYSODRAFT_530395(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_471752(PHYSOscaffold_1" name="PHYSODRAFT_471752(PHYSOscaffold_1">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_286243(PHYSOscaffold_5" name="PHYSODRAFT_286243(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_336594(PHYSOscaffold_7" name="PHYSODRAFT_336594(PHYSOscaffold_7">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934(Scaffold_1583" name="ENSRNAG00050152934(Scaffold_1583">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_341256(PHYSOscaffold_13" name="PHYSODRAFT_341256(PHYSOscaffold_13">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PITG_05409(supercont1.7" name="PITG_05409(supercont1.7">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136(Scaffold_2904" name="CEG48136(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_556486(PHYSOscaffold_2" name="PHYSODRAFT_556486(PHYSOscaffold_2">
+</scanned-sequence>
+<scanned-sequence accession="CEG48014(Scaffold_2904" name="CEG48014(Scaffold_2904">
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_564225(PHYSOscaffold_9" name="PHYSODRAFT_564225(PHYSOscaffold_9">
+</scanned-sequence>
+<scanned-sequence accession="CEG40804(Scaffold_525" name="CEG40804(Scaffold_525">
+</scanned-sequence>
+<scanned-sequence accession="PITG_20744(supercont1.163" name="PITG_20744(supercont1.163">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+<matched-element start="1740781" stop="1740792" score="15.898" pvalue="8.59e-07">
+<sequence>CTGTGTAGAGTG</sequence>
+<mem:qvalue>0.000894</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PHYSODRAFT_509192(PHYSOscaffold_5" name="PHYSODRAFT_509192(PHYSOscaffold_5">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+<matched-element start="1740787" stop="1740798" score="15.898" pvalue="8.59e-07">
+<sequence>CTGTGTAGAGTG</sequence>
+<mem:qvalue>0.000894</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535(Scaffold_555" name="CEG41535(Scaffold_555">
+</scanned-sequence>
+<scanned-sequence accession="PITG_15015(supercont1.38" name="PITG_15015(supercont1.38">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+</cis-element-search>

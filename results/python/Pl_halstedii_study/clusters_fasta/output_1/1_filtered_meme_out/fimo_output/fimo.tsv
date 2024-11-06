@@ -1,0 +1,4 @@
+
+# FIMO (Find Individual Motif Occurrences): Version 5.3.0 compiled on Dec 21 2020 at 15:10:38
+# The format of this file is described at http://meme-suite.org/doc/fimo-output-format.html.
+# fimo -oc /Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/python/clusters_fasta/1_filtered_meme_out/fimo_output --norc --parse-genomic-coord /Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/python/clusters_fasta/1_filtered_meme_out/meme.txt /Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/python/clusters_fasta/1_filtered.fasta

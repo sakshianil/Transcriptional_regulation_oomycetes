@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<!-- Document definition -->
+<!-- http://zlab.bu.edu/~phaverty/SupplementalData/CisML/cisml.dtd -->
+<!DOCTYPE cis-element-search[
+<!ELEMENT cis-element-search (program-name, parameters, (pattern | multi-pattern-scan)*)>
+<!ELEMENT program-name (#PCDATA)>
+<!ELEMENT parameters (
+  pattern-file, 
+  sequence-file, 
+  background-seq-file?,
+  pattern-pvalue-cutoff?,
+  sequence-pvalue-cutoff?,
+  site-pvalue-cutoff?,
+  sequence-filtering,
+  ANY*
+ )>
+<!ELEMENT command-line (#PCDATA)>
+<!ELEMENT pattern-file (#PCDATA)>
+<!ELEMENT sequence-file (#PCDATA)>
+<!ELEMENT background-seq-file (#PCDATA)>
+<!ELEMENT pattern-pvalue-cutoff (#PCDATA)>
+<!ELEMENT sequence-pvalue-cutoff (#PCDATA)>
+<!ELEMENT site-pvalue-cutoff (#PCDATA)>
+<!ELEMENT sequence-filtering EMPTY>
+<!ELEMENT multi-pattern-scan (pattern+, ANY*)>
+<!ELEMENT pattern (scanned-sequence+, ANY*)>
+<!ELEMENT scanned-sequence (matched-element*, ANY*)>
+<!ELEMENT matched-element (sequence)>
+<!ELEMENT sequence (#PCDATA)>
+<!ATTLIST cis-element-search
+xmlns:xsi CDATA #IMPLIED
+xmlns:mem CDATA #IMPLIED
+xsi:schemaLocation CDATA #IMPLIED
+>
+<!ATTLIST sequence-filtering
+on-off CDATA #REQUIRED
+type CDATA #IMPLIED
+>
+<!ATTLIST multi-pattern-scan
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+>
+<!ATTLIST pattern
+accession CDATA #REQUIRED
+name CDATA #REQUIRED
+pvalue CDATA #IMPLIED
+score CDATA #IMPLIED
+db CDATA #IMPLIED
+lsid CDATA #IMPLIED
+>
+<!ATTLIST scanned-sequence
+accession CDATA #REQUIRED
+name CDATA #REQUIRED
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+length CDATA #IMPLIED
+db CDATA #IMPLIED
+lsid CDATA #IMPLIED
+>
+<!ATTLIST matched-element
+start CDATA #REQUIRED
+stop CDATA #REQUIRED
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+clusterid CDATA #IMPLIED
+>
+
+]>
+<cis-element-search
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://zlab.bu.edu/schema/cisml cisml.xsd"
+  xmlns="http://zlab.bu.edu/schema/cisml"
+  xmlns:mem="http://noble.gs.washington.edu/meme"
+>
+<program-name>fimo</program-name>
+<parameters>
+<command-line>fimo -oc /Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/python/clusters_fasta/1_filtered_meme_out/fimo_output --norc --parse-genomic-coord /Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/python/clusters_fasta/1_filtered_meme_out/meme.txt /Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/python/clusters_fasta/1_filtered.fasta</command-line>
+<pattern-file>/Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/python/clusters_fasta/1_filtered_meme_out/meme.txt</pattern-file>
+<sequence-file>/Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/python/clusters_fasta/1_filtered.fasta</sequence-file>
+<site-pvalue-cutoff>0.0001</site-pvalue-cutoff>
+<sequence-filtering on-off="off"/>
+</parameters>
+<pattern accession="TCATT" name="MEME-1">
+<scanned-sequence accession="CEG35206_40346_40446_+" name="CEG35206_40346_40446_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG35595_552383_552483_-" name="CEG35595_552383_552483_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG36378_304560_304660_-" name="CEG36378_304560_304660_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG36642_30948_31048_+" name="CEG36642_30948_31048_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG36786_32768_32868_-" name="CEG36786_32768_32868_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG38416_1804942_1805042_+" name="CEG38416_1804942_1805042_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG38751_1519650_1519750_-" name="CEG38751_1519650_1519750_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG38951_2587025_2587125_+" name="CEG38951_2587025_2587125_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG39160_812327_812427_-" name="CEG39160_812327_812427_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG39234_297590_297690_-" name="CEG39234_297590_297690_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG39529_976870_976970_-" name="CEG39529_976870_976970_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG40697_1263946_1264046_+" name="CEG40697_1263946_1264046_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG42021_1591478_1591578_-" name="CEG42021_1591478_1591578_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG42064_1821071_1821171_+" name="CEG42064_1821071_1821171_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG43721_300635_300735_+" name="CEG43721_300635_300735_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG44871_898129_898229_+" name="CEG44871_898129_898229_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG45255_733625_733725_-" name="CEG45255_733625_733725_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG45303_69801_69901_-" name="CEG45303_69801_69901_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG45554_313378_313478_+" name="CEG45554_313378_313478_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG45767_921069_921169_+" name="CEG45767_921069_921169_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG45773_933949_934049_+" name="CEG45773_933949_934049_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG46165_294267_294367_-" name="CEG46165_294267_294367_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG47402_274729_274829_-" name="CEG47402_274729_274829_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG47561_546584_546684_+" name="CEG47561_546584_546684_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG47681_467199_467299_+" name="CEG47681_467199_467299_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG47730_3202_3302_+" name="CEG47730_3202_3302_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG38854_2068333_2068433_+" name="CEG38854_2068333_2068433_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG50476_128000_128100_-" name="CEG50476_128000_128100_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG49099_1878552_1878652_+" name="CEG49099_1878552_1878652_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG43451_90621_90721_+" name="CEG43451_90621_90721_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG46717_1638_1657_-" name="CEG46717_1638_1657_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG36842_301924_302024_+" name="CEG36842_301924_302024_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG37014_156288_156388_+" name="CEG37014_156288_156388_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG48201_1207294_1207394_+" name="CEG48201_1207294_1207394_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG44404_445225_445325_-" name="CEG44404_445225_445325_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG48333_304424_304524_+" name="CEG48333_304424_304524_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG42919_2612354_2612454_-" name="CEG42919_2612354_2612454_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG49414_35176_35276_+" name="CEG49414_35176_35276_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG42619_1230117_1230217_+" name="CEG42619_1230117_1230217_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG45631_190580_190680_-" name="CEG45631_190580_190680_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG44875_928775_928875_-" name="CEG44875_928775_928875_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG50173_1721355_1721455_-" name="CEG50173_1721355_1721455_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG41495_1544855_1544955_+" name="CEG41495_1544855_1544955_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG50158_1646689_1646789_-" name="CEG50158_1646689_1646789_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG42290_3035392_3035492_+" name="CEG42290_3035392_3035492_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG46091_976_1076_-" name="CEG46091_976_1076_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG47306_68268_68368_+" name="CEG47306_68268_68368_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG43115_798609_798709_+" name="CEG43115_798609_798709_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG39825_486769_486869_+" name="CEG39825_486769_486869_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG36326_26167_26267_+" name="CEG36326_26167_26267_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG48402_621579_621679_-" name="CEG48402_621579_621679_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG39388_270677_270777_-" name="CEG39388_270677_270777_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG42466_384925_385025_-" name="CEG42466_384925_385025_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG40359_76317_76417_+" name="CEG40359_76317_76417_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG43529_544459_544559_-" name="CEG43529_544459_544559_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG35443_954699_954799_+" name="CEG35443_954699_954799_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG45361_349306_349406_+" name="CEG45361_349306_349406_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG42518_696509_696609_+" name="CEG42518_696509_696609_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG45565_354211_354311_-" name="CEG45565_354211_354311_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG35767_402727_402827_+" name="CEG35767_402727_402827_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG47198_1869887_1869987_-" name="CEG47198_1869887_1869987_-">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050153114_421636_421736_+" name="ENSRNAG00050153114_421636_421736_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG40480_157571_157671_-" name="CEG40480_157571_157671_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG49852_179576_179676_-" name="CEG49852_179576_179676_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG37616_560827_560927_-" name="CEG37616_560827_560927_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG39871_691731_691831_+" name="CEG39871_691731_691831_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG43263_1524024_1524124_-" name="CEG43263_1524024_1524124_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG45304_71127_71227_-" name="CEG45304_71127_71227_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG38552_575323_575423_-" name="CEG38552_575323_575423_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG45207_575848_575948_-" name="CEG45207_575848_575948_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG48943_1058903_1059003_-" name="CEG48943_1058903_1059003_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG39936_1077072_1077172_-" name="CEG39936_1077072_1077172_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG48983_1250945_1251045_-" name="CEG48983_1250945_1251045_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG35982_1441512_1441612_+" name="CEG35982_1441512_1441612_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG40262_1319194_1319294_+" name="CEG40262_1319194_1319294_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG36336_93382_93482_-" name="CEG36336_93382_93482_-">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050152934_690202_690302_-" name="ENSRNAG00050152934_690202_690302_-">
+</scanned-sequence>
+<scanned-sequence accession="ENSRNAG00050153182_661167_661267_+" name="ENSRNAG00050153182_661167_661267_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG43903_1226158_1226258_+" name="CEG43903_1226158_1226258_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG42321_3179800_3179900_-" name="CEG42321_3179800_3179900_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG36678_231287_231387_+" name="CEG36678_231287_231387_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG39120_642327_642427_-" name="CEG39120_642327_642427_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG43239_1357027_1357127_-" name="CEG43239_1357027_1357127_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG48936_1028628_1028728_+" name="CEG48936_1028628_1028728_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG37594_421889_421989_-" name="CEG37594_421889_421989_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG43416_234158_234258_-" name="CEG43416_234158_234258_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG48136_923885_923985_-" name="CEG48136_923885_923985_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG42510_665370_665470_+" name="CEG42510_665370_665470_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG48014_274172_274272_-" name="CEG48014_274172_274272_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG40804_1778684_1778784_+" name="CEG40804_1778684_1778784_+">
+</scanned-sequence>
+<scanned-sequence accession="CEG37877_449910_450010_-" name="CEG37877_449910_450010_-">
+</scanned-sequence>
+<scanned-sequence accession="CEG41535_1741077_1741177_+" name="CEG41535_1741077_1741177_+">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+</cis-element-search>

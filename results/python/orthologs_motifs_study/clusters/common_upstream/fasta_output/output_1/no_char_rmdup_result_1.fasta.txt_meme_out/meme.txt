@@ -1,0 +1,776 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.5.6 (Release date: Wed Jun 19 13:59:04 2024 -0700)
+
+For further information on how to interpret these results please access https://meme-suite.org/meme.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to
+discover motifs in biopolymers",
+Proceedings of the Second International Conference on Intelligent Systems
+for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= /Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/python/orthologs_study/old_clusters_fasta/no_char_rmdup_result_1.fasta.txt.fasta
+CONTROL SEQUENCES= Primary sequences shuffled preserving 2-mers
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+CEG38416(Scaffold_322:18 1.0000     59  PITG_05734(supercont1.9: 1.0000     56  
+CEG38951(Scaffold_323:25 1.0000     50  PITG_15617(supercont1.42 1.0000     49  
+CEG38951(Scaffold_323:25 1.0000     37  PITG_15617(supercont1.42 1.0000     37  
+CEG38951(Scaffold_323:25 1.0000     29  PHYSODRAFT_261391(PHYSOs 1.0000     31  
+CEG38854(Scaffold_323:20 1.0000     65  PHYSODRAFT_336089(PHYSOs 1.0000     67  
+CEG38854(Scaffold_323:20 1.0000     67  PHYSODRAFT_336594(PHYSOs 1.0000     69  
+CEG36842(Scaffold_253:30 1.0000    232  PHYSODRAFT_346008(PHYSOs 1.0000    232  
+CEG44404(Scaffold_1211:4 1.0000     68  PITG_05741(supercont1.9: 1.0000     69  
+CEG39388(Scaffold_430:27 1.0000     51  PITG_05079(supercont1.7: 1.0000     51  
+CEG35443(Scaffold_42:954 1.0000     64  PITG_14364(supercont1.34 1.0000     63  
+CEG35443(Scaffold_42:954 1.0000     27  PITG_14364(supercont1.34 1.0000     27  
+CEG45565(Scaffold_1594:3 1.0000    123  PITG_10769(supercont1.20 1.0000    128  
+CEG45565(Scaffold_1594:3 1.0000     73  PHYSODRAFT_353615(PHYSOs 1.0000     69  
+CEG45565(Scaffold_1594:3 1.0000     50  PHYSODRAFT_353615(PHYSOs 1.0000     48  
+CEG47198(Scaffold_2386:1 1.0000    258  PHYSODRAFT_418945(PHYSOs 1.0000    258  
+CEG47198(Scaffold_2386:1 1.0000     36  PHYSODRAFT_412719(PHYSOs 1.0000     36  
+CEG43263(Scaffold_658:15 1.0000     29  PITG_07597(supercont1.11 1.0000     29  
+ENSRNAG00050152934(Scaff 1.0000     42  PHYSODRAFT_323518(PHYSOs 1.0000     41  
+PHYSODRAFT_341252(PHYSOs 1.0000     41  ENSRNAG00050152934(Scaff 1.0000     59  
+PHYSODRAFT_336739(PHYSOs 1.0000     59  ENSRNAG00050152934(Scaff 1.0000     41  
+PHYSODRAFT_323754(PHYSOs 1.0000     40  ENSRNAG00050152934(Scaff 1.0000     40  
+PHYSODRAFT_323754(PHYSOs 1.0000     40  ENSRNAG00050152934(Scaff 1.0000     45  
+PHYSODRAFT_499377(PHYSOs 1.0000     45  ENSRNAG00050152934(Scaff 1.0000     42  
+PHYSODRAFT_530395(PHYSOs 1.0000     42  ENSRNAG00050152934(Scaff 1.0000     43  
+PHYSODRAFT_471752(PHYSOs 1.0000     42  ENSRNAG00050152934(Scaff 1.0000     60  
+PHYSODRAFT_286243(PHYSOs 1.0000     62  ENSRNAG00050152934(Scaff 1.0000     37  
+PHYSODRAFT_336594(PHYSOs 1.0000     37  ENSRNAG00050152934(Scaff 1.0000     40  
+PHYSODRAFT_341256(PHYSOs 1.0000     41  CEG48136(Scaffold_2904:9 1.0000    197  
+PITG_05409(supercont1.7: 1.0000    200  CEG48136(Scaffold_2904:9 1.0000     72  
+PHYSODRAFT_556486(PHYSOs 1.0000     72  CEG48014(Scaffold_2904:2 1.0000    107  
+PHYSODRAFT_564225(PHYSOs 1.0000    107  CEG40804(Scaffold_525:17 1.0000     53  
+PITG_20744(supercont1.16 1.0000     54  CEG41535(Scaffold_555:17 1.0000     92  
+PHYSODRAFT_509192(PHYSOs 1.0000     92  CEG41535(Scaffold_555:17 1.0000     98  
+PITG_15015(supercont1.38 1.0000     98  CEG41535(Scaffold_555:17 1.0000     54  
+PITG_15015(supercont1.38 1.0000     51  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme /Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/python/orthologs_study/old_clusters_fasta/no_char_rmdup_result_1.fasta.txt.fasta -mod zoops -objfun de -test mhg -dna -minw 4 -maxw 16 -nmotifs 10 -evt 0.5 -bfile /Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/meme/orthologs_study/promoter_400_meme.model -markov_order 3 -oc /Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/python/orthologs_study/old_clusters_fasta/no_char_rmdup_result_1.fasta.txt_meme_out 
+
+model:  mod=         zoops    nmotifs=      1000    evt=           0.5
+objective function:           em=       Differential Enrichment mHG
+                              starts=   log likelihood ratio (LLR)
+strands: +
+width:  minw=            4    maxw=           16
+nsites: minsites=        2    maxsites=       69    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+data:   n=            4923    N=              69
+sample: seed=            0    hsfrac=        0.5
+        searchsize=   4923    norand=         no    csites=         -1
+Letter frequencies in dataset:
+A 0.232 C 0.291 G 0.259 T 0.218 
+Background letter frequencies (from file /Users/sbharti/Documents/GitHub/Transcriptiona_regulation_oomycetes/results/meme/orthologs_study/promoter_400_meme.model):
+A 0.253 C 0.247 G 0.247 T 0.253 
+Background model order: 3
+********************************************************************************
+
+
+********************************************************************************
+MOTIF CAGCCYYGCYG MEME-1	width =  11  sites =  27  llr = 318  p-value = 1.2e-003  E-value = 1.2e-003
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif CAGCCYYGCYG MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  :6:::::::::
+pos.-specific     C  a::a766:a4:
+probability       G  :3a::::a::a
+matrix            T  :1::334::6:
+
+         bits    2.0 * **   ** *
+                 1.8 * **   ** *
+                 1.6 * **   ** *
+                 1.4 * **   ** *
+Relative         1.2 * ***  ** *
+Entropy          1.0 * *** *****
+(17.0 bits)      0.8 ***********
+                 0.6 ***********
+                 0.4 ***********
+                 0.2 ***********
+                 0.0 -----------
+
+Multilevel           CAGCCCCGCTG
+consensus             G  TTT  C 
+sequence                        
+                                
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCCYYGCYG MEME-1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value               Site  
+-------------             ----- ---------            -----------
+PHYSODRAFT_341256(PHYSOs     29  2.19e-07 GGAGCTACGG CAGCCCCGCTG CA        
+ENSRNAG00050152934(Scaff     28  2.19e-07 AAAGCAACGG CAGCCCCGCTG CA        
+PHYSODRAFT_336594(PHYSOs     25  2.19e-07 AAAGCTACGG CAGCCCCGCTG CA        
+ENSRNAG00050152934(Scaff     25  2.19e-07 AAAGCAACGG CAGCCCCGCTG CA        
+PHYSODRAFT_471752(PHYSOs     29  2.19e-07 AAAGCTACGG CAGCCCCGCTG CAG       
+ENSRNAG00050152934(Scaff     30  2.19e-07 AAAGCAACGG CAGCCCCGCTG CAG       
+PHYSODRAFT_530395(PHYSOs     28  2.19e-07 AAAGCTACGG CAGCCCCGCTG CAGC      
+ENSRNAG00050152934(Scaff     28  2.19e-07 AAAGCAACGG CAGCCCCGCTG CAGC      
+PHYSODRAFT_499377(PHYSOs     29  2.19e-07 ACAGCTACGG CAGCCCCGCTG CATGCG    
+ENSRNAG00050152934(Scaff     30  2.19e-07 AAAGCAACGG CAGCCCCGCTG CAGCG     
+PHYSODRAFT_323754(PHYSOs     29  2.19e-07 AAAGCTACGG CAGCCCCGCTG C         
+ENSRNAG00050152934(Scaff     30  2.19e-07 AAAGCAACGG CAGCCCCGCTG C         
+PHYSODRAFT_341252(PHYSOs     29  2.19e-07 AAAGCTACGG CAGCCCCGCTG CA        
+PHYSODRAFT_323518(PHYSOs     29  2.19e-07 AAAGCTACGG CAGCCCCGCTG CA        
+ENSRNAG00050152934(Scaff     30  2.19e-07 AAAGCAACGG CAGCCCCGCTG CA        
+PHYSODRAFT_336594(PHYSOs      2  2.19e-07          G CAGCCCCGCTG CACTTGGTAG
+CEG38854(Scaffold_323:20      2  1.32e-06          G CAGCTCCGCTG CACTTGGTTG
+CEG47198(Scaffold_2386:1     11  6.19e-06 TGCATTCGTT CGGCCTTGCCG TTCGACACTT
+CEG47198(Scaffold_2386:1     12  6.19e-06 TGCATTCGTT CGGCCTTGCCG TTCGACACTT
+PHYSODRAFT_286243(PHYSOs      5  9.53e-06       TAGG CGGCTTTGCCG CAATAAATGG
+ENSRNAG00050152934(Scaff      5  9.53e-06       TAGG CGGCTTTGCCG CATATAAAAC
+PHYSODRAFT_323754(PHYSOs      5  9.53e-06       TAGG CGGCTTTGCCG CAATAAAGGG
+ENSRNAG00050152934(Scaff      5  9.53e-06       TAGG CGGCTTTGCCG CATATAAAAC
+PHYSODRAFT_336739(PHYSOs      5  9.53e-06       TAGG CGGCTTTGCCG CAATAAAGGG
+ENSRNAG00050152934(Scaff      5  9.53e-06       TAGG CGGCTTTGCCG CATATAAAAC
+PHYSODRAFT_412719(PHYSOs     11  1.35e-05 TGCATGCGTT CTGCTTTGCCG TTCGAGGCTT
+PITG_05409(supercont1.7:    124  1.53e-05 GAACTTGCCG CTGCCGTGCCG CACCAGCGCC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCCYYGCYG MEME-1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+PHYSODRAFT_341256(PHYSOs          2.2e-07  28_[+1]_2
+ENSRNAG00050152934(Scaff          2.2e-07  27_[+1]_2
+PHYSODRAFT_336594(PHYSOs          2.2e-07  24_[+1]_2
+ENSRNAG00050152934(Scaff          2.2e-07  24_[+1]_2
+PHYSODRAFT_471752(PHYSOs          2.2e-07  28_[+1]_3
+ENSRNAG00050152934(Scaff          2.2e-07  29_[+1]_3
+PHYSODRAFT_530395(PHYSOs          2.2e-07  27_[+1]_4
+ENSRNAG00050152934(Scaff          2.2e-07  27_[+1]_4
+PHYSODRAFT_499377(PHYSOs          2.2e-07  28_[+1]_6
+ENSRNAG00050152934(Scaff          2.2e-07  29_[+1]_5
+PHYSODRAFT_323754(PHYSOs          2.2e-07  28_[+1]_1
+ENSRNAG00050152934(Scaff          2.2e-07  29_[+1]_1
+PHYSODRAFT_341252(PHYSOs          2.2e-07  28_[+1]_2
+PHYSODRAFT_323518(PHYSOs          2.2e-07  28_[+1]_2
+ENSRNAG00050152934(Scaff          2.2e-07  29_[+1]_2
+PHYSODRAFT_336594(PHYSOs          2.2e-07  1_[+1]_57
+CEG38854(Scaffold_323:20          1.3e-06  1_[+1]_55
+CEG47198(Scaffold_2386:1          6.2e-06  10_[+1]_15
+CEG47198(Scaffold_2386:1          6.2e-06  11_[+1]_236
+PHYSODRAFT_286243(PHYSOs          9.5e-06  4_[+1]_47
+ENSRNAG00050152934(Scaff          9.5e-06  4_[+1]_45
+PHYSODRAFT_323754(PHYSOs          9.5e-06  4_[+1]_25
+ENSRNAG00050152934(Scaff          9.5e-06  4_[+1]_25
+PHYSODRAFT_336739(PHYSOs          9.5e-06  4_[+1]_44
+ENSRNAG00050152934(Scaff          9.5e-06  4_[+1]_44
+PHYSODRAFT_412719(PHYSOs          1.4e-05  10_[+1]_15
+PITG_05409(supercont1.7:          1.5e-05  123_[+1]_66
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCCYYGCYG MEME-1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF CAGCCYYGCYG width=11 seqs=27
+PHYSODRAFT_341256(PHYSOs (   29) CAGCCCCGCTG  1 
+ENSRNAG00050152934(Scaff (   28) CAGCCCCGCTG  1 
+PHYSODRAFT_336594(PHYSOs (   25) CAGCCCCGCTG  1 
+ENSRNAG00050152934(Scaff (   25) CAGCCCCGCTG  1 
+PHYSODRAFT_471752(PHYSOs (   29) CAGCCCCGCTG  1 
+ENSRNAG00050152934(Scaff (   30) CAGCCCCGCTG  1 
+PHYSODRAFT_530395(PHYSOs (   28) CAGCCCCGCTG  1 
+ENSRNAG00050152934(Scaff (   28) CAGCCCCGCTG  1 
+PHYSODRAFT_499377(PHYSOs (   29) CAGCCCCGCTG  1 
+ENSRNAG00050152934(Scaff (   30) CAGCCCCGCTG  1 
+PHYSODRAFT_323754(PHYSOs (   29) CAGCCCCGCTG  1 
+ENSRNAG00050152934(Scaff (   30) CAGCCCCGCTG  1 
+PHYSODRAFT_341252(PHYSOs (   29) CAGCCCCGCTG  1 
+PHYSODRAFT_323518(PHYSOs (   29) CAGCCCCGCTG  1 
+ENSRNAG00050152934(Scaff (   30) CAGCCCCGCTG  1 
+PHYSODRAFT_336594(PHYSOs (    2) CAGCCCCGCTG  1 
+CEG38854(Scaffold_323:20 (    2) CAGCTCCGCTG  1 
+CEG47198(Scaffold_2386:1 (   11) CGGCCTTGCCG  1 
+CEG47198(Scaffold_2386:1 (   12) CGGCCTTGCCG  1 
+PHYSODRAFT_286243(PHYSOs (    5) CGGCTTTGCCG  1 
+ENSRNAG00050152934(Scaff (    5) CGGCTTTGCCG  1 
+PHYSODRAFT_323754(PHYSOs (    5) CGGCTTTGCCG  1 
+ENSRNAG00050152934(Scaff (    5) CGGCTTTGCCG  1 
+PHYSODRAFT_336739(PHYSOs (    5) CGGCTTTGCCG  1 
+ENSRNAG00050152934(Scaff (    5) CGGCTTTGCCG  1 
+PHYSODRAFT_412719(PHYSOs (   11) CTGCTTTGCCG  1 
+PITG_05409(supercont1.7: (  124) CTGCCGTGCCG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCCYYGCYG MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 11 n= 4233 bayes= 8.06022 E= 1.2e-003 
+ -1140    202  -1140  -1140 
+   131  -1140     26   -177 
+ -1140  -1140    202  -1140 
+ -1140    202  -1140  -1140 
+ -1140    151  -1140     23 
+ -1140    135   -273     40 
+ -1140    135  -1140     55 
+ -1140  -1140    202  -1140 
+ -1140    202  -1140  -1140 
+ -1140     59  -1140    131 
+ -1140  -1140    202  -1140 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCCYYGCYG MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 11 nsites= 27 E= 1.2e-003 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.629630  0.000000  0.296296  0.074074 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.703704  0.000000  0.296296 
+ 0.000000  0.629630  0.037037  0.333333 
+ 0.000000  0.629630  0.000000  0.370370 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.370370  0.000000  0.629630 
+ 0.000000  0.000000  1.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCCYYGCYG MEME-1 regular expression
+--------------------------------------------------------------------------------
+C[AG]GC[CT][CT][CT]GC[TC]G
+--------------------------------------------------------------------------------
+
+
+
+
+Time  0.77 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF CCTCKGAC MEME-2	width =   8  sites =  35  llr = 229  p-value = 7.0e-002  E-value = 7.3e-002
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif CCTCKGAC MEME-2 Description
+--------------------------------------------------------------------------------
+Simplified        A  12:1:37:
+pos.-specific     C  98:92::8
+probability       G  ::3:37:2
+matrix            T  ::7:5:3:
+
+         bits    2.0         
+                 1.8         
+                 1.6         
+                 1.4 *  *    
+Relative         1.2 ** *  **
+Entropy          1.0 **** ***
+(9.4 bits)       0.8 **** ***
+                 0.6 **** ***
+                 0.4 ********
+                 0.2 ********
+                 0.0 --------
+
+Multilevel           CCTCTGAC
+consensus             AG GATG
+sequence                 C   
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CCTCKGAC MEME-2 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value              Site
+-------------             ----- ---------            --------
+PHYSODRAFT_336594(PHYSOs      4  1.49e-05        CTT CCTCTGAC GCTAAAGCTA
+PHYSODRAFT_471752(PHYSOs      9  1.49e-05   TTAAGCTC CCTCTGAC GCAAAGCTAC
+PHYSODRAFT_530395(PHYSOs      7  1.49e-05     AAGCTT CCTCTGAC GCTAAAGCTA
+PHYSODRAFT_499377(PHYSOs      9  1.49e-05   TTAAGCTT CCTCTGAC GCACAGCTAC
+PHYSODRAFT_323754(PHYSOs      9  1.49e-05   TTAAGCTT CCTCTGAC GCAAAGCTAC
+PHYSODRAFT_341252(PHYSOs      9  1.49e-05   TTAAGCTT CCTCTGAC GCAAAGCTAC
+PHYSODRAFT_323518(PHYSOs      9  5.92e-05   TTAAGCTT CCTCTAAC GCAAAGCTAC
+PITG_05409(supercont1.7:     77  1.18e-04 CTGGGCAAGT CCTCTGTC GTGAAGCTAC
+CEG48136(Scaffold_2904:9     51  1.32e-04 CTGGGCAGGT CCTCGGTC GTGAAGCTAC
+CEG48136(Scaffold_2904:9     77  1.32e-04 CTGGGCAGGT CCTCGGTC GTGAAGCTAC
+PHYSODRAFT_564225(PHYSOs     46  2.06e-04 CACCAGCGCG CCGCCGAC GGCGATGCCC
+PHYSODRAFT_556486(PHYSOs     51  2.95e-04 GACGGAATGT CCTCCGTC GTGAAGCTGC
+PHYSODRAFT_418945(PHYSOs    107  2.95e-04 ATACTCCTTG CCTCCGTC GGTACGTAGC
+ENSRNAG00050152934(Scaff      7  4.15e-04     AAGCTT CCTCTAAG CGCAAAGCAA
+ENSRNAG00050152934(Scaff      4  4.15e-04        CTT CCTCTAAG CGCAAAGCAA
+ENSRNAG00050152934(Scaff      9  4.15e-04   TTAAGCTT CCTCTAAG CGCAAAGCAA
+ENSRNAG00050152934(Scaff      7  4.15e-04     AAGCTT CCTCTAAG CGCAAAGCAA
+ENSRNAG00050152934(Scaff      9  4.15e-04   TTAAGCTT CCTCTAAG CGCAAAGCAA
+ENSRNAG00050152934(Scaff      9  4.15e-04   TTAAGCTT CCTCTAAG CGCAAAGCAA
+ENSRNAG00050152934(Scaff      9  4.15e-04   TTAAGCTT CCTCTAAG CGCAAAGCAA
+PHYSODRAFT_353615(PHYSOs      8  5.77e-04    CAAGTCA CAGCGGAC CAACAGCAGC
+CEG45565(Scaffold_1594:3      8  5.77e-04    CAAGTCA CAGCGGAC CAACATCAAG
+PITG_10769(supercont1.20     61  5.77e-04 CAGCAACTCA CAGCGGAC CAACAGCAAC
+CEG45565(Scaffold_1594:3     56  5.77e-04 GTCCAAGTCA CAGCGGAC CAACATCAAG
+CEG41535(Scaffold_555:17     68  6.21e-04 TGGAGCACCA CCTCCATC TCCTCGCGGA
+CEG41535(Scaffold_555:17     62  6.21e-04 TGGAGCACCA CCTCCATC TCCTCGCGGA
+PHYSODRAFT_261391(PHYSOs     16  9.65e-04 GCTGTTCGAA CCGAGGAC GAGAAGCA  
+CEG38951(Scaffold_323:25     15  9.65e-04 GCTGTTCGAG CCGAGGAC GAGAGCA   
+PITG_15617(supercont1.42     25  9.65e-04 GCTGTTCGAA CCGAGGAC GAGAG     
+CEG38951(Scaffold_323:25     25  9.65e-04 GCTGTTCGAG CCGAGGAC GAGAG     
+PHYSODRAFT_346008(PHYSOs    196  1.13e-03 CTGCGCGGAG ACTCGGTC ATCATCGTGC
+CEG48014(Scaffold_2904:2     62  1.25e-03 ACTGCAATCC CAGCGGTC GGGTTCTGCC
+CEG47198(Scaffold_2386:1    125  1.31e-03 AGTACGCAGC ACGCTAAC CTTGCAATTA
+PHYSODRAFT_336594(PHYSOs     34  2.05e-03 ACTTGTAGTC AATCCGAC ACCTGAGTCT
+PHYSODRAFT_336089(PHYSOs     32  2.05e-03 ACTCGTAGTC AATCCGAC ACCTGAGTCT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CCTCKGAC MEME-2 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+PHYSODRAFT_336594(PHYSOs          1.5e-05  3_[+2]_26
+PHYSODRAFT_471752(PHYSOs          1.5e-05  8_[+2]_26
+PHYSODRAFT_530395(PHYSOs          1.5e-05  6_[+2]_28
+PHYSODRAFT_499377(PHYSOs          1.5e-05  8_[+2]_29
+PHYSODRAFT_323754(PHYSOs          1.5e-05  8_[+2]_24
+PHYSODRAFT_341252(PHYSOs          1.5e-05  8_[+2]_25
+PHYSODRAFT_323518(PHYSOs          5.9e-05  8_[+2]_25
+PITG_05409(supercont1.7:          0.00012  76_[+2]_116
+CEG48136(Scaffold_2904:9          0.00013  50_[+2]_14
+CEG48136(Scaffold_2904:9          0.00013  76_[+2]_113
+PHYSODRAFT_564225(PHYSOs          0.00021  45_[+2]_54
+PHYSODRAFT_556486(PHYSOs          0.00029  50_[+2]_14
+PHYSODRAFT_418945(PHYSOs          0.00029  106_[+2]_144
+ENSRNAG00050152934(Scaff          0.00041  6_[+2]_26
+ENSRNAG00050152934(Scaff          0.00041  3_[+2]_26
+ENSRNAG00050152934(Scaff          0.00041  8_[+2]_27
+ENSRNAG00050152934(Scaff          0.00041  6_[+2]_28
+ENSRNAG00050152934(Scaff          0.00041  8_[+2]_29
+ENSRNAG00050152934(Scaff          0.00041  8_[+2]_25
+ENSRNAG00050152934(Scaff          0.00041  8_[+2]_26
+PHYSODRAFT_353615(PHYSOs          0.00058  7_[+2]_54
+CEG45565(Scaffold_1594:3          0.00058  7_[+2]_58
+PITG_10769(supercont1.20          0.00058  60_[+2]_60
+CEG45565(Scaffold_1594:3          0.00058  55_[+2]_60
+CEG41535(Scaffold_555:17          0.00062  67_[+2]_23
+CEG41535(Scaffold_555:17          0.00062  61_[+2]_23
+PHYSODRAFT_261391(PHYSOs          0.00097  15_[+2]_8
+CEG38951(Scaffold_323:25          0.00097  14_[+2]_7
+PITG_15617(supercont1.42          0.00097  24_[+2]_5
+CEG38951(Scaffold_323:25          0.00097  24_[+2]_5
+PHYSODRAFT_346008(PHYSOs           0.0011  195_[+2]_29
+CEG48014(Scaffold_2904:2           0.0012  61_[+2]_38
+CEG47198(Scaffold_2386:1           0.0013  124_[+2]_126
+PHYSODRAFT_336594(PHYSOs            0.002  33_[+2]_28
+PHYSODRAFT_336089(PHYSOs            0.002  31_[+2]_28
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CCTCKGAC MEME-2 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF CCTCKGAC width=8 seqs=35
+PHYSODRAFT_336594(PHYSOs (    4) CCTCTGAC  1 
+PHYSODRAFT_471752(PHYSOs (    9) CCTCTGAC  1 
+PHYSODRAFT_530395(PHYSOs (    7) CCTCTGAC  1 
+PHYSODRAFT_499377(PHYSOs (    9) CCTCTGAC  1 
+PHYSODRAFT_323754(PHYSOs (    9) CCTCTGAC  1 
+PHYSODRAFT_341252(PHYSOs (    9) CCTCTGAC  1 
+PHYSODRAFT_323518(PHYSOs (    9) CCTCTAAC  1 
+PITG_05409(supercont1.7: (   77) CCTCTGTC  1 
+CEG48136(Scaffold_2904:9 (   51) CCTCGGTC  1 
+CEG48136(Scaffold_2904:9 (   77) CCTCGGTC  1 
+PHYSODRAFT_564225(PHYSOs (   46) CCGCCGAC  1 
+PHYSODRAFT_556486(PHYSOs (   51) CCTCCGTC  1 
+PHYSODRAFT_418945(PHYSOs (  107) CCTCCGTC  1 
+ENSRNAG00050152934(Scaff (    7) CCTCTAAG  1 
+ENSRNAG00050152934(Scaff (    4) CCTCTAAG  1 
+ENSRNAG00050152934(Scaff (    9) CCTCTAAG  1 
+ENSRNAG00050152934(Scaff (    7) CCTCTAAG  1 
+ENSRNAG00050152934(Scaff (    9) CCTCTAAG  1 
+ENSRNAG00050152934(Scaff (    9) CCTCTAAG  1 
+ENSRNAG00050152934(Scaff (    9) CCTCTAAG  1 
+PHYSODRAFT_353615(PHYSOs (    8) CAGCGGAC  1 
+CEG45565(Scaffold_1594:3 (    8) CAGCGGAC  1 
+PITG_10769(supercont1.20 (   61) CAGCGGAC  1 
+CEG45565(Scaffold_1594:3 (   56) CAGCGGAC  1 
+CEG41535(Scaffold_555:17 (   68) CCTCCATC  1 
+CEG41535(Scaffold_555:17 (   62) CCTCCATC  1 
+PHYSODRAFT_261391(PHYSOs (   16) CCGAGGAC  1 
+CEG38951(Scaffold_323:25 (   15) CCGAGGAC  1 
+PITG_15617(supercont1.42 (   25) CCGAGGAC  1 
+CEG38951(Scaffold_323:25 (   25) CCGAGGAC  1 
+PHYSODRAFT_346008(PHYSOs (  196) ACTCGGTC  1 
+CEG48014(Scaffold_2904:2 (   62) CAGCGGTC  1 
+CEG47198(Scaffold_2386:1 (  125) ACGCTAAC  1 
+PHYSODRAFT_336594(PHYSOs (   34) AATCCGAC  1 
+PHYSODRAFT_336089(PHYSOs (   32) AATCCGAC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CCTCKGAC MEME-2 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 4440 bayes= 7.80247 E= 7.3e-002 
+  -115    184  -1177  -1177 
+   -34    170  -1177  -1177 
+ -1177  -1177     35    144 
+  -115    184  -1177  -1177 
+ -1177    -30     47     85 
+    31  -1177    147  -1177 
+   155  -1177  -1177      2 
+ -1177    170    -30  -1177 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CCTCKGAC MEME-2 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 35 E= 7.3e-002 
+ 0.114286  0.885714  0.000000  0.000000 
+ 0.200000  0.800000  0.000000  0.000000 
+ 0.000000  0.000000  0.314286  0.685714 
+ 0.114286  0.885714  0.000000  0.000000 
+ 0.000000  0.200000  0.342857  0.457143 
+ 0.314286  0.000000  0.685714  0.000000 
+ 0.742857  0.000000  0.000000  0.257143 
+ 0.000000  0.800000  0.200000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CCTCKGAC MEME-2 regular expression
+--------------------------------------------------------------------------------
+C[CA][TG]C[TGC][GA][AT][CG]
+--------------------------------------------------------------------------------
+
+
+
+
+Time  1.46 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF AAGCTRC MEME-3	width =   7  sites =  37  llr = 239  p-value = 2.9e-002  E-value = 2.9e-002
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif AAGCTRC MEME-3 Description
+--------------------------------------------------------------------------------
+Simplified        A  a8::26:
+pos.-specific     C  :::a::8
+probability       G  :28:24:
+matrix            T  ::2:6:2
+
+         bits    2.0    *   
+                 1.8 *  *   
+                 1.6 *  *   
+                 1.4 *  *   
+Relative         1.2 ****  *
+Entropy          1.0 **** **
+(9.3 bits)       0.8 **** **
+                 0.6 *******
+                 0.4 *******
+                 0.2 *******
+                 0.0 -------
+
+Multilevel           AAGCTAC
+consensus              T  GT
+sequence                    
+                            
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAGCTRC MEME-3 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value             Site
+-------------             ----- ---------            -------
+CEG48136(Scaffold_2904:9     62  6.17e-05 CTCGGTCGTG AAGCTAC GCTG      
+PITG_05409(supercont1.7:     88  6.17e-05 CTCTGTCGTG AAGCTAC GCTGTGTGGC
+CEG48136(Scaffold_2904:9     88  6.17e-05 CTCGGTCGTG AAGCTAC GCTGTACAGC
+PHYSODRAFT_336594(PHYSOs     16  6.17e-05 TCTGACGCTA AAGCTAC GGCAGCCCCG
+PHYSODRAFT_471752(PHYSOs     20  6.17e-05 CTCTGACGCA AAGCTAC GGCAGCCCCG
+PHYSODRAFT_530395(PHYSOs     19  6.17e-05 TCTGACGCTA AAGCTAC GGCAGCCCCG
+PHYSODRAFT_323754(PHYSOs     20  6.17e-05 CTCTGACGCA AAGCTAC GGCAGCCCCG
+PHYSODRAFT_341252(PHYSOs     20  6.17e-05 CTCTGACGCA AAGCTAC GGCAGCCCCG
+PHYSODRAFT_323518(PHYSOs     20  6.17e-05 CTCTAACGCA AAGCTAC GGCAGCCCCG
+PHYSODRAFT_556486(PHYSOs     62  1.22e-04 CTCCGTCGTG AAGCTGC GCTG      
+PHYSODRAFT_346008(PHYSOs     36  1.22e-04 CAACAACCAC AAGCTGC TGGCACGCGT
+ENSRNAG00050152934(Scaff     19  3.10e-04 TCTAAGCGCA AAGCAAC GGCAGCCCCG
+ENSRNAG00050152934(Scaff     16  3.10e-04 TCTAAGCGCA AAGCAAC GGCAGCCCCG
+ENSRNAG00050152934(Scaff     21  3.10e-04 TCTAAGCGCA AAGCAAC GGCAGCCCCG
+ENSRNAG00050152934(Scaff     19  3.10e-04 TCTAAGCGCA AAGCAAC GGCAGCCCCG
+ENSRNAG00050152934(Scaff     21  3.10e-04 TCTAAGCGCA AAGCAAC GGCAGCCCCG
+ENSRNAG00050152934(Scaff     21  3.10e-04 TCTAAGCGCA AAGCAAC GGCAGCCCCG
+ENSRNAG00050152934(Scaff     21  3.10e-04 TCTAAGCGCA AAGCAAC GGCAGCCCCG
+CEG47198(Scaffold_2386:1     84  3.10e-04 TTGCAGAACC AATCTAC GTTGGCATAC
+CEG38854(Scaffold_323:20     34  3.10e-04 ACTCGTCGAC AATCTAC GCTTGAGTCG
+CEG38854(Scaffold_323:20     32  3.10e-04 ACTCGTCGAC AATCTAC GCTTGAGTCG
+CEG40804(Scaffold_525:17     38  3.71e-04 CAGTATGGAT AAGCGAC TTGTCGCTA 
+PITG_05734(supercont1.9:      8  4.93e-04    CAGCTGG AAGCTGT CATCCACCCG
+PITG_05741(supercont1.9:     22  6.15e-04 CACTGAGCAA AATCTGC ACGACGTCGT
+PITG_07597(supercont1.11     23  6.73e-04 TCAATTTGCC AAGCGGC           
+CEG43263(Scaffold_658:15     23  6.73e-04 TCAAATTACC AAGCGGC           
+CEG36842(Scaffold_253:30    139  6.73e-04 AAGGGCAAGA AAGCGGC CAAGCCCGTC
+PITG_15015(supercont1.38     46  9.85e-04 GGTCACCAGG AAGCGAT GCTCATGCAG
+PHYSODRAFT_418945(PHYSOs     49  1.36e-03 CGCGGTCACT AATCTGT CGTCTGACGC
+CEG41535(Scaffold_555:17      8  1.66e-03    TACAAAG AGGCTGT GTAGAGTGAC
+PHYSODRAFT_509192(PHYSOs      2  1.66e-03          G AGGCTGT GTTGAGGGAC
+CEG41535(Scaffold_555:17      2  1.66e-03          G AGGCTGT GTAGAGTGAC
+CEG38416(Scaffold_322:18      8  1.66e-03    CAGCTGG AGGCTGT CATCCACCTG
+PHYSODRAFT_499377(PHYSOs     20  1.89e-03 CTCTGACGCA CAGCTAC GGCAGCCCCG
+PHYSODRAFT_336594(PHYSOs     47  2.64e-03 CCGACACCTG AGTCTGT ATAGACTGAC
+PHYSODRAFT_336089(PHYSOs     45  2.64e-03 CCGACACCTG AGTCTGT ATAGACTGAC
+CEG48014(Scaffold_2904:2     98  2.81e-03 GATATAATTG AGTCGGC CAT       
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAGCTRC MEME-3 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+CEG48136(Scaffold_2904:9          6.2e-05  61_[+3]_4
+PITG_05409(supercont1.7:          6.2e-05  87_[+3]_106
+CEG48136(Scaffold_2904:9          6.2e-05  87_[+3]_103
+PHYSODRAFT_336594(PHYSOs          6.2e-05  15_[+3]_15
+PHYSODRAFT_471752(PHYSOs          6.2e-05  19_[+3]_16
+PHYSODRAFT_530395(PHYSOs          6.2e-05  18_[+3]_17
+PHYSODRAFT_323754(PHYSOs          6.2e-05  19_[+3]_14
+PHYSODRAFT_341252(PHYSOs          6.2e-05  19_[+3]_15
+PHYSODRAFT_323518(PHYSOs          6.2e-05  19_[+3]_15
+PHYSODRAFT_556486(PHYSOs          0.00012  61_[+3]_4
+PHYSODRAFT_346008(PHYSOs          0.00012  35_[+3]_190
+ENSRNAG00050152934(Scaff          0.00031  18_[+3]_15
+ENSRNAG00050152934(Scaff          0.00031  15_[+3]_15
+ENSRNAG00050152934(Scaff          0.00031  20_[+3]_16
+ENSRNAG00050152934(Scaff          0.00031  18_[+3]_17
+ENSRNAG00050152934(Scaff          0.00031  20_[+3]_18
+ENSRNAG00050152934(Scaff          0.00031  20_[+3]_14
+ENSRNAG00050152934(Scaff          0.00031  20_[+3]_15
+CEG47198(Scaffold_2386:1          0.00031  83_[+3]_168
+CEG38854(Scaffold_323:20          0.00031  33_[+3]_27
+CEG38854(Scaffold_323:20          0.00031  31_[+3]_27
+CEG40804(Scaffold_525:17          0.00037  37_[+3]_9
+PITG_05734(supercont1.9:          0.00049  7_[+3]_42
+PITG_05741(supercont1.9:          0.00061  21_[+3]_41
+PITG_07597(supercont1.11          0.00067  22_[+3]
+CEG43263(Scaffold_658:15          0.00067  22_[+3]
+CEG36842(Scaffold_253:30          0.00067  138_[+3]_87
+PITG_15015(supercont1.38          0.00099  45_[+3]_46
+PHYSODRAFT_418945(PHYSOs           0.0014  48_[+3]_203
+CEG41535(Scaffold_555:17           0.0017  7_[+3]_84
+PHYSODRAFT_509192(PHYSOs           0.0017  1_[+3]_84
+CEG41535(Scaffold_555:17           0.0017  1_[+3]_84
+CEG38416(Scaffold_322:18           0.0017  7_[+3]_45
+PHYSODRAFT_499377(PHYSOs           0.0019  19_[+3]_19
+PHYSODRAFT_336594(PHYSOs           0.0026  46_[+3]_16
+PHYSODRAFT_336089(PHYSOs           0.0026  44_[+3]_16
+CEG48014(Scaffold_2904:2           0.0028  97_[+3]_3
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAGCTRC MEME-3 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF AAGCTRC width=7 seqs=37
+CEG48136(Scaffold_2904:9 (   62) AAGCTAC  1 
+PITG_05409(supercont1.7: (   88) AAGCTAC  1 
+CEG48136(Scaffold_2904:9 (   88) AAGCTAC  1 
+PHYSODRAFT_336594(PHYSOs (   16) AAGCTAC  1 
+PHYSODRAFT_471752(PHYSOs (   20) AAGCTAC  1 
+PHYSODRAFT_530395(PHYSOs (   19) AAGCTAC  1 
+PHYSODRAFT_323754(PHYSOs (   20) AAGCTAC  1 
+PHYSODRAFT_341252(PHYSOs (   20) AAGCTAC  1 
+PHYSODRAFT_323518(PHYSOs (   20) AAGCTAC  1 
+PHYSODRAFT_556486(PHYSOs (   62) AAGCTGC  1 
+PHYSODRAFT_346008(PHYSOs (   36) AAGCTGC  1 
+ENSRNAG00050152934(Scaff (   19) AAGCAAC  1 
+ENSRNAG00050152934(Scaff (   16) AAGCAAC  1 
+ENSRNAG00050152934(Scaff (   21) AAGCAAC  1 
+ENSRNAG00050152934(Scaff (   19) AAGCAAC  1 
+ENSRNAG00050152934(Scaff (   21) AAGCAAC  1 
+ENSRNAG00050152934(Scaff (   21) AAGCAAC  1 
+ENSRNAG00050152934(Scaff (   21) AAGCAAC  1 
+CEG47198(Scaffold_2386:1 (   84) AATCTAC  1 
+CEG38854(Scaffold_323:20 (   34) AATCTAC  1 
+CEG38854(Scaffold_323:20 (   32) AATCTAC  1 
+CEG40804(Scaffold_525:17 (   38) AAGCGAC  1 
+PITG_05734(supercont1.9: (    8) AAGCTGT  1 
+PITG_05741(supercont1.9: (   22) AATCTGC  1 
+PITG_07597(supercont1.11 (   23) AAGCGGC  1 
+CEG43263(Scaffold_658:15 (   23) AAGCGGC  1 
+CEG36842(Scaffold_253:30 (  139) AAGCGGC  1 
+PITG_15015(supercont1.38 (   46) AAGCGAT  1 
+PHYSODRAFT_418945(PHYSOs (   49) AATCTGT  1 
+CEG41535(Scaffold_555:17 (    8) AGGCTGT  1 
+PHYSODRAFT_509192(PHYSOs (    2) AGGCTGT  1 
+CEG41535(Scaffold_555:17 (    2) AGGCTGT  1 
+CEG38416(Scaffold_322:18 (    8) AGGCTGT  1 
+PHYSODRAFT_499377(PHYSOs (   20) CAGCTAC  1 
+PHYSODRAFT_336594(PHYSOs (   47) AGTCTGT  1 
+PHYSODRAFT_336089(PHYSOs (   45) AGTCTGT  1 
+CEG48014(Scaffold_2904:2 (   98) AGTCGGC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAGCTRC MEME-3 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 7 n= 4509 bayes= 8.04568 E= 2.9e-002 
+   194   -319  -1185  -1185 
+   168  -1185    -38  -1185 
+ -1185  -1185    167    -23 
+ -1185    202  -1185  -1185 
+   -42  -1185    -61    136 
+   123  -1185     72  -1185 
+ -1185    162  -1185     -6 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAGCTRC MEME-3 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 7 nsites= 37 E= 2.9e-002 
+ 0.972973  0.027027  0.000000  0.000000 
+ 0.810811  0.000000  0.189189  0.000000 
+ 0.000000  0.000000  0.783784  0.216216 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.189189  0.000000  0.162162  0.648649 
+ 0.594595  0.000000  0.405405  0.000000 
+ 0.000000  0.756757  0.000000  0.243243 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAGCTRC MEME-3 regular expression
+--------------------------------------------------------------------------------
+AA[GT]CT[AG][CT]
+--------------------------------------------------------------------------------
+
+
+
+
+Time  2.08 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+CEG38416(Scaffold_322:18         2.45e-01  59
+PITG_05734(supercont1.9:         5.85e-02  56
+CEG38951(Scaffold_323:25         9.41e-01  50
+PITG_15617(supercont1.42         5.69e-01  49
+CEG38951(Scaffold_323:25         3.64e-02  37
+PITG_15617(supercont1.42         1.58e-01  37
+CEG38951(Scaffold_323:25         1.53e-01  29
+PHYSODRAFT_261391(PHYSOs         1.05e-01  31
+CEG38854(Scaffold_323:20         5.19e-02  65
+PHYSODRAFT_336089(PHYSOs         4.59e-02  67
+CEG38854(Scaffold_323:20         1.35e-04  1_[+1(1.32e-06)]_55
+PHYSODRAFT_336594(PHYSOs         3.13e-05  1_[+1(2.19e-07)]_57
+CEG36842(Scaffold_253:30         5.82e-01  232
+PHYSODRAFT_346008(PHYSOs         9.25e-02  232
+CEG44404(Scaffold_1211:4         3.26e-01  68
+PITG_05741(supercont1.9:         6.86e-02  69
+CEG39388(Scaffold_430:27         5.97e-01  51
+PITG_05079(supercont1.7:         5.91e-01  51
+CEG35443(Scaffold_42:954         9.69e-01  64
+PITG_14364(supercont1.34         7.82e-01  63
+CEG35443(Scaffold_42:954         9.19e-02  27
+PITG_14364(supercont1.34         9.39e-02  27
+CEG45565(Scaffold_1594:3         1.34e-01  123
+PITG_10769(supercont1.20         1.16e-01  128
+CEG45565(Scaffold_1594:3         1.77e-01  73
+PHYSODRAFT_353615(PHYSOs         2.46e-02  69
+CEG45565(Scaffold_1594:3         1.98e-01  50
+PHYSODRAFT_353615(PHYSOs         7.62e-01  48
+CEG47198(Scaffold_2386:1         2.10e-03  11_[+1(6.19e-06)]_155_\
+    [+1(1.06e-05)]_70
+PHYSODRAFT_418945(PHYSOs         4.44e-02  258
+CEG47198(Scaffold_2386:1         6.43e-03  10_[+1(6.19e-06)]_15
+PHYSODRAFT_412719(PHYSOs         1.21e-02  10_[+1(1.35e-05)]_15
+CEG43263(Scaffold_658:15         1.82e-01  29
+PITG_07597(supercont1.11         1.30e-01  29
+ENSRNAG00050152934(Scaff         2.62e-07  29_[+1(2.19e-07)]_2
+PHYSODRAFT_323518(PHYSOs         9.41e-09  8_[+2(5.92e-05)]_3_[+3(6.17e-05)]_2_\
+    [+1(2.19e-07)]_2
+PHYSODRAFT_341252(PHYSOs         2.63e-09  8_[+2(1.49e-05)]_3_[+3(6.17e-05)]_2_\
+    [+1(2.19e-07)]_2
+ENSRNAG00050152934(Scaff         2.09e-03  4_[+1(9.53e-06)]_44
+PHYSODRAFT_336739(PHYSOs         2.49e-03  4_[+1(9.53e-06)]_44
+ENSRNAG00050152934(Scaff         2.42e-07  29_[+1(2.19e-07)]_1
+PHYSODRAFT_323754(PHYSOs         2.42e-09  8_[+2(1.49e-05)]_3_[+3(6.17e-05)]_2_\
+    [+1(2.19e-07)]_1
+ENSRNAG00050152934(Scaff         7.90e-04  4_[+1(9.53e-06)]_25
+PHYSODRAFT_323754(PHYSOs         1.04e-03  4_[+1(9.53e-06)]_25
+ENSRNAG00050152934(Scaff         3.29e-07  29_[+1(2.19e-07)]_5
+PHYSODRAFT_499377(PHYSOs         8.12e-08  8_[+2(1.49e-05)]_12_[+1(2.19e-07)]_\
+    6
+ENSRNAG00050152934(Scaff         2.62e-07  27_[+1(2.19e-07)]_4
+PHYSODRAFT_530395(PHYSOs         2.86e-09  6_[+2(1.49e-05)]_4_[+3(6.17e-05)]_2_\
+    [+1(2.19e-07)]_4
+ENSRNAG00050152934(Scaff         2.84e-07  29_[+1(2.19e-07)]_3
+PHYSODRAFT_471752(PHYSOs         2.86e-09  8_[+2(1.49e-05)]_3_[+3(6.17e-05)]_2_\
+    [+1(2.19e-07)]_3
+ENSRNAG00050152934(Scaff         2.17e-03  4_[+1(9.53e-06)]_45
+PHYSODRAFT_286243(PHYSOs         2.76e-03  4_[+1(9.53e-06)]_47
+ENSRNAG00050152934(Scaff         1.71e-07  24_[+1(2.19e-07)]_2
+PHYSODRAFT_336594(PHYSOs         1.85e-09  3_[+2(1.49e-05)]_4_[+3(6.17e-05)]_2_\
+    [+1(2.19e-07)]_2
+ENSRNAG00050152934(Scaff         2.23e-07  27_[+1(2.19e-07)]_2
+PHYSODRAFT_341256(PHYSOs         3.97e-05  28_[+1(2.19e-07)]_2
+CEG48136(Scaffold_2904:9         1.98e-03  87_[+3(6.17e-05)]_103
+PITG_05409(supercont1.7:         8.85e-05  87_[+3(6.17e-05)]_29_[+1(1.53e-05)]_\
+    66
+CEG48136(Scaffold_2904:9         1.33e-04  61_[+3(6.17e-05)]_4
+PHYSODRAFT_556486(PHYSOs         2.36e-04  72
+CEG48014(Scaffold_2904:2         1.59e-01  107
+PHYSODRAFT_564225(PHYSOs         2.80e-02  107
+CEG40804(Scaffold_525:17         1.91e-01  53
+PITG_20744(supercont1.16         2.30e-01  54
+CEG41535(Scaffold_555:17         1.09e-01  92
+PHYSODRAFT_509192(PHYSOs         1.64e-01  92
+CEG41535(Scaffold_555:17         1.21e-01  98
+PITG_15015(supercont1.38         1.16e-01  98
+CEG41535(Scaffold_555:17         8.54e-01  54
+PITG_15015(supercont1.38         6.78e-02  51
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because the next motif E-value > 5.00e-01.
+********************************************************************************
+
+CPU: BIKMAC25371.fritz.box
+
+********************************************************************************
