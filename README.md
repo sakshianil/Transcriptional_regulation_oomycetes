@@ -1,4 +1,4 @@
-# **Deciphering Transcriptional Regulation in Plant Pathogeenic Oomycetes using high resolution RNA sequencing**
+# **Deciphering Transcriptional Regulation in Plant Pathogenic Oomycetes using high resolution RNA sequencing**
 
 ## **Overview**
 Welcome to the repository for the research on **Transcriptional Regulation in Oomycetes**, part of a PhD thesis under the guidance of **Prof. Dr. Marco Thines**. This study explores the regulatory pathways controlling transcription in oomycetes, organisms that are pivotal in plant pathology and environmental biology. The research has been supported by a collaboration of esteemed institutions:
