@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/833635988.svg)](https://doi.org/10.5281/zenodo.15261655)
+
 # **Transcriptional Regulation in Plant Pathogenic Oomycetes**
 
 ## **Overview**
