@@ -4,7 +4,7 @@ from Bio import Entrez, SeqIO
 from Bio.Seq import Seq
 
 # Set the email address for NCBI Entrez
-Entrez.email = "sakshi.bharti@senckenberg.de"
+Entrez.email = "sbbinfo90@gmail.com"
 
 /Users/sbharti/Documents/GitHub/Transcriptional_regulation_oomycetes/results/python/orthologs_motifs_study/clusters/gene 
 # Directory paths

@@ -171,5 +171,5 @@ Refer to the individual README files within the `scripts/` directories for detai
 
 ## Contact
 
-For installation issues or general questions, contact [Sakshi Bharti](mailto:sakshi.bharti@senckenberg.de).
+For installation issues or general questions, contact [Sakshi Bharti](mailto:sbbinfo90@gmail.com).
 

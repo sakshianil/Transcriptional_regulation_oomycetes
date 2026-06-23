@@ -34,5 +34,5 @@ This repository was developed with assistance from OpenAI's ChatGPT. Generative 
 
 We acknowledge that these contributions were used as a starting point and have been reviewed and adapted as needed by the repository authors.
 
-For further questions regarding citation, please contact [Sakshi Bharti](mailto:sakshi.bharti@senckenberg.de).
+For further questions regarding citation, please contact [Sakshi Bharti](mailto:sbbinfo90@gmail.com).
 

@@ -71,5 +71,5 @@ To get started, please refer to the `README.md` in the root directory for genera
 ## Acknowledgments
 This research was supported by the Deutscher Akademischer Austauschdienst (DAAD) doctoral program and LOEWE Centre for Translational Biodiversity Genomics (TBG). The research would not have been possible without the generous support from these institutions.
 
-For further inquiries, feel free to contact [Sakshi Bharti](mailto:sakshi.bharti@senckenberg.de).
+For further inquiries, feel free to contact [Sakshi Bharti](mailto:sbbinfo90@gmail.com).
 

@@ -34,7 +34,7 @@ The documents in this folder are structured to provide a step-by-step understand
 We welcome contributions to improve the documentation. If you have suggestions for additional content, clarifications, or corrections, feel free to submit a pull request or open an issue.
 
 ## Contact
-For questions related to the documentation or the project, please contact [Sakshi Bharti](mailto:sakshi.bharti@senckenberg.de).
+For questions related to the documentation or the project, please contact [Sakshi Bharti](mailto:sbbinfo90@gmail.com).
 
 ## License
 This documentation is made available under the MIT License. See the LICENSE file in the root directory for more details.

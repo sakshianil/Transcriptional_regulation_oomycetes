@@ -120,7 +120,7 @@ The code for this project is organized in the following directory structure:
 If you wish to contribute to the codebase, please follow the guidelines outlined in the [CONTRIBUTING.md](../CONTRIBUTING.md). Contributions to improve efficiency, readability, or add features are welcome.
 
 ## Contact
-For any questions related to the code or execution steps, please reach out to [Sakshi Bharti](mailto:sakshi.bharti@senckenberg.de).
+For any questions related to the code or execution steps, please reach out to [Sakshi Bharti](mailto:sbbinfo90@gmail.com).
 
 ## License
 The code is provided under the MIT License. Refer to the [LICENSE](../LICENSE) file for details.

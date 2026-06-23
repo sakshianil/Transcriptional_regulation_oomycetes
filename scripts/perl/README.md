@@ -53,6 +53,6 @@ $USE_RC = 0;
 This script is provided under the copyright of Timothy L. Bailey, 2002. Please refer to the license terms for any usage or modification requirements.
 
 ## Contact
-For any questions related to using this script, please reach out to [Sakshi Bharti](mailto:sakshi.bharti@senckenberg.de).
+For any questions related to using this script, please reach out to [Sakshi Bharti](mailto:sbbinfo90@gmail.com).
 
 

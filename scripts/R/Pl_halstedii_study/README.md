@@ -68,7 +68,7 @@ If these libraries are not installed, the script will automatically install them
 - If color palette errors occur, you may need to adjust the number of colors used or use an alternative color palette.
 
 ## Contact
-For questions or issues related to this script, please contact [Sakshi Bharti](mailto:sakshi.bharti@senckenberg.de).
+For questions or issues related to this script, please contact [Sakshi Bharti](mailto:sbbinfo90@gmail.com).
 
 ## License
 This script is distributed under the MIT License. Please see the LICENSE file in the root directory for more details.

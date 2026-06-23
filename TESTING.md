@@ -110,5 +110,5 @@ To automate testing:
 
 ## Contact
 
-For further questions related to testing, please contact [Sakshi Bharti](mailto:sakshi.bharti@senckenberg.de).
+For further questions related to testing, please contact [Sakshi Bharti](mailto:sbbinfo90@gmail.com).
 

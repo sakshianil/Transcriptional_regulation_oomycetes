@@ -36,7 +36,7 @@ Scripts for transcription factor analysis:
 3. **Order of Execution**: The scripts are designed to be executed in a specific sequence based on the workflow. Refer to each folder's description above for guidance on how to execute the scripts in the correct order.
 
 ## Contact
-For any questions related to the shell scripts or their execution, please reach out to [Sakshi Bharti](mailto:sakshi.bharti@senckenberg.de).
+For any questions related to the shell scripts or their execution, please reach out to [Sakshi Bharti](mailto:sbbinfo90@gmail.com).
 
 ## License
 The shell scripts are provided under the MIT License. Refer to the [LICENSE](../LICENSE) file for details.

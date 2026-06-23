@@ -17,7 +17,7 @@ If you discover a security vulnerability in this project, we appreciate your hel
 
 To report a vulnerability:
 
-1. **Contact Us Directly**: Please send an email to [Sakshi Bharti](mailto:sakshi.bharti@senckenberg.de) with the following information:
+1. **Contact Us Directly**: Please send an email to [Sakshi Bharti](mailto:sbbinfo90@gmail.com) with the following information:
    - A description of the vulnerability.
    - Steps to reproduce the issue.
    - Potential impact.
@@ -35,5 +35,5 @@ We sincerely appreciate those who report security vulnerabilities in a responsib
 
 ## Further Contact
 
-If you have any other questions regarding security, feel free to contact [Sakshi Bharti](mailto:sakshi.bharti@senckenberg.de).
+If you have any other questions regarding security, feel free to contact [Sakshi Bharti](mailto:sbbinfo90@gmail.com).
 

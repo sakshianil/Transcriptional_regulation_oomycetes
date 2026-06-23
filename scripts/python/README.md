@@ -72,6 +72,6 @@ This folder contains various Python scripts designed for data processing tasks i
 - **Folder Organization**: Scripts are categorized according to different studies for ease of navigation. Ensure that inputs and outputs are correctly specified and placed in the expected directories to maintain the workflow.
 
 ## Contact
-For any questions or clarifications regarding the usage of these Python scripts, please contact [Sakshi Bharti](mailto:sakshi.bharti@senckenberg.de).
+For any questions or clarifications regarding the usage of these Python scripts, please contact [Sakshi Bharti](mailto:sbbinfo90@gmail.com).
 
 
